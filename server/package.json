@@ -19,7 +19,8 @@
     "helmet": "^7.0.0",
     "http-errors": "^2.0.0",
     "morgan": "^1.10.0",
-    "pg": "^8.11.3"
+    "pg": "^8.11.3",
+    "socket.io": "^4.7.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.14",
