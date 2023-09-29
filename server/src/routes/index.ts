@@ -1,8 +1,5 @@
-import { Router } from "express";
-const router = Router();
+import homeRouter from "./home";
+import gameRouter from "./game";
+import categoriesRouter from "./categories";
 
-/* GET home page. */
-router.get("/", function (_req, res) {
-  res.send("Welcome to this app!");
-});
-export default router;
+export { homeRouter, gameRouter, categoriesRouter };
