@@ -6,6 +6,7 @@ import { Server, Socket } from "socket.io";
 import indexRouter from "./routes/index";
 import gameRouter from "./routes/game";
 import { setupExtensions, handleErrors } from "./util/setup";
+import { handleJoinGame } from "./events";
 
 if (process.env.NODE_ENV !== "production") {
   dotenv.config();
@@ -23,7 +24,9 @@ handleErrors(app);
 app.use("/", indexRouter);
 app.use("/game", gameRouter);
 
-io.on("connection", (socket: Socket) => {});
+io.on("connection", (socket: Socket) => {
+  handleJoinGame(socket, (gameId) => {});
+});
 
 server.listen(port, () => {
   console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
