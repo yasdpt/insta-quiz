@@ -18,7 +18,6 @@ const server = createServer(app);
 const io = new Server(server);
 
 setupExtensions(app);
-handleErrors(app);
 
 app.use("/", homeRouter);
 app.use("/game", gameRouter);
@@ -27,6 +26,8 @@ app.use("/categories", categoriesRouter);
 io.on("connection", (socket: Socket) => {
   handleJoinGame(socket, (gameId) => {});
 });
+
+handleErrors(app);
 
 server.listen(port, () => {
   console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
