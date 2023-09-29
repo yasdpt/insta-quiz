@@ -1,7 +1,8 @@
 import express from "express";
-import { createServer } from "node:http";
 import dotenv from "dotenv";
 
+import indexRouter from "./routes/index";
+import gameRouter from "./routes/game";
 import { setupExtensions, handleErrors } from "./util/setup";
 
 if (process.env.NODE_ENV !== "production") {
@@ -11,12 +12,14 @@ if (process.env.NODE_ENV !== "production") {
 const port = process.env.PORT;
 
 const app = express();
-const server = createServer(app);
+
+app.use("/", indexRouter);
+app.use("/game", gameRouter);
 
 setupExtensions(app);
 handleErrors(app);
 
-server.listen(port, () => {
+app.listen(port, () => {
   console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
 });
 

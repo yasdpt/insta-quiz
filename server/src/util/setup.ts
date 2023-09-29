@@ -4,25 +4,24 @@ import morgan from "morgan";
 import cors from "cors";
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
-import indexRouter from "../routes/index";
 
 const setupExtensions = (app: Express) => {
+  const whiteList = ["https://192.168.43.202:5173"];
+
+  if (process.env.NODE_ENV !== "production") {
+    whiteList.push("http://localhost:5173");
+  }
+
+  app.use(helmet());
+
   const limiter = rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutes
     max: 1000, // Limit each IP to 1000 requests per 15 minutes
     standardHeaders: true,
     legacyHeaders: false,
   });
-
-  const whiteList = [""];
-
-  if (process.env.NODE_ENV !== "production") {
-    whiteList.push("http://localhost:5173");
-    whiteList.push("https://192.168.43.202:5173");
-  }
-
-  app.use(helmet());
   app.use(limiter);
+
   app.use(
     cors({
       origin: "*",
@@ -33,8 +32,6 @@ const setupExtensions = (app: Express) => {
   app.use(express.urlencoded({ extended: false }));
 
   app.disable("x-powered-by");
-
-  app.use("/", indexRouter);
 };
 
 const handleErrors = (app: Express) => {
