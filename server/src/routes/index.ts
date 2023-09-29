@@ -5,5 +5,4 @@ const router = Router();
 router.get("/", function (_req, res) {
   res.send("Welcome to this app!");
 });
-
 export default router;
