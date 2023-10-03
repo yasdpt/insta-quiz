@@ -1,3 +1,4 @@
-import handleJoinGame from "./join-game";
+import handleJoinGame from "./join";
+import handleAnswer from "./answer";
 
-export { handleJoinGame };
+export { handleJoinGame, handleAnswer };
