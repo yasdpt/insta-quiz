@@ -18,9 +18,12 @@
     "express-rate-limit": "^7.0.1",
     "helmet": "^7.0.0",
     "http-errors": "^2.0.0",
+    "moment": "^2.29.4",
     "morgan": "^1.10.0",
+    "node-cache": "^5.1.2",
     "pg": "^8.11.3",
-    "socket.io": "^4.7.2"
+    "socket.io": "^4.7.2",
+    "telegraf": "^4.14.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.14",
