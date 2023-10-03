@@ -1,5 +1,6 @@
 import homeRouter from "./home";
-import gameRouter from "./game";
+import gamesRouter from "./games";
 import categoriesRouter from "./categories";
+import usersRouter from "./users";
 
-export { homeRouter, gameRouter, categoriesRouter };
+export { homeRouter, gamesRouter, categoriesRouter, usersRouter };
