@@ -1,12 +1,14 @@
 import { Socket } from "socket.io";
 import pool from "../util/pool";
-import { getCurrentGameInfo } from "../util/game-util";
+import { getCurrentGameInfo, getLeaderboardInfo } from "../util/game-util";
+import myCache from "../util/cache";
+import { game } from "telegraf/typings/button";
 
 // join user to room and callback gameInfo object or maybe just simple game info
 // and broadcast scoreboard to other users when user joins
 const handleJoinGame = (
   socket: Socket,
-  updateLeaderboard: (gameId: number) => any
+  updateLeaderboard: (gameId: number, fromCache: boolean) => any
 ) => {
   socket.on("joinGame", async (userId: number, gameId: number, callback) => {
     const client = await pool.connect();
@@ -44,14 +46,24 @@ const handleJoinGame = (
 
       // Get game info and leaderboard
       const gameInfo = await getCurrentGameInfo(gameId);
+      const leaderboardInfo = await getLeaderboardInfo(gameId);
+
+      const cacheTTL = 30;
+
+      myCache.set(
+        `${gameId}-leaderboard`,
+        JSON.stringify(leaderboardInfo),
+        cacheTTL
+      );
 
       // Send leaderboard info to all users
-      updateLeaderboard(gameId);
+      updateLeaderboard(gameId, true);
 
       // Return game info to current user
       callback({
         status: 200,
         game: gameInfo,
+        leaderboard: leaderboardInfo,
       });
     } catch (error) {
       callback({
