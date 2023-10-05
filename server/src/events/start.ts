@@ -12,7 +12,7 @@ const handleStartGame = (
   updateGame: (gameId: number, fromCache: boolean) => any,
   updateLeaderboard: (gameId: number, fromCache: boolean) => any
 ) => {
-  socket.on("startGame", async (userId: number, gameId: number, callback) => {
+  socket.on("startGame", async (userId, gameId, callback) => {
     const client = await pool.connect();
     try {
       const gameResult = await client.query(
@@ -24,6 +24,14 @@ const handleStartGame = (
         callback({
           status: 404,
           message: "Game not found or already started!",
+        });
+        return;
+      }
+
+      if (userId !== gameResult.rows[0].owner_id) {
+        callback({
+          status: 403,
+          message: "You are not the creator of the game!",
         });
         return;
       }
@@ -68,7 +76,7 @@ const handleStartGame = (
     } catch (error) {
       callback({
         status: 500,
-        message: "Join failed!",
+        message: "Start game failed!",
       });
     } finally {
       client.release();
