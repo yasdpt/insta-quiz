@@ -1,5 +1,5 @@
 import { Router } from "express";
-import verifyToken from "../middleware/auth";
+import { verifyToken } from "../middleware/auth";
 import pool from "../util/pool";
 import { User } from "../models/user";
 
