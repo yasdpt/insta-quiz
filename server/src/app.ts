@@ -10,11 +10,21 @@ import {
   usersRouter,
 } from "./routes";
 import { setupExtensions, handleErrors } from "./util/setup";
-import { handleAnswer, handleJoinGame } from "./events";
-import verifyToken from "./middleware/auth";
-import { getCurrentGameInfo, getLeaderboardInfo } from "./util/game-util";
-import handleStartGame from "./events/start";
+import {
+  handleAnswer,
+  handleGetWaitListGame,
+  handleJoinGame,
+  handleStartGame,
+} from "./events";
+import {
+  getCurrentGameInfo,
+  getLeaderboardInfo,
+  getWailList,
+} from "./util/game-util";
+import { verifyTokenSocket } from "./middleware/auth";
 
+// Config env only in production if deploying to services
+// that automatically handle env config, remove statement otherwise
 if (process.env.NODE_ENV !== "production") {
   dotenv.config();
 }
@@ -22,23 +32,50 @@ if (process.env.NODE_ENV !== "production") {
 const port = process.env.PORT;
 
 const app = express();
+
+// Create http server
 const server = createServer(app);
-const io = new Server(server);
 
+// Create socket.io server
+const io = new Server(server, {
+  cors: {
+    origin: "*",
+  },
+});
+
+// Mount express plugins
 setupExtensions(app);
-io.engine.use(verifyToken);
 
+// Mount express routes
 app.use("/", homeRouter);
 app.use("/games", gamesRouter);
 app.use("/categories", categoriesRouter);
 app.use("/users", usersRouter);
 
+// Verify initData token
+io.use(verifyTokenSocket);
+
+// Handle connections
 io.on("connection", (socket: Socket) => {
-  handleJoinGame(socket, updateLeaderboard);
+  handleGetWaitListGame(socket);
+  handleJoinGame(socket, updateLeaderboard, updateWaitList);
   handleAnswer(socket, updateLeaderboard);
   handleStartGame(socket, updateGame, updateLeaderboard);
 });
 
+// Update game subscription wait list
+const updateWaitList = async (gameId: number) => {
+  const waitList = await getWailList(gameId);
+  io.to(gameId.toString()).emit("updateWaitList", waitList);
+};
+
+// Update game subscription game status
+const updateGame = async (gameId: number, fromCache: boolean = false) => {
+  const gameInfo = await getCurrentGameInfo(gameId, fromCache);
+  io.to(gameId.toString()).emit("updateGame", gameInfo);
+};
+
+// Update game subscription leaderboard
 const updateLeaderboard = async (
   gameId: number,
   fromCache: boolean = false
@@ -47,11 +84,7 @@ const updateLeaderboard = async (
   io.to(gameId.toString()).emit("updateLeaderboard", leaderboardInfo);
 };
 
-const updateGame = async (gameId: number, fromCache: boolean = false) => {
-  const gameInfo = await getCurrentGameInfo(gameId, fromCache);
-  io.to(gameId.toString()).emit("updateGame", gameInfo);
-};
-
+// Handle forwarded express errors
 handleErrors(app);
 
 server.listen(port, () => {
