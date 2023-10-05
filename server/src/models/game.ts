@@ -5,6 +5,7 @@ export interface GameInfo {
   status: number;
   last_question_time: string;
   current_question: number;
+  question_index: number;
   questions: Question[];
 }
 

@@ -50,6 +50,7 @@ const getCurrentGameInfo = async (
         status: gameResult.rows[0].status,
         last_question_time: gameResult.rows[0].last_question_time,
         current_question: gameResult.rows[0].current_question,
+        question_index: 0,
         questions: [],
       };
 
@@ -117,9 +118,9 @@ const getLeaderboardInfo = async (
       FROM game_questions AS gq 
       LEFT JOIN game_users AS gu ON gq.game_id = gu.game_id
       LEFT JOIN users AS u ON gu.user_id = u.id
-      LEFT JOIN game_user_answers AS gua ON gu.user_id = gua.user_id AND gq.question_id = gua.question_id
+      LEFT JOIN game_user_answers AS gua ON gu.user_id = gua.user_id AND gq.question_id = gua.question_id AND gq.game_id = gua.game_id
       LEFT JOIN answers AS a ON gua.answer_id = a.id
-      WHERE gq.game_id = $1;
+      WHERE gq.game_id = $1 ORDER BY u.id ASC, gq.question_id ASC;
       `,
       [gameId]
     );
