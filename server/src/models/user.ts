@@ -12,3 +12,10 @@ export interface User {
   created_at?: string | null;
   updated_at?: string | null;
 }
+
+export interface WaitListUser {
+  id: number;
+  first_name?: string;
+  last_name?: string;
+  username?: string;
+}
