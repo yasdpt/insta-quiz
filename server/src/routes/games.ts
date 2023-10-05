@@ -1,5 +1,5 @@
 import { Router } from "express";
-import verifyToken from "../middleware/auth";
+import { verifyToken } from "../middleware/auth";
 import pool from "../util/pool";
 import sendGameDataToUser from "../util/bot-util";
 
@@ -9,9 +9,23 @@ const router = Router();
 router.get("/:id", verifyToken, async function (req, res) {
   try {
     const gameId = req.params.id;
-    const gameResult = await pool.query("SELECT * FROM games WHERE id = $1", [
-      gameId,
-    ]);
+    const gameResult = await pool.query(
+      `
+      SELECT
+        g.id,
+        g.owner_id,
+        g.category_id,
+        g.status,
+        u.first_name AS user_first_name,
+        u.last_name AS user_last_name,
+        c.name AS category_name
+      FROM games AS g
+      LEFT JOIN users AS u ON g.owner_id = u.id
+      LEFT JOIN categories AS c ON g.category_id = c.id
+      WHERE g.id = $1;
+    `,
+      [gameId]
+    );
 
     if (gameResult.rowCount > 0) {
       res.status(200).json(gameResult.rows[0]);
@@ -35,7 +49,7 @@ router.post("/create", verifyToken, async function (req, res) {
   }: { userId: number; categoryId: number; webAppQuery: string } = req.body;
   const client = await pool.connect();
   try {
-    // Check if user already has a game created and it is not started yet and return that
+    // Check if user already has a game created and it is not started yet and return tha
     const checkGame = await client.query(
       "SELECT * FROM games WHERE owner_id = $1 AND status = 0",
       [userId]
@@ -43,6 +57,11 @@ router.post("/create", verifyToken, async function (req, res) {
 
     if (checkGame.rowCount > 0) {
       res.status(200).json(checkGame.rows[0]);
+      await sendGameDataToUser(
+        webAppQuery,
+        checkGame.rows[0].id,
+        checkGame.rows[0].category_id
+      );
     } else {
       // Get 10 random question filtering by category id
       const questionsRes = await client.query(
