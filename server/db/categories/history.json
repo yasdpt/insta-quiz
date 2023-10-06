@@ -1,0 +1,360 @@
+{
+  "category_name": "History",
+  "questions": [
+    {
+      "questions": "In which US state is the active Mount Rainier volcano located?",
+      "answers": ["Michigan", "Ohio", "Washington", "New York"],
+      "ca": "Washington"
+    },
+    {
+      "questions": "In 1990, this 5000 year old body was found in the Alps. Scientists discovered some tattoos on his leg which indicated that acupuncture was used as far back as the Copper-stone Age.",
+      "answers": ["Big Foot", "Sasquatch", "Nessie", "Oetzi"],
+      "ca": "Oetzi"
+    },
+    {
+      "questions": "After unsuccessful  talks about oil production and debt repayment, Iraq occupied Kuwait.  In January 1991 the US launched an air attack against military targets in Iraq and Kuwait in this operation.",
+      "answers": ["Matador", "BOLERO", "Determined Force", "Desert Storm"],
+      "ca": "Desert Storm"
+    },
+    {
+      "questions": "It is the process of producing identical copies of a DNA segment asexually.  In 1996 the first successful one of an animal was made. The animals name was Dolly.  Dolly later died, but Richard Seed announced that he intended try it on humans.",
+      "answers": [
+        "Organ Transplant",
+        "Cloning",
+        "Bloodless Surgery",
+        "Laser Surgery"
+      ],
+      "ca": "Cloning"
+    },
+    {
+      "questions": "This kind of music became largely popular in Europe and America in the 1990s. It is a melodic, free form combination between techno and house, having hypnotic qualities. The first distinctive track of this kind was Age Of Love, released in 1990.",
+      "answers": ["Electro", "Trance", "Techno", "Dance"],
+      "ca": "Trance"
+    },
+    {
+      "questions": "This womans death was arguably the most shocking one of the decade. She died in 1997 in a car crash while evading paparazzi. The woman was taken to a hospital, but the two-hour efforts of surgeons to save her life were unsuccessful.",
+      "answers": [
+        "Greta Garbo",
+        "Nancy Marchand",
+        "Madam C. J. Walker",
+        "Princess Diana"
+      ],
+      "ca": "Princess Diana"
+    },
+    {
+      "questions": "This union, made up of European countries, was established by the Maastricht Treaty in 1992. Starting as a trade body it is now an economic and political partnership between its members.",
+      "answers": [
+        "American Labor Union",
+        "Oxford Union",
+        "The European Union",
+        "European Trade Union"
+      ],
+      "ca": "The European Union"
+    },
+    {
+      "questions": "Although the first one was sent in 1971, it became widely popular in 1998. Its popularity caused explosive growth of the internet.",
+      "answers": ["The Chat programs", "The URL", "The E-mail", "The Website"],
+      "ca": "The E-mail"
+    },
+    {
+      "questions": "Impeachment stands for quickly removing dangerously criminal officials from high office. The Impeachment Trial in the Senate for this US President commenced on January 7, 1999.",
+      "answers": [
+        "George Bush",
+        "Ronald Reagan",
+        "Bill Clinton",
+        "Richard Nixon"
+      ],
+      "ca": "Bill Clinton"
+    },
+    {
+      "questions": "On August 17, 1999 this disaster took the lives of 15 000 and injured 23 000 people in western Turkey.",
+      "answers": ["Earthquake", "Tsunami", "Avalanche", "Volcano eruption"],
+      "ca": "Earthquake"
+    },
+    {
+      "questions": "These became more advanced and more popular in the 1990, with some of the most influential ones being  the Super Nintendo Entertainment System, the Sony Playstation, and the Sega Dreamcast.",
+      "answers": [
+        "Dating sites",
+        "Virtual reality systems",
+        "Video Game consoles",
+        "Computer games"
+      ],
+      "ca": "Video Game consoles"
+    },
+    {
+      "questions": "The Punic Wars were a series of three wars fought between these two powers.",
+      "answers": [
+        "Rome and Athens",
+        "Athens and Sparta",
+        "Carthage and Athens",
+        "Rome and Carthage"
+      ],
+      "ca": "Rome and Carthage"
+    },
+    {
+      "questions": "The 1938 incorporation of Austria in Greater Germany under the Nazi Regime is known as this.",
+      "answers": ["Ansatz", "Abwer", "Anschluss", "Ahnentafel"],
+      "ca": "Anschluss"
+    },
+    {
+      "questions": "Henry Kissinger held this US post from 1974 to 1977.",
+      "answers": [
+        "President of the Senate",
+        "Speaker of the House of Representatives",
+        "National Security Advisor",
+        "Secretary of State"
+      ],
+      "ca": "Secretary of State"
+    },
+    {
+      "questions": "One of these cities has been Japans capital in the past.",
+      "answers": ["Kyoto", "Yokohama", "Hiroshima", "Osaka"],
+      "ca": "Kyoto"
+    },
+    {
+      "questions": "Anne of Austria was the mother of Louis XIV of France (the Sun King).",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "Valeria Messalina was the third wife of this Roman emperor.",
+      "answers": ["Caligula", "Tiberius", "Nero", "Claudius"],
+      "ca": "Claudius"
+    },
+    {
+      "questions": "Philip II of France, Richard I of England and Frederick I led this campaign.",
+      "answers": [
+        "Childrens Crusade",
+        "Albigensian Crusade",
+        "Fourth Crusade",
+        "Third Crusade"
+      ],
+      "ca": "Third Crusade"
+    },
+    {
+      "questions": "Yu the Great was the legendary first Chinese monarch of this dynasty.",
+      "answers": [
+        "Xia Dynasty",
+        "Qing (Manchu) Dynasty",
+        "Ming Dynasty",
+        "Yuan Dynasty"
+      ],
+      "ca": "Xia Dynasty"
+    },
+    {
+      "questions": "This German general was nicknamed The Desert Fox due to the skillful military campaigns he waged in North Africa, during World War II.",
+      "answers": [
+        "Erwin Rommel",
+        "Hermann Goring",
+        "George Patton",
+        "Bernard Montgomery"
+      ],
+      "ca": "Erwin Rommel"
+    },
+    {
+      "questions": "The term Blitzkrieg, referring to swift, sudden military offensive, is translated as Thunder War.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "How many landing beaches were there in the 1944 Normandy Invasion, known as Operation Overlord?",
+      "answers": ["Four", "Six", "Five", "Three"],
+      "ca": "Five"
+    },
+    {
+      "questions": "What was the name of the first jet-powered fighter used in World War II?",
+      "answers": ["P-51", "Hurricane", "Me-262", "MIG-3"],
+      "ca": "Me-262"
+    },
+    {
+      "questions": "Which member of the Nazi Party was known as Adolph Hitlers first architect of the Third Reich?",
+      "answers": [
+        "Rudolph Hess",
+        "Albert Speer",
+        "Hermann Goring",
+        "Joseph Mengele"
+      ],
+      "ca": "Albert Speer"
+    },
+    {
+      "questions": "The British evacuation from which French port was codenamed Operation Dynamo, in 1940?",
+      "answers": ["Brest", "Cherbourg", "Dunkirk", "Toulon"],
+      "ca": "Dunkirk"
+    },
+    {
+      "questions": "Which American politician said the following about liberty: They that can give up essential liberty to obtain a little temporary safety deserve neither liberty nor safety.”?",
+      "answers": [
+        "Benjamin Franklin",
+        "Thomas Jefferson",
+        "Abraham Lincoln",
+        "George Washington"
+      ],
+      "ca": "Benjamin Franklin"
+    },
+    {
+      "questions": "Which US President delivered the following words: Ask not what your country can do for you, ask what you can do for your country.?",
+      "answers": [
+        "William J. Clinton",
+        "Franklin D. Roosevelt",
+        "Abraham Lincoln",
+        "John F. Kennedy"
+      ],
+      "ca": "John F. Kennedy"
+    },
+    {
+      "questions": "Which US President said these words: A democracy is nothing more than mob rule, where fifty-one percent of the people may take away the rights of the other forty-nine.?",
+      "answers": [
+        "Abraham Lincoln",
+        "Thomas Jefferson",
+        "Benjamen Franklin",
+        "John F. Kennedy"
+      ],
+      "ca": "Thomas Jefferson"
+    },
+    {
+      "questions": "Which US President made the following statement: America stands for liberty, for the pursuit of happiness and for the unalienable right for life. This right to life cannot be granted or denied by government because it does not come from the government, it comes from the creator of life.?",
+      "answers": [
+        "George W. Bush",
+        "Thomas Jefferson",
+        "John Adams",
+        "George Washington"
+      ],
+      "ca": "George W. Bush"
+    },
+    {
+      "questions": "These words were spoken by Jed Babbin, a former deputy undersecretary of defence in the first Bush administration, on January 30, 2003: Going to war without France is like going deer hunting without an accordion. You just leave a lot of useless noisy baggage behind.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "Which great American leader made the following statement: Any people anywhere, being inclined and having the power, have the right to rise up, and shake off the existing government, and form a new one that suits them better. This is a most valuable - a most sacred right - a right, which we hope and believe, is to liberate the world.”?",
+      "answers": [
+        "Benjamin Franklin",
+        "Abraham Lincoln",
+        "George Washington",
+        "Thomas Jefferson"
+      ],
+      "ca": "Abraham Lincoln"
+    },
+    {
+      "questions": "The M1 Carbine is the most mass produced small arm weapon in the United States. Even though it was mainly produced by the Inland Division of General Motors, its design belongs to this famous company.",
+      "answers": [
+        "Winchester",
+        "Kalashnikov",
+        "GIAT Industries",
+        "Magnum Research Inc."
+      ],
+      "ca": "Winchester"
+    },
+    {
+      "questions": "How many Medal of Honor citations have been issued during the Vietnam War?",
+      "answers": ["245", "345", "153", "120"],
+      "ca": "245"
+    },
+    {
+      "questions": "One of the worlds greatest generals. By  the age of 30 he ruled almost half of the world. This great leader died at the peak of his campaign at the age of 33.  His was taught by Aristotle.",
+      "answers": ["Alexander The Great", "Darius", "Julius Caesar", "Augustus"],
+      "ca": "Alexander The Great"
+    },
+    {
+      "questions": "This Carthaginian general marched from Spain to Rome across the Alps.  14,000 of his 40,000 troops died because of the harsh climate.  Later, he won the Battle of Cannae.",
+      "answers": ["Augustus", "Gaius Marius", "Lesius Quietus", "Hannibal"],
+      "ca": "Hannibal"
+    },
+    {
+      "questions": "His saying, Veni Vidi Vici (I came I saw I conquered) is known all over the world.  His war feats clothed him with glory giving him political power.",
+      "answers": ["Marcus Antonius", "Julius Caesar", "Augustus", "Darius"],
+      "ca": "Julius Caesar"
+    },
+    {
+      "questions": "This American general  led the invasion of Normandy.  He was also an American president from 1953 to 1961.",
+      "answers": [
+        "Dwight Eisenhower",
+        "George S. Patton",
+        "MacArthur",
+        "William H. Simpson"
+      ],
+      "ca": "Dwight Eisenhower"
+    },
+    {
+      "questions": "He was one of the best military officers of Russia during the World War II and involved in the taking of Berlin.",
+      "answers": [
+        "Lavr Kornilov",
+        "Georgi Zhukov",
+        "Alexander Samsonov",
+        "Nicholas Nikolaevich"
+      ],
+      "ca": "Georgi Zhukov"
+    },
+    {
+      "questions": "The siege of Leningrad lasted just 1 month.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "Along with the French general, this British general also led the campaign in Northern Africa during the World War II.  He was accused of not fighting bravely enough, after his lack of success in Operation Lightfoot.",
+      "answers": [
+        "Dwight Eisenhower",
+        "Bernard Montgomery",
+        "Georg Stumme",
+        "John White"
+      ],
+      "ca": "Bernard Montgomery"
+    },
+    {
+      "questions": "This island was Englands first overseas colony.",
+      "answers": ["Rhodes", "Newfoundland", "Iceland", "Greenland"],
+      "ca": "Newfoundland"
+    },
+    {
+      "questions": "In 1962 Jamaica gained full independence from the United Kingdom, but before even becoming a British colony, Jamaica was possession of this country.",
+      "answers": ["Spain", "Portugal", "Russia", "Italy"],
+      "ca": "Spain"
+    },
+    {
+      "questions": "Barbados has never been a British colony.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "Australia was officially settled in 1788 as the penal colony of New South Wales. Over the course of the 19th century this many new self-governing Crown Colonies were established on the continent.",
+      "answers": ["4", "5", "3", "12"],
+      "ca": "5"
+    },
+    {
+      "questions": "One of  the results of the Second Anglo-Dutch War, between England and the United Netherlands, was that the city of New Amsterdam was renamed to this.",
+      "answers": ["New York", "New Jersey", "New Mexico", "New Orleans"],
+      "ca": "New York"
+    },
+    {
+      "questions": "Sri Lanka was not considered part of the British Raj.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "Slavery was outlawed in all British colonies in this year.",
+      "answers": ["1812", "1912", "1834", "1738"],
+      "ca": "1834"
+    },
+    {
+      "questions": "On July 1, 1997, the former British colony of Hong Kong reunified with the Peoples Republic of China. This man was the last governor of Hong Kong.",
+      "answers": [
+        "Henry Tang",
+        "Chris Patten",
+        "Tung Chee Hwa",
+        "Donald Tsang"
+      ],
+      "ca": "Chris Patten"
+    },
+    {
+      "questions": "Britain was not interested in African territories and thus has never controlled any.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "What was the nickname of Tom Cruises character in Top Gun?",
+      "answers": ["Goose", "Iceman", "Maverick", "Viper"],
+      "ca": "Maverick"
+    }
+  ]
+}

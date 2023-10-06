@@ -3,7 +3,7 @@ import pool from "../util/pool";
 import { getCurrentGameInfo, getLeaderboardInfo } from "../util/game-util";
 import moment from "moment";
 import myCache from "../util/cache";
-import gameLoop from "../util/game-handler";
+import gameLoop from "../util/game-loop";
 
 // join user to room and callback gameInfo object or maybe just simple game info
 // and broadcast scoreboard to other users when user joins
@@ -12,7 +12,7 @@ const handleStartGame = (
   updateGame: (gameId: number, fromCache: boolean) => any,
   updateLeaderboard: (gameId: number, fromCache: boolean) => any
 ) => {
-  socket.on("startGame", async (userId: number, gameId: number, callback) => {
+  socket.on("startGame", async (userId, gameId, callback) => {
     const client = await pool.connect();
     try {
       const gameResult = await client.query(
@@ -24,6 +24,14 @@ const handleStartGame = (
         callback({
           status: 404,
           message: "Game not found or already started!",
+        });
+        return;
+      }
+
+      if (userId !== gameResult.rows[0].owner_id) {
+        callback({
+          status: 403,
+          message: "You are not the creator of the game!",
         });
         return;
       }
@@ -57,7 +65,7 @@ const handleStartGame = (
       updateLeaderboard(gameId, false);
 
       // Start game loop to handle question changes
-      gameLoop(gameId, updateGame, updateLeaderboard);
+      gameLoop(gameId, updateGame);
 
       // Return game info to current user
       callback({
@@ -68,7 +76,7 @@ const handleStartGame = (
     } catch (error) {
       callback({
         status: 500,
-        message: "Join failed!",
+        message: "Start game failed!",
       });
     } finally {
       client.release();

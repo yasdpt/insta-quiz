@@ -1,0 +1,315 @@
+{
+  "category_name": "Animals",
+  "questions": [
+    {
+      "questions": "Three of these animals hibernate. Which one does not?",
+      "answers": ["Mouse", "Sloth", "Frog", "Snake"],
+      "ca": "Sloth"
+    },
+    {
+      "questions": "All of these animals are omnivorous except one.",
+      "answers": ["Fox", "Mouse", "Opossum", "Snail"],
+      "ca": "Snail"
+    },
+    {
+      "questions": "Three of these Latin names are names of bears. Which is the odd one?",
+      "answers": [
+        "Melursus ursinus",
+        "Helarctos malayanus",
+        "Ursus minimus",
+        "Felis silvestris catus"
+      ],
+      "ca": "Felis silvestris catus"
+    },
+    {
+      "questions": "These are typical Australian animals except one.",
+      "answers": ["Platypus", "Dingo", "Echidna", "Sloth"],
+      "ca": "Sloth"
+    },
+    {
+      "questions": "Representatives of three of these species produce venom of their own. Which is the odd species?",
+      "answers": ["Lizards", "Scorpions", "Frogs", "Mosquitos"],
+      "ca": "Mosquitos"
+    },
+    {
+      "questions": "Three of these species shed their skin. Which one does not?",
+      "answers": ["Penguins", "Snakes", "Insects", "Crustaceans"],
+      "ca": "Penguins"
+    },
+    {
+      "questions": "All dogs, cats and birds are colorblind.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "All of these animals have large ears (relative to their size) except one.",
+      "answers": ["Polar bears", "Foxes", "Bats", "Elephants"],
+      "ca": "Polar bears"
+    },
+    {
+      "questions": "This percentage of all snakes on Earth are lethal to humans.",
+      "answers": ["10%", "20%", "15%", "25%"],
+      "ca": "15%"
+    },
+    {
+      "questions": "Snakes are this kind of animals.",
+      "answers": ["Herbivorous", "Omnivorous", "Carnivorous", "Vegetarian"],
+      "ca": "Carnivorous"
+    },
+    {
+      "questions": "Snakes consume their food by means of this process.",
+      "answers": ["Breathing", "Absorption", "Swallowing", "Chewing"],
+      "ca": "Swallowing"
+    },
+    {
+      "questions": "Snakes reproduce only by laying eggs.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "Snakes are deaf.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "Snake skin is covered in scales.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "Snakes belong to the following category.",
+      "answers": ["Invertebrates", "Lizards", "Reptiles", "Mammals"],
+      "ca": "Reptiles"
+    },
+    {
+      "questions": "A specialist in snakes is called one of these.",
+      "answers": [
+        "Pisciculturist",
+        "Ornithologist",
+        "Ophiologist",
+        "Herpetologist"
+      ],
+      "ca": "Ophiologist"
+    },
+    {
+      "questions": "One of the following snakes does not belong to the Viperidae family.",
+      "answers": ["Horned adder", "Grass snake", "Viper", "Asp"],
+      "ca": "Grass snake"
+    },
+    {
+      "questions": "Snakes are very likely to attack us, regardless of whether they feel threatened or not.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "Cobras are venomous snakes of family Elapidae, that generally inhabit regions of these two continents.",
+      "answers": [
+        "South America and Asia",
+        "Asia and Africa",
+        "Asia and Australia",
+        "South America and Australia"
+      ],
+      "ca": "Asia and Africa"
+    },
+    {
+      "questions": "The cobras most recognizable feature is its hood, a flap of skin and muscle behind the head, believed to serve this purpose.",
+      "answers": [
+        "Balance control",
+        "Heat collection from sun rays",
+        "Camouflage",
+        "More threatening appearance"
+      ],
+      "ca": "More threatening appearance"
+    },
+    {
+      "questions": "The Cobra is at the top of the food chain, with only two main predators -- one is man and the other is this animal.",
+      "answers": ["Jackal", "Mongoose", "Lynx", "Eagle"],
+      "ca": "Mongoose"
+    },
+    {
+      "questions": "This is where the Cobras ribs are situated.",
+      "answers": [
+        "Behind its head",
+        "In its chest, around the middle of the body",
+        "Cobras have no ribs",
+        "In its tale"
+      ],
+      "ca": "Behind its head"
+    },
+    {
+      "questions": "The King Cobra feeds almost exclusively on other snakes, even toxic ones.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "A baby cobra is fully able to defend itself in as little as this many hours after being born.",
+      "answers": ["3", "12", "48", "72"],
+      "ca": "3"
+    },
+    {
+      "questions": "What type of dog did Richard Nixon receive from a Texan while he was a candidate for Vice President?",
+      "answers": [
+        "German Shepherd",
+        "Cocker Spaniel",
+        "Golden Retriever",
+        "Welsh Corgy"
+      ],
+      "ca": "Cocker Spaniel"
+    },
+    {
+      "questions": "What was the name of Socks companion at the White House during the Clinton Administration?",
+      "answers": ["Buddy", "Shoes", "Bailey", "Buster"],
+      "ca": "Buddy"
+    },
+    {
+      "questions": "President Fords dog was named Freedom.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "Which of these Presidents had the most pets?",
+      "answers": [
+        "Franklin Delano Roosevelt",
+        "Theodore Roosevelt",
+        "Bill Clinton",
+        "Woodrow Wilson"
+      ],
+      "ca": "Theodore Roosevelt"
+    },
+    {
+      "questions": "What breed is known as the favourite breed of Queen Elizabeth II?",
+      "answers": [
+        "Border Collie",
+        "Old English Sheepdog",
+        "Welsh Corgi",
+        "Australian Cattle Dog"
+      ],
+      "ca": "Welsh Corgi"
+    },
+    {
+      "questions": "What was the name of Fraisers fathers dog on the hit TV show set in Seattle?",
+      "answers": ["Niles", "Marty", "Eddie", "Skip"],
+      "ca": "Eddie"
+    },
+    {
+      "questions": "Which one of these sea mammals is not in the endangered species lists?",
+      "answers": ["Fin Whale", "Pilot whale", "Blue Whale", "Humpback Whale"],
+      "ca": "Pilot whale"
+    },
+    {
+      "questions": "This endangered turtle is the biggest of all living turtles, reaching a length of over 2.7 m (8.8 ft) and weight of 900 kg (2,000 lb).",
+      "answers": [
+        "Leatherback Sea Turtle",
+        "Kemps Ridley Turtle",
+        "Hawksbill Sea Turtle",
+        "Mesoamerican River Turtle"
+      ],
+      "ca": "Leatherback Sea Turtle"
+    },
+    {
+      "questions": "Name the rarest and most endangered of all wolves.",
+      "answers": [
+        "Red Wolf",
+        "Ethiopian Wolf",
+        "Black-backed Wolf",
+        "Gray Wolf"
+      ],
+      "ca": "Red Wolf"
+    },
+    {
+      "questions": "The endangered Komodo dragon is the largest living lizard in the world, growing to an average length of 2-3 meters (10 feet).",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "This species of great apes with long arms and reddish hair suffer habitat destruction due to logging, mining and forest fires.",
+      "answers": ["Gorilla", "Baboons", "Orangutan", "Chimpanzee"],
+      "ca": "Orangutan"
+    },
+    {
+      "questions": "What is the natural habitat of the snows leopard, that was hunted down for its beautiful fur, as a result of which its population went down to 1,000 animals in the 1960s?",
+      "answers": [
+        "North America",
+        "Central Asia and North America",
+        "Central Asia",
+        "Europe and North America"
+      ],
+      "ca": "Central Asia"
+    },
+    {
+      "questions": "The Asian Elephant, the only living species of the genus Elephas, is the bigger relative of the African Elephant.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "This freshwater mammal, found only in the Yangtze River, is the most endangered (even possibly extinct) cetacean and one of the most endangered species in the world.",
+      "answers": [
+        "Ganges River Dolphin",
+        "Chinese River Dolphin",
+        "La Plata Dolphin",
+        "Amazon River Dolphin"
+      ],
+      "ca": "Chinese River Dolphin"
+    },
+    {
+      "questions": "This small nocturnal animal, whose natural habitat are the deserts of Northern Africa, is known to jump not only for hunting or protection, but also for pleasure.",
+      "answers": ["Cape Fox", "Red Fox", "Bengal Fox", "Fennec"],
+      "ca": "Fennec"
+    },
+    {
+      "questions": "Jack jumper ants, yellowish-orange carnivorous ants named after their characteristic jumpy motions, can be found only on which continent?",
+      "answers": ["North America", "Australia", "Africa", "Asia"],
+      "ca": "Australia"
+    },
+    {
+      "questions": "This small, graceful member of the antelope family is an extraordinary jumper - while leaping, it touches the rocky terrain of its South African habitats only with the tip of its hooves, resembling a dance.",
+      "answers": ["Oribi", "Roan Antelope", "Scimitar Oryx", "Klipspringer"],
+      "ca": "Klipspringer"
+    },
+    {
+      "questions": "Although the jumping viper, a chiefly nocturnal snake, is one of the most powerful jumpers of the snake family, capable of rising up to 1 meter (3 feet) during a strike, its poison is not lethal to humans.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "Zoophobia is the fear of animals.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "The hummingbird is the worlds smallest bird.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "Which of these animals swims the fastest?",
+      "answers": ["Flounder", "Shark", "Dolphin", "Jellyfish"],
+      "ca": "Dolphin"
+    },
+    {
+      "questions": "Which word refers to the sound peacocks make?",
+      "answers": ["Scream", "Squill", "Squeak", "Squall"],
+      "ca": "Scream"
+    },
+    {
+      "questions": "Ancient Japanese thought this animal caused earthquakes.",
+      "answers": ["Birds", "Spiders", "Snakes", "Frogs"],
+      "ca": "Spiders"
+    },
+    {
+      "questions": "How many types of bats are there?",
+      "answers": ["900", "700", "500", "200"],
+      "ca": "900"
+    },
+    {
+      "questions": "Chocolate cannot kill a dog.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "This animal can clean its own ears with its 21-inch tongue.",
+      "answers": ["Lizard", "Elephant", "Lion", "Giraffe"],
+      "ca": "Giraffe"
+    }
+  ]
+}

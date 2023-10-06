@@ -1,0 +1,405 @@
+{
+  "category_name": "Movies",
+  "questions": [
+    {
+      "questions": "I would rather be a ghost drifting by your side as a condemned soul than enter heaven without you. Because of your love, I will never be a lonely spirit. (2000)",
+      "answers": [
+        "Don Juan DeMarco",
+        "Ever After",
+        "Crouching Tiger, Hidden Dragon",
+        "Dracula"
+      ],
+      "ca": "Crouching Tiger, Hidden Dragon"
+    },
+    {
+      "questions": "There are only four questions of value in life. What is sacred? Of what is the spirit made of? What is worth living for? What is worth dying for? The answer to each is the same. Only love. (1995)",
+      "answers": [
+        "When Harry Met Sally",
+        "Don Juan DeMarco",
+        "Cant Hardly Wait",
+        "Ten Things I Hate About You"
+      ],
+      "ca": "Don Juan DeMarco"
+    },
+    {
+      "questions": "I have crossed oceans of time to find you. (1992)",
+      "answers": ["Moulin Rouge", "Notting Hill", "A Knights Tale", "Dracula"],
+      "ca": "Dracula"
+    },
+    {
+      "questions": "I came here tonight because when you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible. (1989)",
+      "answers": [
+        "When Harry Met Sally",
+        "Wuthering Heights",
+        "Youve Got Mail",
+        "The Mask of Zorro"
+      ],
+      "ca": "When Harry Met Sally"
+    },
+    {
+      "questions": "Love has given me wings so I must fly. (2001)",
+      "answers": ["A Knights Tale", "Phenomenon", "Ever After", "Forget Paris"],
+      "ca": "A Knights Tale"
+    },
+    {
+      "questions": "Love? Above all things I believe in love! Love is like oxygen! Love is a many splendored thing, love lifts us up where we belong, all you need is love!",
+      "answers": [
+        "Hope Floats",
+        "Some Like It Hot",
+        "Casablanca",
+        "Moulin Rouge"
+      ],
+      "ca": "Moulin Rouge"
+    },
+    {
+      "questions": "It doesnt matter if the guy is perfect or the girl is perfect, as long as they are perfect for each other. (1997)",
+      "answers": [
+        "Forest Gump",
+        "The Shawshank Redemption",
+        "Citizen Kane",
+        "Good Will Hunting"
+      ],
+      "ca": "Good Will Hunting"
+    },
+    {
+      "questions": "I am someone else when Im with you, someone more like myself. (2001)",
+      "answers": [
+        "Sunrise: A Song of Two Humans",
+        "Trouble in Paradise",
+        "In America",
+        "Original Sin"
+      ],
+      "ca": "Original Sin"
+    },
+    {
+      "questions": "If he loved you with all the power of his soul for a whole lifetime, he couldnt love you as much as I do in a single day. (1992)",
+      "answers": [
+        "Romeo and Juliet",
+        "Wuthering Heights",
+        "Shakespeare in Love",
+        "Sideways"
+      ],
+      "ca": "Wuthering Heights"
+    },
+    {
+      "questions": "Take love, multiply it by infinity and take it to the depths of forever and you still have only a glimpse of how I feel for you. (1998)",
+      "answers": [
+        "Moulin Rouge",
+        "My Best Friends Wedding",
+        "Message In A Bottle",
+        "Meet Joe Black"
+      ],
+      "ca": "Meet Joe Black"
+    },
+    {
+      "questions": "One of these James Bond movies was not released during the 80s.",
+      "answers": [
+        "A View to a Kill",
+        "Octopussy",
+        "Moonraker",
+        "For Your Eyes Only"
+      ],
+      "ca": "Moonraker"
+    },
+    {
+      "questions": "It is a dark time for the",
+      "answers": [
+        "Back to the Future",
+        "The Final Countdown",
+        "The Hitch Hikers Guide to the Galaxy",
+        "The Empire Strikes Back"
+      ],
+      "ca": "The Empire Strikes Back"
+    },
+    {
+      "questions": "This is Babys real name in Dirty Dancing (1987).",
+      "answers": ["Barbara", "Frances", "Susan", "Jennifer"],
+      "ca": "Frances"
+    },
+    {
+      "questions": "In A Nightmare On Elm Street, Nancy lives on Elm Street, located in this fictional city in Ohio.",
+      "answers": ["Derry", "Ambervale", "Springwood", "Blackwood County"],
+      "ca": "Springwood"
+    },
+    {
+      "questions": "In the movie Rain Man, Raymond and Charlie are at the restaurant when a waitress drops a box of toothpicks. This prompts Raymond to instantly calculate the number of toothpicks on the floor. This was their number.",
+      "answers": ["246", "250", "321", "123"],
+      "ca": "246"
+    },
+    {
+      "questions": "One of these actors did not star in Tootsie.",
+      "answers": [
+        "Jessica Lange",
+        "Teri Garr",
+        "Dustin Hoffman",
+        "Larry Gelbart"
+      ],
+      "ca": "Larry Gelbart"
+    },
+    {
+      "questions": "Axel Foley in Beverly Hills Cop is originally a policeman from this city.",
+      "answers": ["Detroit", "Chicago", "Denver", "San Fransisco"],
+      "ca": "Detroit"
+    },
+    {
+      "questions": "Indiana Jones from the movie of the same name could write and speak this number of languages.",
+      "answers": ["11", "27", "2", "6"],
+      "ca": "27"
+    },
+    {
+      "questions": "A group of Earth children help a stranded alien botanist return home is the plot outline of this movie.",
+      "answers": [
+        "Star Wars: Episode VI - Return of the Jedi",
+        "The Hitch Hikers Guide to the Galaxy",
+        "Cyborg",
+        "E.T. the Extra-Terrestrial"
+      ],
+      "ca": "E.T. the Extra-Terrestrial"
+    },
+    {
+      "questions": "What year did the movie The Shawshank Redemption hit the movie theatres?",
+      "answers": ["1992", "1994", "1990", "1996"],
+      "ca": "1994"
+    },
+    {
+      "questions": "What was the name of the Warden in the hit movie The Shawshank Redemption ?",
+      "answers": [
+        "Byron Hadley",
+        "Samuel Norton",
+        "Ellis Redding",
+        "Spencer Heywood"
+      ],
+      "ca": "Samuel Norton"
+    },
+    {
+      "questions": "What decade was Andy Dufresne sent to the Shawshank prison in the movie The Shawshank Redemption?",
+      "answers": ["1940s", "1920s", "1930s", "1950s"],
+      "ca": "1940s"
+    },
+    {
+      "questions": "In the popular movie The Shawshank Redemption Andy Dufresne has a poster hanging on his wall in his jail cell. Who is the famous actress on this poster?",
+      "answers": [
+        "Greta Garbo",
+        "Jayne Mansfield",
+        "Rita Hayworth",
+        "Bette Davis"
+      ],
+      "ca": "Rita Hayworth"
+    },
+    {
+      "questions": "In the movie The Shawshank Redemption Andy Dufresne had a best friend in jail named Red. Why did they call him Red?",
+      "answers": [
+        "He had red hair.",
+        "It was short for his last name.",
+        "His favorite color was red.",
+        "He had a horrible temper."
+      ],
+      "ca": "It was short for his last name."
+    },
+    {
+      "questions": "Andy Dufresne, the main character in the movie The Shawshank Redemption, asks Captain Byron Hadley for some suds for his fellow workers, while they are working together on the roof. What kind of beer did the prisoners get?",
+      "answers": ["Strohs", "Budweiser", "Amstel", "Heineken"],
+      "ca": "Strohs"
+    },
+    {
+      "questions": "Clancy Brown, who played Captain Byron Hadley in The Shawshank Redemption, appeared in a 1983 movie with actor Sean Penn.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "In the movie The Shawshank Redemption, what was Reds jail cell number?",
+      "answers": ["237", "125", "416", "444"],
+      "ca": "237"
+    },
+    {
+      "questions": "Does Andy Dufresne escape in the movie The Shawshank Redemption?",
+      "answers": ["No", "Yes"],
+      "ca": "Yes"
+    },
+    {
+      "questions": "Who was the director of the hit movie The Shawshank Redemption?",
+      "answers": [
+        "Ron Howard",
+        "Rob Reiner",
+        "Frank Darabont",
+        "Shimon  Bentzvi"
+      ],
+      "ca": "Frank Darabont"
+    },
+    {
+      "questions": "What was the budget for the movie The Shawshank Redemption?",
+      "answers": ["$3,000,000", "$ 100,000", "$ 10,000,000", "$ 25,000,000"],
+      "ca": "$ 25,000,000"
+    },
+    {
+      "questions": "In the movie The Shawshank Redemption, the prisoners are shown watching what movie?",
+      "answers": [
+        "Gilda",
+        "Its a Mad Mad World",
+        "Happy girl 1223 Strikes Again",
+        "The Three Stooges"
+      ],
+      "ca": "Gilda"
+    },
+    {
+      "questions": "Who directed the blockbuster movie Forrest Gump?",
+      "answers": [
+        "Steven Soderbergh",
+        "Robert Zemeckis",
+        "Tony Scott",
+        "John Hughes"
+      ],
+      "ca": "Robert Zemeckis"
+    },
+    {
+      "questions": "In the opening scene of the movie Forrest Gump, Forrest is sitting on a bench waiting to catch a bus in what southern U.S. city?",
+      "answers": ["Birmingham", "Atlanta", "Columbia", "Savannah"],
+      "ca": "Savannah"
+    },
+    {
+      "questions": "Which U.S. president did Forrest NOT get to meet in person in the movie Forrest Gump?",
+      "answers": [
+        "Gerald Ford",
+        "Lyndon B. Johnson",
+        "John F. Kennedy",
+        "Richard M. Nixon"
+      ],
+      "ca": "Gerald Ford"
+    },
+    {
+      "questions": "In the movie Forrest Gump, Mrs. Gump (played by Sally Field) ran a boarding house where a young Forrest taught one of the special guests how to dance. Who was this special guest?",
+      "answers": [
+        "Fred Astaire",
+        "Elvis Presley",
+        "Dick Van Dyke",
+        "Gene Kelly"
+      ],
+      "ca": "Elvis Presley"
+    },
+    {
+      "questions": "In the self-titled movie, Forrest Gump appears on the Dick Cavett Show to talk about his visit to China.  Who was the other guest on the Dick Cavett Show sitting next to Forrest, wearing a U.S. Army jacket?",
+      "answers": ["Abbie Hoffman", "Jane Fonda", "John Lennon", "John Wayne"],
+      "ca": "John Lennon"
+    },
+    {
+      "questions": "In the movie Forrest Gump, Forrest joins the U.S. Army and becomes best friends with Benjamin Buford Blue (played by Mykelti Williamson). What was Benjamins nickname?",
+      "answers": ["Beau", "Billy", "Bennie", "Bubba"],
+      "ca": "Bubba"
+    },
+    {
+      "questions": "For which university did fictional character Forrest Gump play college football, earning All-American honors?",
+      "answers": [
+        "University of Alabama",
+        "University of Florida",
+        "Auburn University",
+        "University of Georgia"
+      ],
+      "ca": "University of Alabama"
+    },
+    {
+      "questions": "In the movie Forrest Gump, Jenny (played by Robin Wright-Penn) and Forrest were childhood friends. As they got older, Forrest went into the U.S. Army and Jenny became a folk singer at a local strip club, using this stage name.",
+      "answers": [
+        "Johnnie Cash",
+        "Abby Hoffman",
+        "Mickey Jagger",
+        "Bobbie Dylan"
+      ],
+      "ca": "Bobbie Dylan"
+    },
+    {
+      "questions": "The famous fictional character Forrest Gump wins the Congressional Medal of Honor by saving most of the men in his squad. Forrest himself is wounded during his heroic rescue. Where is Forrest wounded?",
+      "answers": [
+        "in the stomach",
+        "in the arm",
+        "in the leg",
+        "in the buttocks"
+      ],
+      "ca": "in the buttocks"
+    },
+    {
+      "questions": "The Forrest Gump soundtrack was hugely popular, selling over 12 million copies. Which song/artist was not on the Forrest Gump soundtrack?",
+      "answers": [
+        "Satisfaction by The Rolling Stones",
+        "Break on Through (To the Other Side) by The Doors",
+        "California Dreamin by The Mamas and the Pappas",
+        "Fortunate Son by CCR"
+      ],
+      "ca": "Satisfaction by The Rolling Stones"
+    },
+    {
+      "questions": "What was Forrests favorite book in the movie Forrest Gump?",
+      "answers": [
+        "Cat in the Hat",
+        "Alice in Wonderland",
+        "The Chronicles of Narnia",
+        "Curious George"
+      ],
+      "ca": "Curious George"
+    },
+    {
+      "questions": "In the movie Forrest Gump, what were the last words uttered by Pvt. Benjamin Blue to Forrest, just before he died?",
+      "answers": [
+        "I want my Mama",
+        "I want to go home",
+        "Am I going to make it?",
+        "What are we doing here?"
+      ],
+      "ca": "I want to go home"
+    },
+    {
+      "questions": "In the movie Forrest Gump, this actor played Lt. Dan Taylor, the commanding officer of Forrest when he first arrived in Vietnam.",
+      "answers": [
+        "Gary Sinise",
+        "Jack Nicholson",
+        "Ed Harris",
+        "Robert Duvall"
+      ],
+      "ca": "Gary Sinise"
+    },
+    {
+      "questions": "Which 2001 movie is this audio clip from?",
+      "answers": [
+        "First Knight",
+        "A Knights Tale",
+        "Robin Hood: Prince of Thieves",
+        "Black Knight"
+      ],
+      "ca": "A Knights Tale"
+    },
+    {
+      "questions": "The movie Back to the Future, directed by Robert Zemeckis, was released in what year?",
+      "answers": ["1955", "1986", "1987", "1985"],
+      "ca": "1985"
+    },
+    {
+      "questions": "What was the name of Doc Browns dog in the film Back to the Future?",
+      "answers": ["Shep", "Einstein", "Edsel", "Shaggy"],
+      "ca": "Einstein"
+    },
+    {
+      "questions": "In the movie Back to the Future, Martys actions in 1955 change the name of the mall where he and Doc meet in 1985, to secretly  test the time machine.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "In the movie Back to the Future, when Marty is in the diner in 1955, he asks for what kind of drink?",
+      "answers": [
+        "something without sugar",
+        "All of these",
+        "Tab",
+        "Pepsi free"
+      ],
+      "ca": "All of these"
+    },
+    {
+      "questions": "In Back to the Future, Doc Brown invented this device, which in his words is what makes time travel possible.",
+      "answers": [
+        "transference capacitor",
+        "jauntinator",
+        "transcendental tripometer",
+        "flux capacitor"
+      ],
+      "ca": "flux capacitor"
+    }
+  ]
+}
