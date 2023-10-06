@@ -5,7 +5,7 @@ import sendGameDataToUser from "../util/bot-util";
 
 const router = Router();
 
-/* GET game by id */
+/* GET game by id*/
 router.get("/:id", verifyToken, async function (req, res) {
   try {
     const gameId = req.params.id;
@@ -39,7 +39,9 @@ router.get("/:id", verifyToken, async function (req, res) {
 });
 
 /* POST 
-   Create game using userId and category and add user to list of users in game 
+   Create game using userId and category
+   add user to list of users in game 
+   add questions to game_questions table
 */
 router.post("/create", verifyToken, async function (req, res) {
   const {
@@ -56,12 +58,12 @@ router.post("/create", verifyToken, async function (req, res) {
     );
 
     if (checkGame.rowCount > 0) {
-      res.status(200).json(checkGame.rows[0]);
       await sendGameDataToUser(
         webAppQuery,
         checkGame.rows[0].id,
         checkGame.rows[0].category_id
       );
+      res.status(200).json(checkGame.rows[0]);
     } else {
       // Get 10 random question filtering by category id
       const questionsRes = await client.query(
