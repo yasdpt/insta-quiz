@@ -3,9 +3,10 @@
     <div class="flex mt-2 items-center justify-between mx-3 px-1 py-3 md:w-96">
       <div class="flex mr-2">
         <div
-          class="flex flex-shrink-0 items-center justify-center rounded-full w-9 h-9 bg-orange-400 ml-3 mr-4"
+          class="flex flex-shrink-0 items-center justify-center rounded-full w-9 h-9 ml-3 mr-4"
+          :class="color"
         >
-          <p class="text-sm text-black">{{ name.substring(0, 1) }}</p>
+          <p class="text-sm text-white">{{ name.substring(0, 1) }}</p>
         </div>
         <p class="text-sm text-tgText line-clamp-2">
           {{ name }}
@@ -37,8 +38,11 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted } from "vue";
+import { computed } from "vue";
 import { useGameStore } from "../stores/gameStore";
+import { getColor } from "../configs/colorConfigs";
+
+const color = getColor();
 
 const store = useGameStore();
 
@@ -58,10 +62,5 @@ const answersSorted = computed(() => {
     answers.push(answer!);
   }
   return answers;
-});
-
-onMounted(() => {
-  console.log(`user:`);
-  console.log(props.user);
 });
 </script>

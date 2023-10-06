@@ -33,14 +33,25 @@
           </button>
         </div>
 
-        <p
-          v-if="store.gameInfo?.status != 2"
-          class="text-tgText text-xl text-center font-semibold mt-16"
-        >
-          Users in game
+        <p class="text-tgText text-xl text-center font-semibold mt-16">
+          {{ store.listMode }}
         </p>
         <TransitionGroup
-          v-if="store.gameInfo?.status != 2"
+          v-if="store.isGameEnded"
+          name="list"
+          tag="JoinUserList"
+        >
+          <JoinUserList
+            class="mx-5 md:mx-auto md:w-96"
+            v-for="(user, index) in store.leaderboard"
+            :name="user.first_name ?? ''"
+            :user="user"
+            :key="index"
+          />
+        </TransitionGroup>
+
+        <TransitionGroup
+          v-if="store.gameInfo?.status !== 2"
           name="list"
           tag="JoinUserList"
         >
