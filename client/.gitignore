@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 .env
+.env.production
+liara_nginx.conf
+.liaraignore
