@@ -7,10 +7,9 @@ export const useHomeStore = defineStore("home", () => {
   const user = webApp.initDataUnsafe.user;
 
   const categories: Ref<Category[]> = ref([]);
-  const selectedCategory = ref("");
+  const selectedCategory: Ref<Category | undefined> = ref();
   const isLoading = ref(true);
   const creatingGame = ref(false);
-  const selectCategoryError = ref(false);
   const failedMsg = ref("");
 
   function retry() {
@@ -59,6 +58,7 @@ export const useHomeStore = defineStore("home", () => {
 
     if (response.status === 200) {
       categories.value = response.data;
+      selectedCategory.value = categories.value[0];
     }
   }
 
@@ -66,13 +66,6 @@ export const useHomeStore = defineStore("home", () => {
     if (creatingGame.value) {
       return;
     }
-
-    if (selectedCategory.value === "") {
-      selectCategoryError.value = true;
-      return;
-    }
-
-    selectCategoryError.value = false;
 
     if (!user?.allows_write_to_pm) {
       webApp.showAlert("To create a new game first start the bot!", () => {
@@ -133,7 +126,6 @@ export const useHomeStore = defineStore("home", () => {
     categories,
     selectedCategory,
     isLoading,
-    selectCategoryError,
     creatingGame,
     failedMsg,
     retry,
