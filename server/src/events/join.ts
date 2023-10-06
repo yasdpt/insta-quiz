@@ -11,8 +11,8 @@ const handleJoinGame = (
   updateWaitList: (gameId: number) => any
 ) => {
   socket.on("joinGame", async (userId: number, gameId: number, callback) => {
-    const client = await pool.connect();
     try {
+      const client = await pool.connect();
       const gameResult = await client.query(
         "SELECT * FROM games WHERE id = $1 AND (status = 0 OR status = 1)",
         [gameId]
@@ -23,6 +23,7 @@ const handleJoinGame = (
           status: 404,
           message: "Game not found or ended!",
         });
+        client.release();
         return;
       }
 
@@ -40,6 +41,7 @@ const handleJoinGame = (
             status: 403,
             message: "Game has already started, you can not join in progress!",
           });
+          client.release();
           return;
         }
 
@@ -77,6 +79,8 @@ const handleJoinGame = (
       updateLeaderboard(gameId, true);
       updateWaitList(gameId);
 
+      client.release();
+
       // Return game info to current user
       callback({
         status: 200,
@@ -89,8 +93,6 @@ const handleJoinGame = (
         status: 500,
         message: "Unknown error!",
       });
-    } finally {
-      client.release();
     }
   });
 };

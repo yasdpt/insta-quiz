@@ -13,8 +13,8 @@ const handleStartGame = (
   updateLeaderboard: (gameId: number, fromCache: boolean) => any
 ) => {
   socket.on("startGame", async (userId, gameId, callback) => {
-    const client = await pool.connect();
     try {
+      const client = await pool.connect();
       const gameResult = await client.query(
         "SELECT * FROM games WHERE id = $1 AND status = 0",
         [gameId]
@@ -25,6 +25,7 @@ const handleStartGame = (
           status: 404,
           message: "Game not found or already started!",
         });
+        client.release();
         return;
       }
 
@@ -33,6 +34,7 @@ const handleStartGame = (
           status: 403,
           message: "You are not the creator of the game!",
         });
+        client.release();
         return;
       }
 
@@ -67,6 +69,8 @@ const handleStartGame = (
       // Start game loop to handle question changes
       gameLoop(gameId, updateGame);
 
+      client.release();
+
       // Return game info to current user
       callback({
         status: 200,
@@ -78,8 +82,6 @@ const handleStartGame = (
         status: 500,
         message: "Start game failed!",
       });
-    } finally {
-      client.release();
     }
   });
 };

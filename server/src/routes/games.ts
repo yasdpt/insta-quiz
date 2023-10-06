@@ -49,8 +49,9 @@ router.post("/create", verifyToken, async function (req, res) {
     categoryId,
     webAppQuery,
   }: { userId: number; categoryId: number; webAppQuery: string } = req.body;
-  const client = await pool.connect();
+
   try {
+    const client = await pool.connect();
     // Check if user already has a game created and it is not started yet and return tha
     const checkGame = await client.query(
       "SELECT * FROM games WHERE owner_id = $1 AND status = 0",
@@ -63,6 +64,7 @@ router.post("/create", verifyToken, async function (req, res) {
         checkGame.rows[0].id,
         checkGame.rows[0].category_id
       );
+      client.release();
       res.status(200).json(checkGame.rows[0]);
     } else {
       // Get 10 random question filtering by category id
@@ -96,14 +98,13 @@ router.post("/create", verifyToken, async function (req, res) {
       // Send answerWebAppQuery inline result to user with your bot
       // so their friends could join the game.
       await sendGameDataToUser(webAppQuery, gameId, categoryId);
+      client.release();
 
       res.status(201).json(createGameResult.rows[0]);
     }
   } catch (error) {
     console.log("[POST] /game/create: " + error);
     res.status(500).json({ message: "Creating game failed!" });
-  } finally {
-    client.release();
   }
 });
 
