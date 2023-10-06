@@ -4,10 +4,8 @@
       class="bg-tgBackground flex flex-col justify-start h-screen p-3 mx-auto"
     >
       <Transition name="card">
-        <GameInfo />
-      </Transition>
-      <Transition name="card">
         <GameQuestion v-if="store.gameIsRunning" />
+        <GameInfo v-if="!store.gameIsRunning" />
       </Transition>
 
       <p class="text-tgText text-xl text-center font-semibold mt-8">

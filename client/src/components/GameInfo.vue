@@ -1,6 +1,5 @@
 <template>
   <div
-    v-if="store.gameInfo?.status !== 1 && store.gameStatus.length !== 0"
     class="flex flex-col my-2 mx-3 py-6 px-3 min-h-[192px] bg-tgSecondaryBackground rounded-lg items-center justify-center md:my-0 md:mx-auto md:w-96"
   >
     <p class="text-base font-semibold text-tgText text-center">
