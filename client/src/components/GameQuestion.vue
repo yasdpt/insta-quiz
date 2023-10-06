@@ -7,7 +7,7 @@
     </p>
   </div>
   <div
-    class="flex mb-2 mx-3 py-6 px-3 min-h-[192px] items-center justify-center bg-tgSecondaryBackground rounded-lg md:my-0 md:mx-auto md:w-96"
+    class="flex mb-2 mx-3 py-6 px-3 min-h-[192px] flex-shrink-0 items-center justify-center bg-tgSecondaryBackground rounded-lg md:my-0 md:mx-auto md:w-96"
   >
     <p class="text-base font-semibold text-tgText text-center">
       {{ store.currentQuestion?.text }}
@@ -16,7 +16,7 @@
   <div
     v-for="(answer, index) in store.currentQuestion?.answers"
     :key="index"
-    class="mx-3 mt-2 md:mx-auto md:w-96"
+    class="mx-3 mt-2 flex-shrink-0 md:mx-auto md:w-96"
   >
     <button
       class="ripple rounded-md w-full"
