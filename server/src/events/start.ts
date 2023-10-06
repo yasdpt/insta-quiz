@@ -3,7 +3,7 @@ import pool from "../util/pool";
 import { getCurrentGameInfo, getLeaderboardInfo } from "../util/game-util";
 import moment from "moment";
 import myCache from "../util/cache";
-import gameLoop from "../util/game-handler";
+import gameLoop from "../util/game-loop";
 
 // join user to room and callback gameInfo object or maybe just simple game info
 // and broadcast scoreboard to other users when user joins
@@ -65,7 +65,7 @@ const handleStartGame = (
       updateLeaderboard(gameId, false);
 
       // Start game loop to handle question changes
-      gameLoop(gameId, updateGame, updateLeaderboard);
+      gameLoop(gameId, updateGame);
 
       // Return game info to current user
       callback({

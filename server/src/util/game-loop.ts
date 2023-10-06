@@ -1,7 +1,7 @@
 import moment from "moment";
 import { GameInfo } from "../types/game-info";
 import myCache from "./cache";
-import { getCurrentGameInfo, getLeaderboardInfo } from "./game-util";
+import { getCurrentGameInfo } from "./game-util";
 import pool from "./pool";
 
 const roundDuration = 15000; // in miliseconds
@@ -10,8 +10,7 @@ const cacheTTL = 30;
 
 const gameLoop = async (
   gameId: number,
-  updateGame: (gameId: number, fromCache: boolean) => any,
-  updateLeaderboard: (gameId: number, fromCache: boolean) => any
+  updateGame: (gameId: number, fromCache: boolean) => any
 ) => {
   let currentQuestionIndex = 0;
 
