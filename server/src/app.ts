@@ -9,7 +9,7 @@ import {
   categoriesRouter,
   usersRouter,
 } from "./routes";
-import { setupExtensions, handleErrors } from "./util/setup";
+import { setupExtensions, handleErrors, corsWhiteList } from "./util/setup";
 import {
   handleAnswer,
   handleGetWaitListGame,
@@ -39,7 +39,7 @@ const server = createServer(app);
 // Create socket.io server
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: corsWhiteList(),
   },
 });
 
@@ -55,7 +55,7 @@ app.use("/users", usersRouter);
 // Verify initData token
 io.use(verifyTokenSocket);
 
-// Handle connections
+// Handle socket connection and events
 io.on("connection", (socket: Socket) => {
   handleGetWaitListGame(socket);
   handleJoinGame(socket, updateLeaderboard, updateWaitList);
