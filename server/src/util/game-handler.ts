@@ -1,5 +1,5 @@
 import moment from "moment";
-import { GameInfo } from "../models/game";
+import { GameInfo } from "../types/game-info";
 import myCache from "./cache";
 import { getCurrentGameInfo, getLeaderboardInfo } from "./game-util";
 import pool from "./pool";
@@ -33,12 +33,6 @@ const gameLoop = async (
         gameInfo.current_question = gameInfo.questions[currentQuestionIndex].id;
         gameInfo.question_index = currentQuestionIndex;
         gameInfo.last_question_time = questionAskTime;
-
-        console.log(
-          `Question: ${
-            gameInfo.current_question
-          }, Ask time: ${questionAskTime.toString()}`
-        );
 
         // Update game info in db
         pool.query(

@@ -1,8 +1,8 @@
-import { ScoreboardUser } from "../models/scoreboard";
+import { LeaderboardUser } from "../types/leaderboard";
 import pool from "./pool";
 import myCache from "./cache";
-import { GameInfo } from "../models/game";
-import { WaitListUser } from "../models/user";
+import { GameInfo } from "../types/game-info";
+import { WaitListUser } from "../types/user";
 
 // Get game info and it's questions and their answers
 // With current asked question returned in object
@@ -96,7 +96,7 @@ const getCurrentGameInfo = async (
 const getLeaderboardInfo = async (
   gameId: number,
   fromCache: boolean = false
-): Promise<ScoreboardUser[] | undefined> => {
+): Promise<LeaderboardUser[] | undefined> => {
   try {
     if (fromCache) {
       const leaderboard = myCache.get<string>(`${gameId}-leaderboard`);
@@ -125,7 +125,7 @@ const getLeaderboardInfo = async (
       [gameId]
     );
 
-    const users = new Map<number, ScoreboardUser>();
+    const users = new Map<number, LeaderboardUser>();
 
     for (const row of sbResult.rows) {
       const userId = row.user_id;
