@@ -26,8 +26,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
-import { useRouter } from "vue-router";
+import { onMounted } from "vue";
 import GameScore from "../components/GameScore.vue";
 import GameQuestion from "../components/GameQuestion.vue";
 import { useGameStore } from "../stores/gameStore";
@@ -35,14 +34,9 @@ import GameInfo from "../components/GameInfo.vue";
 
 const webApp = window.Telegram.WebApp;
 
-const router = useRouter();
 const store = useGameStore();
 
 onMounted(() => {
   webApp.expand();
 });
-
-const game = ref("");
-
-game.value = router.currentRoute.value.query.name?.toString() || "N/A";
 </script>
