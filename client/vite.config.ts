@@ -4,7 +4,7 @@ import mkcert from "vite-plugin-mkcert";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command, mode, ssrBuild }) => {
-  if (command === "serve") {
+  if (mode !== "production") {
     return {
       server: {
         host: true,
@@ -15,6 +15,9 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
   } else {
     return {
       plugins: [vue()],
+      build: {
+        outDir: "dist",
+      },
     };
   }
 });
