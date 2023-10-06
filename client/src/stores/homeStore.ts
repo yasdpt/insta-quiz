@@ -84,7 +84,7 @@ export const useHomeStore = defineStore("home", () => {
       },
       data: JSON.stringify({
         userId: user?.id,
-        categoryId: selectedCategory.value,
+        categoryId: selectedCategory.value?.id,
         webAppQuery: webApp.initDataUnsafe.query_id,
       }),
     });
@@ -101,6 +101,7 @@ export const useHomeStore = defineStore("home", () => {
           webApp.close();
         }
       );
+      return;
     }
 
     if (response.status === 200) {
@@ -115,11 +116,10 @@ export const useHomeStore = defineStore("home", () => {
           webApp.close();
         }
       );
+      return;
     }
 
-    if (response.status === 500) {
-      webApp.showAlert("Failed to create the game, try again later!");
-    }
+    webApp.showAlert("Failed to create the game, try again later!");
   }
 
   return {
