@@ -1,0 +1,316 @@
+{
+  "category_name": "Video games",
+  "questions": [
+    {
+      "questions": "In what fictional city is the TV show Futurama set?",
+      "answers": [
+        "New Chicago",
+        "New New York",
+        "New San Francisco",
+        "None of these"
+      ],
+      "ca": "New New York"
+    },
+    {
+      "questions": "What is the lowest ranking species in the Covenant hierarchy in the Halo series?",
+      "answers": ["Drone", "Brute", "Elite", "Grunt"],
+      "ca": "Grunt"
+    },
+    {
+      "questions": "Who controls the Flood in the Halo series?",
+      "answers": ["Gravemind", "The Prophet of Truth", "The Arbiter", "No one"],
+      "ca": "Gravemind"
+    },
+    {
+      "questions": "What is a SPARTAN in the Halo series?",
+      "answers": [
+        "A Genetically modified super soldier",
+        "A higher ranking soldier than a ODST",
+        "Troopers that went through military training at the age of five",
+        "All of these"
+      ],
+      "ca": "All of these"
+    },
+    {
+      "questions": "What species is the Didact in the Halo series?",
+      "answers": ["Forerunner", "Precursor", "Promethean", "Yamne"],
+      "ca": "Forerunner"
+    },
+    {
+      "questions": "In the Halo series, Zealots use Energy Swords.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "Which of the following does the UNSC use to transport troops in the halo series?",
+      "answers": ["Falcons", "Hornets", "Phantoms", "Pelicans"],
+      "ca": "Pelicans"
+    },
+    {
+      "questions": "What does UNSC stand for in the Halo series?",
+      "answers": [
+        "None of the above",
+        "United Nations Space Council",
+        "United Nations Space Command",
+        "Unified Nations Supreme Court"
+      ],
+      "ca": "United Nations Space Command"
+    },
+    {
+      "questions": "What is the largest UNSC ship in the Halo series?",
+      "answers": [
+        "UNSC In Amber Clad",
+        "UNSC Infinity",
+        "UNSC Spirit of Fire",
+        "UNSC Pillar of Autumn"
+      ],
+      "ca": "UNSC Infinity"
+    },
+    {
+      "questions": "What city does Halo 3 ODST take place in?",
+      "answers": ["Voi", "New Mombasa", "Toronto", "New York"],
+      "ca": "New Mombasa"
+    },
+    {
+      "questions": "What is the largest species of the Covenant in the Halo series?",
+      "answers": ["Brute", "Hunter", "Jackal", "Elite"],
+      "ca": "Hunter"
+    },
+    {
+      "questions": "Who made the fictional Mother Brain and for what purpose?",
+      "answers": [
+        "The Galactic Federation built her as a next generation Aurora Unit.",
+        "It is unknown who made her but she was made to control Zebes.",
+        "The Space Pirates built her to be one of their generals.",
+        "The Chozo built her to be a organic Supercomputer."
+      ],
+      "ca": "The Chozo built her to be a organic Supercomputer."
+    },
+    {
+      "questions": "How did the Alimbics become extinct in the Metroid series?",
+      "answers": [
+        "They discovered Phazon and developed Phazon Madness causing them to wipe each other out.",
+        "Gorea wiped them out.",
+        "The entire species used up their life energy to imprison Gorea.",
+        "The Metroids wiped them out."
+      ],
+      "ca": "The entire species used up their life energy to imprison Gorea."
+    },
+    {
+      "questions": "What creature passes on the X Parasite to Samus in the Metroid series?",
+      "answers": ["Metroid", "Space Pirate", "Kihunter", "Hornoad"],
+      "ca": "Hornoad"
+    },
+    {
+      "questions": "Who is the Deleter in the Metroid series?",
+      "answers": [
+        "Lyle Smithsonian",
+        "Adam Malkovich",
+        "K.G Misawa",
+        "James Pierce"
+      ],
+      "ca": "James Pierce"
+    },
+    {
+      "questions": "Kraid is the only one of his species encountered in the Metroid game.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "What do Steamlords keep as pets in the Metroid series of games?",
+      "answers": ["Steambot", "Warp Hound", "Steamspider", "Vaporwing"],
+      "ca": "Vaporwing"
+    },
+    {
+      "questions": "An ancient Chozo prophecy predicts the coming of Phazon and the Metroid Prime. In this prophecy the Metroid Prime is referred to as which of the following?",
+      "answers": ["Worm", "Beast", "Destroyer", "Consumer"],
+      "ca": "Worm"
+    },
+    {
+      "questions": "King Worm can be fought after Mother Brainin Metroid Zero Mission.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "What planet are Kihunters from in the Metroid games?",
+      "answers": ["Space Pirate Homeworld", "Unknown", "SR388", "Zebes"],
+      "ca": "Unknown"
+    },
+    {
+      "questions": "What planet is Samus from  in the Metorid games?",
+      "answers": ["It is unknown", "K-2L", "Norion", "Zebes"],
+      "ca": "K-2L"
+    },
+    {
+      "questions": "What is the name of the enemy faction in the first N.O.V.A?",
+      "answers": ["Xenos", "Volterites", "Judgers", "The Dominion"],
+      "ca": "Xenos"
+    },
+    {
+      "questions": "The N.O.V.A 3 Shotgun is both semi and fully automatic.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "On which planet does the first two missions in N.O.V.A 2 take place?",
+      "answers": ["Sagittarius", "Earth", "New Ceres", "Aquarius"],
+      "ca": "Aquarius"
+    },
+    {
+      "questions": "Who helps Kal Wardin find the Judger artifact aboard Therrius in N.O.V.A?",
+      "answers": ["Prometheus", "Yelena", "MazRah", "Rufus"],
+      "ca": "MazRah"
+    },
+    {
+      "questions": "In N.O.V.A, Kal Wardin is rewarded for finding out what happened aboard the Colonial Pride by almost being killed.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "Who is the leader of the Volterites in N.O.V.A?",
+      "answers": ["MazRah", "None of the above", "Prometheus", "The Overseer"],
+      "ca": "The Overseer"
+    },
+    {
+      "questions": "Which Xeno is capable of teleporting in N.O.V.A?",
+      "answers": ["Heavy Demon", "Red Demon", "Imp", "Fiend"],
+      "ca": "Heavy Demon"
+    },
+    {
+      "questions": "In N.O.V.A, President Folson is unarmed.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "Boreas is the only desert planet in the N.O.V.A series.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "What is the name of the damsel you have to save in the classic arcade game Donkey Kong?",
+      "answers": ["Peach", "Daisy", "Pauline", "Dixie Kong"],
+      "ca": "Pauline"
+    },
+    {
+      "questions": "Which of these was a name that game character, Mario, was once called?",
+      "answers": ["Koopa", "Plumberio", "Jumpman", "Luigi"],
+      "ca": "Jumpman"
+    },
+    {
+      "questions": "Who or what turned Warios treasure into monsters in the game, Wario World?",
+      "answers": ["Kemmy Koopa", "Lemmy Koopa", "The black jewel", "Bowser"],
+      "ca": "The black jewel"
+    },
+    {
+      "questions": "In the Mario games, what animal is a paratroopa?",
+      "answers": ["A bird", "A lizard", "A turtle", "A tiger"],
+      "ca": "A turtle"
+    },
+    {
+      "questions": "When first created, Mario game character, Birdo, was what?",
+      "answers": ["A dog", "A boy", "A girl", "A bird"],
+      "ca": "A boy"
+    },
+    {
+      "questions": "In the video games of Mario, is Luigi Marios cousin?",
+      "answers": ["No", "Yes"],
+      "ca": "No"
+    },
+    {
+      "questions": "In the Mario video games, Bowser is the king of what?",
+      "answers": ["Bowsers", "The Jungle", "Mushroom Kingdom", "Koopas"],
+      "ca": "Koopas"
+    },
+    {
+      "questions": "Who is the last boss in video game Paper Mario 2?",
+      "answers": ["Gloom Tail", "Bowser", "Shadow Queen", "Cackletta"],
+      "ca": "Shadow Queen"
+    },
+    {
+      "questions": "Which movie is this Warcraft 3 quote from?",
+      "answers": [
+        "andit: -What we have here is a failure to communicate.",
+        "For a Fistful of Dollars",
+        "Dirty Sanchez",
+        "Cool Hand Luke",
+        "Metal Man"
+      ],
+      "ca": "Cool Hand Luke"
+    },
+    {
+      "questions": "Where does the popular video game character Mario live?",
+      "answers": [
+        "The Koopa Kingdom",
+        "The Kingdom of Sarasaland",
+        "The Mushroom Kingdom",
+        "Yoshi Island"
+      ],
+      "ca": "The Mushroom Kingdom"
+    },
+    {
+      "questions": "What is Marios nationality according to Nintendo video games?",
+      "answers": ["Italian", "American", "Mexican", "British"],
+      "ca": "Italian"
+    },
+    {
+      "questions": "Has the video game character Mario ever been in a TV show?",
+      "answers": ["No", "Yes"],
+      "ca": "Yes"
+    },
+    {
+      "questions": "What was the first video game in which Mario appeared?",
+      "answers": ["Mario", "The Mario Bros.", "Super Mario", "Donkey Kong"],
+      "ca": "Donkey Kong"
+    },
+    {
+      "questions": "Why does Mario wear a red cap in the Mario series of games?",
+      "answers": [
+        "The creators didnt have the technology to animate his hair.",
+        "He is bald.",
+        "He cant make his hair neat.",
+        "He likes his cap."
+      ],
+      "ca": "The creators didnt have the technology to animate his hair."
+    },
+    {
+      "questions": "Has Nintendo character Mario ever been a bad guy?",
+      "answers": ["No", "Yes"],
+      "ca": "Yes"
+    },
+    {
+      "questions": "What does the Fire Flower do to Mario in the Mario video games?",
+      "answers": [
+        "Allows him to breath fire.",
+        "Nothing",
+        "It makes him angry.",
+        "Allows him to throw fire balls."
+      ],
+      "ca": "Allows him to throw fire balls."
+    },
+    {
+      "questions": "What effect does the Super Mushroom have on Mario in the popular series of video games?",
+      "answers": [
+        "It makes him bigger.",
+        "None",
+        "It makes him impervious to danger.",
+        "It makes him smaller."
+      ],
+      "ca": "It makes him bigger."
+    },
+    {
+      "questions": "In the Mario series of video games, Mario never uses any weapons.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "What is Marios occupation in the Mario series of games?",
+      "answers": ["engineer", "doctor", "plumber", "electrician"],
+      "ca": "plumber"
+    },
+    {
+      "questions": "What is the name of the land where most of the Legend of Zelda games take place?",
+      "answers": ["Hylia", "Hyrule", "Sacred Realm", "Termania"],
+      "ca": "Hyrule"
+    }
+  ]
+}

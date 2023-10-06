@@ -1,0 +1,315 @@
+{
+  "category_name": "Geography",
+  "questions": [
+    {
+      "questions": "What is the capital of Afghanistan?",
+      "answers": ["Tirana", "Kabul", "Dushanbe", "Tashkent"],
+      "ca": "Kabul"
+    },
+    {
+      "questions": "What is the capital of Australia?",
+      "answers": ["Canberra", "Sydney", "Melbourne", "Ottawa"],
+      "ca": "Canberra"
+    },
+    {
+      "questions": "What is the capital of Belgium?",
+      "answers": ["Amsterdam", "Luxemburg", "Brussels", "Stockholm"],
+      "ca": "Brussels"
+    },
+    {
+      "questions": "What is the capital of Greece?",
+      "answers": ["Ankara", "Athens", "Sofia", "Thessaloniki"],
+      "ca": "Athens"
+    },
+    {
+      "questions": "What is the capital of Italy?",
+      "answers": ["Venice", "Rome", "Naples", "Milan"],
+      "ca": "Rome"
+    },
+    {
+      "questions": "What is the capital of Israel?",
+      "answers": ["Tel Aviv", "Kabul", "Jerusalem", "Islamabad"],
+      "ca": "Jerusalem"
+    },
+    {
+      "questions": "What is the capital of Germany?",
+      "answers": ["Frankfurt", "Berlin", "Munich", "Hamburg"],
+      "ca": "Berlin"
+    },
+    {
+      "questions": "What is the capital of Norway?",
+      "answers": ["Stockholm", "Helsinki", "Oslo", "Copenhagen"],
+      "ca": "Oslo"
+    },
+    {
+      "questions": "What is the capital and largest city of Hawaii, the 50th US state?",
+      "answers": ["Little Rock", "Dover", "Frankfort", "Honolulu"],
+      "ca": "Honolulu"
+    },
+    {
+      "questions": "When the streams Biya and Katun join in Altai Krai, they form this mighty river. It is located in West Siberia, Russia and has many names- the Siberian Tatars call it Omar or Umar, the Samoyedes- Kolta or Kuay and to the Ostiaks it is known as the As, Yag, Kolta and Yema. It joins the Irtysh river, forming the longest river flow in Russia. What is its name?",
+      "answers": ["Ural", "Volga", "Ob", "Lena"],
+      "ca": "Ob"
+    },
+    {
+      "questions": "Although the Amazon river is generally regarded as the second-longest in the world, it is the river with greatest total flow, carrying more than the Mississippi, Nile, and Yangtze rivers combined.  It ends in the Atlantic Ocean, but it is believed to begin its long journey from this mountain peak.",
+      "answers": ["Nevado Mismi", "Misti", "Cotopaxi", "Mount Chimborazo"],
+      "ca": "Nevado Mismi"
+    },
+    {
+      "questions": "This is the longest river in Asia and its Chinese name, Chang Jiang, is literally translated to Long River. The critically endangered Chinese River Dolphin and Chinese paddlefish live only in this river. It takes its source in the Qinghai Province, flows for 6,380km (3964miles) and finally empties into the East China Sea. What is the name of this river?",
+      "answers": ["Irtysh", "Huai River", "Yangtze", "Mekong"],
+      "ca": "Yangtze"
+    },
+    {
+      "questions": "Huang He is the second-longest river in China. Its source is in the Kunlun Mountains at 4,500m (14,764 feet) above sea level. Due to the silts that the river carries, the color of its waters becomes so unnatural that it gave the name of the river . What is the color of the waters of Huang He?",
+      "answers": ["Brown", "Orange", "Yellow", "Red"],
+      "ca": "Yellow"
+    },
+    {
+      "questions": "It is the second-longest river in the United States. The longest one, Missouri, joins it to form the longest river flow in North America. This river flows through ten states- Minnesota, Wisconsin, Iowa, Illinois, Missouri, Kentucky, Arkansas, Tennessee, Mississippi and Louisiana and mouths into the Gulf of Mexico. I am not going to ask you about its name, but about its source. What is the origin of the Mississippi river?",
+      "answers": ["Lake Superior", "Lake Pepin", "Lake Itasca", "Cass Lake"],
+      "ca": "Lake Itasca"
+    },
+    {
+      "questions": "This is the twelfth-longest river in the world. It runs through China, Myanmar, Thailand, Laos, Cambodia and Vietnam. There are various theories about the source and the exact length of the river because there are several effluents of it that are too difficult to explore. Due to the many rapids and waterfalls, as well as the extreme changes in the flow of the river, sailing is extremely difficult. What is the name of this river?",
+      "answers": ["Mekong", "Saskatchewan", "Angara", "Brahmaputra"],
+      "ca": "Mekong"
+    },
+    {
+      "questions": "The longest river in Europe is Volga. But do you know which is the second longest one? It flows through several major European cities, such as Ulm, Vienna, Bratislava, Budapest and Belgrade. The river empties in the Black Sea on the terrirories of Romania and Ukraine.",
+      "answers": ["Don", "Dniepr", "Danube", "Emba"],
+      "ca": "Danube"
+    },
+    {
+      "questions": "The Ganges river is considered to be a holy in India. There is a Hindu legend that the river was created from the sweat of the feet of Vishnu, collected by Brahma. According to Hindu beliefs, if you bathe in the waters of Ganges, it will wash away your sins. However this is not very hygienic, as the river is badly polluted by cremated corpses, carcasses, waste from factories and more.  Where does this river empty?",
+      "answers": ["The Bay of Bengal", "Lop Nur", "The Quarry Bay", "Kara Sea"],
+      "ca": "The Bay of Bengal"
+    },
+    {
+      "questions": "Victoria Falls is one of the most spectacular waterfalls in the world. The falls are named after Queen Victoria by David Livingstone, the explorer who visited them in 1855. The falls are 128 m (420 ft) high and are situated on this river.",
+      "answers": ["Zambezi", "Congo", "Gambia", "Orange"],
+      "ca": "Zambezi"
+    },
+    {
+      "questions": "The Nile is generally considered the longest river in the world.  The source of this mighty river remained unknown for centuries. Finally Lake Victoria was decided to be its source, although there are other theories. Lake Victoria is located on the territories of these three countries.",
+      "answers": [
+        "Sudan, Ethiopia and Kenya",
+        "Zambia, Angola and Sudan",
+        "Uganda, Kenya and Tanzania",
+        "Egypt, Morocco and Zimbabwe"
+      ],
+      "ca": "Uganda, Kenya and Tanzania"
+    },
+    {
+      "questions": "Name the line, which is the same distance from the North Pole and South Pole and runs horizontally around the world.",
+      "answers": [
+        "Tropic of Capricorn",
+        "Equator",
+        "Tropic of Cancer",
+        "Prime Meridian"
+      ],
+      "ca": "Equator"
+    },
+    {
+      "questions": "What term refers to the horizontal line, 23.5 degrees S, which passes through South America, Africa, and Australia?",
+      "answers": [
+        "Tropic of Cancer",
+        "Prime Meridian",
+        "Tropic of Capricorn",
+        "Equator"
+      ],
+      "ca": "Tropic of Capricorn"
+    },
+    {
+      "questions": "Which continents are entirely in the Southern Hemisphere?",
+      "answers": [
+        "South America, Africa, and Australia",
+        "Australia and Antarctica",
+        "South America, Australia and Antarctica",
+        "South America and Australia"
+      ],
+      "ca": "Australia and Antarctica"
+    },
+    {
+      "questions": "Which continents (landmasses, not peripheral islands) are entirely in the Northern Hemisphere?",
+      "answers": [
+        "North America and Europe",
+        "Europe, Africa and Asia",
+        "North America, Africa, and Asia",
+        "North America, Europe, and Asia"
+      ],
+      "ca": "North America, Europe, and Asia"
+    },
+    {
+      "questions": "Which continents are entirely in the Western Hemisphere?",
+      "answers": [
+        "North America, Europe, and Asia",
+        "Europe, Asia, Africa, Australia",
+        "Australia and Antarctica",
+        "North America and South America"
+      ],
+      "ca": "North America and South America"
+    },
+    {
+      "questions": "Which feature on a map helps determine direction?",
+      "answers": ["a key", "a legend", "a compass rose", "a scale"],
+      "ca": "a compass rose"
+    },
+    {
+      "questions": "Which of these is not a type of map projection?",
+      "answers": ["Robinson", "Crusoe", "Mercator", "Interrupted"],
+      "ca": "Crusoe"
+    },
+    {
+      "questions": "Which of these continents is largest (by territory)?",
+      "answers": ["South America", "Antarctica", "North America", "Europe"],
+      "ca": "North America"
+    },
+    {
+      "questions": "Which of these countries is smallest (by territory)?",
+      "answers": [
+        "Seychelles",
+        "Liechtenstein",
+        "San Marino",
+        "Marshall Islands"
+      ],
+      "ca": "San Marino"
+    },
+    {
+      "questions": "Which of these US cities is largest (by population)?",
+      "answers": ["Houston", "Phoenix", "Philadelphia", "San Antonio"],
+      "ca": "Houston"
+    },
+    {
+      "questions": "Which of these mountains is highest?",
+      "answers": [
+        "Puncak Jaya",
+        "Mount McKinley",
+        "Mount Elbrus",
+        "Mount Kilimanjaro"
+      ],
+      "ca": "Mount McKinley"
+    },
+    {
+      "questions": "Which of these lakes is deepest?",
+      "answers": ["Caspian Sea", "Malawi or Nyasa", "Tanganyika", "Issyk-Kul"],
+      "ca": "Tanganyika"
+    },
+    {
+      "questions": "Which of these rivers is longest?",
+      "answers": ["Lena", "Huang", "Amur", "Ob-Irtysh"],
+      "ca": "Huang"
+    },
+    {
+      "questions": "Which of these seas is largest?",
+      "answers": ["Bering", "Arabian Sea", "Mediterranean", "Gulf of Mexico"],
+      "ca": "Mediterranean"
+    },
+    {
+      "questions": "Which of these deserts is largest?",
+      "answers": ["Chihuahuan", "Syrian", "Thar", "Great Sandy"],
+      "ca": "Syrian"
+    },
+    {
+      "questions": "Which of these inhabited places is wettest?",
+      "answers": ["Moulein", "Sylhet", "Baguio", "Lae"],
+      "ca": "Moulein"
+    },
+    {
+      "questions": "Which of these oceans has the greatest depth?",
+      "answers": [
+        "Pacific Ocean",
+        "Indian Ocean",
+        "Atlantic Ocean",
+        "Arctic Ocean"
+      ],
+      "ca": "Pacific Ocean"
+    },
+    {
+      "questions": "The rivers - the Tajo, the Ebro, the Duero, and the Guadiana, are located in this country.",
+      "answers": ["Columbia", "Portugal", "Spain", "Brazil"],
+      "ca": "Spain"
+    },
+    {
+      "questions": "The volcanoes - Akan, Aso, Mount Fuji and Rausu are located in this country.",
+      "answers": ["Japan", "Malaysia", "North Korea", "Indonesia"],
+      "ca": "Japan"
+    },
+    {
+      "questions": "Onega, Khanka and Chudskoye are three of the many lakes in this country.",
+      "answers": ["Kazakhstan", "Mongolia", "Ukraine", "Russia"],
+      "ca": "Russia"
+    },
+    {
+      "questions": "The valleys of the Yellow River and the Pearl River are two of the seven main national valleys in this country.",
+      "answers": ["Burma", "China", "Thailand", "India"],
+      "ca": "China"
+    },
+    {
+      "questions": "Pico da Bandeira, Pico do Cruzeiro and Pedra da Mina are three of the numerous mountains located in this South American country.",
+      "answers": ["Argentina", "Chili", "Brazil", "Peru"],
+      "ca": "Brazil"
+    },
+    {
+      "questions": "Chauvet Cave and Meyrieres Cave are two caves located in this European state.",
+      "answers": ["France", "Netherlands", "Spain", "Belgium"],
+      "ca": "France"
+    },
+    {
+      "questions": "Kainji Lake and Lake Chad are considered lakes of this country.",
+      "answers": ["Niger", "Nigeria", "Cameroon", "Chad"],
+      "ca": "Nigeria"
+    },
+    {
+      "questions": "Mitchell, Jardine, Staaten, Flinders, Leichhardt, and Nicholson are just few of the rivers in this country.",
+      "answers": ["Indonesia", "Australia", "Papua New Guinea", "New Zealand"],
+      "ca": "Australia"
+    },
+    {
+      "questions": "Kaskaspakte, Akka and Sielmmacohkka are three mountains in this country.",
+      "answers": ["Norway", "Finland", "Denmark", "Sweden"],
+      "ca": "Sweden"
+    },
+    {
+      "questions": "Dasht-e Kavir and Kavir-e Lut are deserts located in this Asian country.",
+      "answers": ["India", "Iran", "Pakistan", "Iraq"],
+      "ca": "Iran"
+    },
+    {
+      "questions": "Which two countries border the Dead Sea?",
+      "answers": [
+        "Jordan and Israel",
+        "Lebanon and Jordan",
+        "Syria and Jordan",
+        "Lebanon and Israel"
+      ],
+      "ca": "Jordan and Israel"
+    },
+    {
+      "questions": "Is it true that Yasseir Arafat became chairman of the Palestinian Liberation Organization in 2004?",
+      "answers": ["Yes", "No"],
+      "ca": "No"
+    },
+    {
+      "questions": "What are the three Benelux countries?",
+      "answers": [
+        "Belgium, Netherlands and Luxembourg",
+        "Finland, Sweden and Denmark",
+        "The U.S.A., Canada and Mexico",
+        "Honduras, Nicaragua and Belize"
+      ],
+      "ca": "Belgium, Netherlands and Luxembourg"
+    },
+    {
+      "questions": "Did the 13 colonies declare their independence in 1776?",
+      "answers": ["No", "Yes"],
+      "ca": "Yes"
+    },
+    {
+      "questions": "Europe is the smallest continent.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    }
+  ]
+}

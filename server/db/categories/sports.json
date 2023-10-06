@@ -1,0 +1,355 @@
+{
+  "category_name": "Sports",
+  "questions": [
+    {
+      "questions": "What science did Aristotle define as ‘the knowledge of immaterial being’?",
+      "answers": ["Psychology", "Logic", "Metaphysics", "Philosophy"],
+      "ca": "Metaphysics"
+    },
+    {
+      "questions": "Which WWF group does this theme music belong to?",
+      "answers": [
+        "Nation of Domination",
+        "D-Generation X",
+        "Legion of Doom",
+        "Hart Foundation"
+      ],
+      "ca": "D-Generation X"
+    },
+    {
+      "questions": "What position is former Major League Baseball player, Rollie Fingers famous for playing?",
+      "answers": ["Catcher", "First Base", "Pitcher", "Third Base"],
+      "ca": "Pitcher"
+    },
+    {
+      "questions": "What position is former baseball player for the Cincinnati Reds, Johnny Bench famous for playing?",
+      "answers": ["Second Base", "Shortstop", "Catcher", "Pitcher"],
+      "ca": "Catcher"
+    },
+    {
+      "questions": "Baltimore Orioles, Cal Ripken Jr. is most known for playing what position?",
+      "answers": ["Right Field", "Catcher", "Pitcher", "Shortstop"],
+      "ca": "Shortstop"
+    },
+    {
+      "questions": "Steve Garvey is a famous former baseball player, who is known for playing what position?",
+      "answers": ["First Base", "Shortstop", "Third Base", "Catcher"],
+      "ca": "First Base"
+    },
+    {
+      "questions": "What position is former Major League Baseball player, Joe Morgan most known to have played?",
+      "answers": ["Outfield", "None of these", "Second Base", "Catcher"],
+      "ca": "Second Base"
+    },
+    {
+      "questions": "What position is former professional baseball player, Mike Schmidt famous for playing?",
+      "answers": ["Pitcher", "Catcher", "Third Base", "Second Base"],
+      "ca": "Third Base"
+    },
+    {
+      "questions": "Which of these positions is former baseball player, Dwight Evans most famous for?",
+      "answers": ["Right Field", "Pitcher", "Second Base", "Center Field"],
+      "ca": "Right Field"
+    },
+    {
+      "questions": "Successful Major League Baseball player and coach, Donald Edward Don Gullett, was famous for playing what position?",
+      "answers": ["Pitcher", "Second Base", "Right Field", "Catcher"],
+      "ca": "Pitcher"
+    },
+    {
+      "questions": "Whitey Ford was a successful Major League Baseball player, who played in what position?",
+      "answers": ["Pitcher", "First Base", "Catcher", "Shortstop"],
+      "ca": "Pitcher"
+    },
+    {
+      "questions": "Carlton Fisk was a successful Major League Baseball player, who played for 24 years with the Boston Red Sox and Chicago White Sox, in what position?",
+      "answers": ["Catcher", "Pitcher", "Left Field", "None of the Above"],
+      "ca": "Catcher"
+    },
+    {
+      "questions": "The Pittsburgh Steelers of the 50s had a third string quarterback from Louisville, who was not making it. They cut him and he landed with the Colts. Who was he?",
+      "answers": [
+        "Terry Bradshaw",
+        "Bert Jones Jr",
+        "Len Dawson",
+        "Johnny Unitas"
+      ],
+      "ca": "Johnny Unitas"
+    },
+    {
+      "questions": "Which was the first football team to win back to back Super Bowls with different coaches?",
+      "answers": ["San Francisco", "Dallas", "Miami", "Pittsburgh"],
+      "ca": "San Francisco"
+    },
+    {
+      "questions": "How many points did Wilt Chamberlain score in his best game versus New York?",
+      "answers": ["71", "100", "82", "99"],
+      "ca": "100"
+    },
+    {
+      "questions": "He is the youngest NBA player to score 10,000 points.",
+      "answers": ["Spud Webb", "Kobe Bryant", "Moses Malone", "Michael Jordon"],
+      "ca": "Kobe Bryant"
+    },
+    {
+      "questions": "He is the shortest player ever to win the Slam Dunk Contest.",
+      "answers": ["Kobe Bryant", "Spud Webb", "Vince Carter", "Tracy McGrady"],
+      "ca": "Spud Webb"
+    },
+    {
+      "questions": "He retired with the NBAs highest scoring average (30.1 points per game).",
+      "answers": [
+        "Jarmaine ONeal",
+        "Shaquille ONeal",
+        "Dwyane Wade",
+        "Michael Jordan"
+      ],
+      "ca": "Michael Jordan"
+    },
+    {
+      "questions": "Karl Malone received the award Most Valuable Player in 1996-97. What team did he play for?",
+      "answers": ["Sacramento Kings", "Miami Heat", "LA Lakers", "Utah Jazz"],
+      "ca": "Utah Jazz"
+    },
+    {
+      "questions": "He is the NBAs All-Time scorer.",
+      "answers": [
+        "Kareem Abdul-Jabbar",
+        "Ken Johnson",
+        "Clyde Lovelette",
+        "Michael Jordan"
+      ],
+      "ca": "Kareem Abdul-Jabbar"
+    },
+    {
+      "questions": "Wilt Chamberlain is a great player indeed. In a game against the Celtics he made the best rebounding effort ever. How many rebounds did he make in this famous game?",
+      "answers": ["16", "57", "55", "31"],
+      "ca": "55"
+    },
+    {
+      "questions": "Who is the first player to top 20,000 points in NBA?",
+      "answers": [
+        "Bob Pettit",
+        "Spud Webb",
+        "Clyde Drexler",
+        "Wilt Chamberlain"
+      ],
+      "ca": "Bob Pettit"
+    },
+    {
+      "questions": "George Muresan and Manute Bol are the tallest players in NBA history. How tall are they?",
+      "answers": ["77 (2.31m)", "72 (2.18m)", "78 (2.33m)", "74 (2.23m)"],
+      "ca": "77 (2.31m)"
+    },
+    {
+      "questions": "Who is the shortest player in the history of NBA?",
+      "answers": ["Tyronne Bogues", "Spud Webb", "Larry Bird", "Eddie Griffin"],
+      "ca": "Tyronne Bogues"
+    },
+    {
+      "questions": "He was a player, coach, and owner  -all for one team. He was also instrumental in developing the NFL.",
+      "answers": [
+        "Wellington Mara",
+        "George Halas",
+        "Red Grange",
+        "Pete Rozelle"
+      ],
+      "ca": "George Halas"
+    },
+    {
+      "questions": "This college and pro great had a very strange nickname -Crazy Legs.   His last name was Hirsch.  What was his real first name ?",
+      "answers": ["Lester", "Arnie", "Cliff", "Elroy"],
+      "ca": "Elroy"
+    },
+    {
+      "questions": "Compton Junior College gave us this all-time great runner, who played fullback and was nicknamed Joe the Jet.",
+      "answers": ["Battles", "Neale", "Sanders", "Perry"],
+      "ca": "Perry"
+    },
+    {
+      "questions": "His real name is Yelverton Abraham, and he played for San Francisco as well as the NY Giants. He attended LSU.",
+      "answers": ["Motley", "Strong", "Groza", "Tittle"],
+      "ca": "Tittle"
+    },
+    {
+      "questions": "This great sportsman was the first football player to be all-pro at defensive back one year and running back another.",
+      "answers": ["Grange", "Thorpe", "Gifford", "Haynes"],
+      "ca": "Gifford"
+    },
+    {
+      "questions": "This quarterback was cut by the Steelers and picked up by another team, played in high tops, and his teammates include Lenny Moore and Steve Myhra.",
+      "answers": [
+        "Terry Bradshaw",
+        "Johnny Unitas",
+        "John Brodie",
+        "Norm Van Brocklin"
+      ],
+      "ca": "Johnny Unitas"
+    },
+    {
+      "questions": "This great defensive end came from South Carolina State and played for the Rams. He is credited with inventing the head slap move.",
+      "answers": ["Lamar Lundy", "David Jones", "Merlin  Olsen", "Rosy Grier"],
+      "ca": "David Jones"
+    },
+    {
+      "questions": "This great running back was once traded for eleven players.  He had great speed and great moves, returned kicks, caught passes, and ran the ball.",
+      "answers": ["Barry Sanders", "Ollie Matson", "Dick Lane", "Marcus Allen"],
+      "ca": "Ollie Matson"
+    },
+    {
+      "questions": "This great football player is known for catching the immaculate reception .",
+      "answers": [
+        "O.J. Simpson",
+        "Lynn Swann",
+        "John Stallworth",
+        "Franco Harris"
+      ],
+      "ca": "Franco Harris"
+    },
+    {
+      "questions": "Many of the greatest coaches, both pro and college, trace their learning to Miami University of Ohio and the teachings of this coaching great, who led Cleveland to many championships.",
+      "answers": ["Woody  Hayes", "Weeb Ewbank", "Paul Brown", "Don Shula"],
+      "ca": "Paul Brown"
+    },
+    {
+      "questions": "When did Miami Heat enter the NBA?",
+      "answers": ["1988", "1974", "1963", "1958"],
+      "ca": "1988"
+    },
+    {
+      "questions": "How many teams does the Atlantic Division of the Eastern Conference have?",
+      "answers": ["7", "4", "10", "5"],
+      "ca": "5"
+    },
+    {
+      "questions": "Larry Brown led this team from 1997 to 2003.",
+      "answers": [
+        "Chicago Bulls",
+        "LA Lakers",
+        "Denver Nuggets",
+        "Philadephia 76ers"
+      ],
+      "ca": "Philadephia 76ers"
+    },
+    {
+      "questions": "Mark Price, Larry Nance, Brad Daugerty, Shawn Kemp and Austin Carr have been chosen to be this teams all-time starting five.",
+      "answers": [
+        "Cleveland Cavaliers",
+        "Philadelphia 76ers",
+        "Denver Nuggets",
+        "Houston Rockets"
+      ],
+      "ca": "Cleveland Cavaliers"
+    },
+    {
+      "questions": "This team is one of the five playing in the Southwest Division of the Western Conference. Tracy McGrady (as of 2005)  plays for this team.",
+      "answers": [
+        "Houston Rockets",
+        "Minnesota Timberwolves",
+        "Utah Jazz",
+        "San Antonio Spurs"
+      ],
+      "ca": "Houston Rockets"
+    },
+    {
+      "questions": "Arguably the most famous NBA team. Michael Jordan played for this team.",
+      "answers": [
+        "Miami Heat",
+        "Utah Jazz",
+        "Sacramento Kings",
+        "Chicago Bulls"
+      ],
+      "ca": "Chicago Bulls"
+    },
+    {
+      "questions": "Which division do the Sacramento Kings play in?",
+      "answers": [
+        "Southwest Division of the Western Conference",
+        "Atlantic Division of the Eastern Conference",
+        "Pacific Division of the Western Conference",
+        "Central Division of the Eastern Conference"
+      ],
+      "ca": "Pacific Division of the Western Conference"
+    },
+    {
+      "questions": "This team drafted and then exchanged for another player Chris Webber in 1993.",
+      "answers": [
+        "Orlando Magic",
+        "Sacramento Kings",
+        "Golden State Warriors",
+        "Miami Heat"
+      ],
+      "ca": "Orlando Magic"
+    },
+    {
+      "questions": "This team won its first division title in the 1969-70 season, when Spencer Heywood signed with the club.",
+      "answers": [
+        "Philadelphia 76ers",
+        "Detroit Pistons",
+        "Chicago Bulls",
+        "Denver Nuggets"
+      ],
+      "ca": "Denver Nuggets"
+    },
+    {
+      "questions": "This team moved to Detroit in 1957. It was founded by Fred Zollner in 1940.",
+      "answers": ["Knicks", "Warriors", "Pistons", "Lakers"],
+      "ca": "Pistons"
+    },
+    {
+      "questions": "Which of these people founded the World Wrestling Entertainment, Inc?",
+      "answers": [
+        "Hulk Hogan",
+        "Shane McHamon",
+        "Vincent McMahon",
+        "Ric Flair"
+      ],
+      "ca": "Vincent McMahon"
+    },
+    {
+      "questions": "Professional wrestler Ric Flair was once manager of the WWEs RAW brand.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "In professional wrestling, the high side thrust kick, often used by Shawn Michaels as a finishing move, is also known by what name?",
+      "answers": ["Leg Drop", "Sweet Chin Music", "Batista Bomb", "5 Star"],
+      "ca": "Sweet Chin Music"
+    },
+    {
+      "questions": "RAW wrestling star Kurt Angle was shaved on stage after a match with Edge in 2002.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "Has wrestler Bret Hart been inducted in the WWE Hall of Fame?",
+      "answers": ["Yes", "No"],
+      "ca": "Yes"
+    },
+    {
+      "questions": "What number did Hank Aaron wear for the Atlanta Braves?",
+      "answers": ["26", "44", "7", "15"],
+      "ca": "44"
+    },
+    {
+      "questions": "In Major League Baseball, first and second bases are this far apart.",
+      "answers": ["85", "95", "90", "93"],
+      "ca": "90"
+    },
+    {
+      "questions": "How many home runs did Hank Aaron hit in his career?",
+      "answers": ["609", "625", "750", "755"],
+      "ca": "755"
+    },
+    {
+      "questions": "How many innings are in a Little League baseball game, excluding extra innings?",
+      "answers": ["6", "5", "8", "7"],
+      "ca": "6"
+    },
+    {
+      "questions": "How many games are in a Major League Baseball season per team?",
+      "answers": ["155", "162", "160", "170"],
+      "ca": "162"
+    }
+  ]
+}
