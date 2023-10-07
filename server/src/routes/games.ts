@@ -73,16 +73,19 @@ router.post("/create", verifyToken, async function (req, res) {
         [categoryId]
       );
 
+      // sort questions based on id
+      const sortedQuestions = questionsRes.rows.sort((a, b) => a.id - b.id);
+
       // Create new game
       const createGameResult = await client.query(
         "INSERT INTO games (owner_id, category_id, current_question) VALUES ($1, $2, $3) RETURNING *",
-        [userId, categoryId, questionsRes.rows[0].id]
+        [userId, categoryId, sortedQuestions[0].id]
       );
 
       const gameId = createGameResult.rows[0].id;
 
       // Insert all questions to game_questions table
-      for (const question of questionsRes.rows) {
+      for (const question of sortedQuestions) {
         await client.query(
           "INSERT INTO game_questions (game_id, question_id) VALUES ($1, $2);",
           [gameId, question.id]
