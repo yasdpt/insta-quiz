@@ -49,8 +49,9 @@ router.post("/create", verifyToken, async function (req, res) {
     categoryId,
     webAppQuery,
   }: { userId: number; categoryId: number; webAppQuery: string } = req.body;
-  const client = await pool.connect();
+
   try {
+    const client = await pool.connect();
     // Check if user already has a game created and it is not started yet and return tha
     const checkGame = await client.query(
       "SELECT * FROM games WHERE owner_id = $1 AND status = 0",
@@ -63,6 +64,7 @@ router.post("/create", verifyToken, async function (req, res) {
         checkGame.rows[0].id,
         checkGame.rows[0].category_id
       );
+      client.release();
       res.status(200).json(checkGame.rows[0]);
     } else {
       // Get 10 random question filtering by category id
@@ -71,16 +73,19 @@ router.post("/create", verifyToken, async function (req, res) {
         [categoryId]
       );
 
+      // sort questions based on id
+      const sortedQuestions = questionsRes.rows.sort((a, b) => a.id - b.id);
+
       // Create new game
       const createGameResult = await client.query(
         "INSERT INTO games (owner_id, category_id, current_question) VALUES ($1, $2, $3) RETURNING *",
-        [userId, categoryId, questionsRes.rows[0].id]
+        [userId, categoryId, sortedQuestions[0].id]
       );
 
       const gameId = createGameResult.rows[0].id;
 
       // Insert all questions to game_questions table
-      for (const question of questionsRes.rows) {
+      for (const question of sortedQuestions) {
         await client.query(
           "INSERT INTO game_questions (game_id, question_id) VALUES ($1, $2);",
           [gameId, question.id]
@@ -96,14 +101,13 @@ router.post("/create", verifyToken, async function (req, res) {
       // Send answerWebAppQuery inline result to user with your bot
       // so their friends could join the game.
       await sendGameDataToUser(webAppQuery, gameId, categoryId);
+      client.release();
 
       res.status(201).json(createGameResult.rows[0]);
     }
   } catch (error) {
     console.log("[POST] /game/create: " + error);
     res.status(500).json({ message: "Creating game failed!" });
-  } finally {
-    client.release();
   }
 });
 

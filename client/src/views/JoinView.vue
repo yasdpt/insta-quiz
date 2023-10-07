@@ -12,35 +12,44 @@
           alt="InstaQuiz Header Image"
           class="w-52 mt-4 mx-auto"
         />
-        <p class="text-2xl text-tgText font-bold mt-2 mx-auto">
+        <h1 class="text-2xl text-tgText font-bold mt-2 mx-auto">
           Welcome to Insta Quiz!
-        </p>
+        </h1>
 
         <!-- Message based on game state and user id -->
         <p class="text-base text-tgText mt-8 mx-4 max-w-[px] text-center">
           {{ store.joinMsg }}
         </p>
 
-        <div class="mx-9 mt-4 md:mx-auto md:w-96">
-          <button
-            class="ripple bg-tgButton rounded-md w-full"
-            @click.prevent="store.joinGame()"
-          >
-            <Loading class="my-2.5" v-if="store.isJoining" />
-            <p v-if="!store.isJoining" class="text-tgButtonText text-sm m-3">
-              {{ store.btnText }}
-            </p>
-          </button>
-        </div>
-
-        <p
-          v-if="store.gameInfo?.status != 2"
-          class="text-tgText text-xl text-center font-semibold mt-16"
+        <button
+          class="ripple bg-tgButton rounded-md mx-9 mt-4 md:mx-auto md:w-96"
+          @click.prevent="store.joinGame()"
         >
-          Users in game
-        </p>
+          <Loading class="my-2.5" v-if="store.isJoining" />
+          <p v-if="!store.isJoining" class="text-tgButtonText text-sm m-3">
+            {{ store.btnText }}
+          </p>
+        </button>
+
+        <h3 class="text-tgText text-xl text-center font-semibold mt-16">
+          {{ store.listMode }}
+        </h3>
         <TransitionGroup
-          v-if="store.gameInfo?.status != 2"
+          v-if="store.isGameEnded"
+          name="list"
+          tag="JoinUserList"
+        >
+          <JoinUserList
+            class="mx-5 md:mx-auto md:w-96"
+            v-for="(user, index) in store.leaderboard"
+            :name="user.first_name ?? ''"
+            :user="user"
+            :key="index"
+          />
+        </TransitionGroup>
+
+        <TransitionGroup
+          v-if="store.gameInfo?.status !== 2"
           name="list"
           tag="JoinUserList"
         >

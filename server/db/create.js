@@ -1,8 +1,8 @@
-import { readFileSync } from "fs";
-import { Client } from "pg";
-import { config } from "dotenv";
+const fs = require("fs");
+const Client = require("pg").Client;
+const dotenv = require("dotenv");
 
-config();
+dotenv.config();
 
 const client = new Client({
   ssl: true,
@@ -25,7 +25,8 @@ async function createDb() {
 
 async function processSQLFile(fileName) {
   // Extract SQL queries from files. Assumes no ';' in the fileNames
-  const queries = readFileSync(fileName)
+  const queries = fs
+    .readFileSync(fileName)
     .toString()
     .replace(/(\r\n|\n|\r)/gm, " ") // remove newlines
     .replace(/\s+/g, " ") // excess white space

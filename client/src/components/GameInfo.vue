@@ -1,41 +1,37 @@
 <template>
   <div
-    v-if="store.gameInfo?.status !== 1 && store.gameStatus.length !== 0"
     class="flex flex-col my-2 mx-3 py-6 px-3 min-h-[192px] bg-tgSecondaryBackground rounded-lg items-center justify-center md:my-0 md:mx-auto md:w-96"
   >
-    <p class="text-base font-semibold text-tgText text-center">
+    <!-- Status text -->
+    <h3 class="text-base font-semibold text-tgText text-center">
       {{ store.gameStatus }}
-    </p>
-    <div
+    </h3>
+
+    <!-- Close button -->
+    <button
       v-if="store.gameInfo?.status === 2"
-      class="w-4/5 mx-3 mt-8 md:mx-auto md:w-96"
+      class="ripple bg-tgButton rounded-md w-4/5 mx-3 mt-8 md:mx-auto md:w-96"
+      @click.prevent="store.closeGame()"
     >
-      <button
-        class="ripple bg-tgButton rounded-md w-full"
-        @click.prevent="store.closeGame()"
-      >
-        <Loading class="my-2.5" v-if="store.isStartingGame" />
-        <p v-if="!store.isStartingGame" class="text-tgButtonText text-sm m-3">
-          Close game
-        </p>
-      </button>
-    </div>
-    <div
+      <Loading class="my-2.5" v-if="store.isStartingGame" />
+      <p v-if="!store.isStartingGame" class="text-tgButtonText text-sm m-3">
+        Close game
+      </p>
+    </button>
+
+    <!-- Start button -->
+    <button
       v-if="
         store.gameInfo?.status === 0 && store.gameInfo.owner_id === user?.id
       "
-      class="w-4/5 mx-3 mt-8 md:mx-auto md:w-96"
+      class="ripple bg-tgButton rounded-md w-4/5 mx-3 mt-8 md:mx-auto md:w-96"
+      @click.prevent="store.startGame()"
     >
-      <button
-        class="ripple bg-tgButton rounded-md w-full"
-        @click.prevent="store.startGame()"
-      >
-        <Loading class="my-2.5" v-if="store.isStartingGame" />
-        <p v-if="!store.isStartingGame" class="text-tgButtonText text-sm m-3">
-          Start game
-        </p>
-      </button>
-    </div>
+      <Loading class="my-2.5" v-if="store.isStartingGame" />
+      <p v-if="!store.isStartingGame" class="text-tgButtonText text-sm m-3">
+        Start game
+      </p>
+    </button>
   </div>
 </template>
 
