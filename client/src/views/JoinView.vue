@@ -12,30 +12,28 @@
           alt="InstaQuiz Header Image"
           class="w-52 mt-4 mx-auto"
         />
-        <p class="text-2xl text-tgText font-bold mt-2 mx-auto">
+        <h1 class="text-2xl text-tgText font-bold mt-2 mx-auto">
           Welcome to Insta Quiz!
-        </p>
+        </h1>
 
         <!-- Message based on game state and user id -->
         <p class="text-base text-tgText mt-8 mx-4 max-w-[px] text-center">
           {{ store.joinMsg }}
         </p>
 
-        <div class="mx-9 mt-4 md:mx-auto md:w-96">
-          <button
-            class="ripple bg-tgButton rounded-md w-full"
-            @click.prevent="store.joinGame()"
-          >
-            <Loading class="my-2.5" v-if="store.isJoining" />
-            <p v-if="!store.isJoining" class="text-tgButtonText text-sm m-3">
-              {{ store.btnText }}
-            </p>
-          </button>
-        </div>
+        <button
+          class="ripple bg-tgButton rounded-md mx-9 mt-4 md:mx-auto md:w-96"
+          @click.prevent="store.joinGame()"
+        >
+          <Loading class="my-2.5" v-if="store.isJoining" />
+          <p v-if="!store.isJoining" class="text-tgButtonText text-sm m-3">
+            {{ store.btnText }}
+          </p>
+        </button>
 
-        <p class="text-tgText text-xl text-center font-semibold mt-16">
+        <h3 class="text-tgText text-xl text-center font-semibold mt-16">
           {{ store.listMode }}
-        </p>
+        </h3>
         <TransitionGroup
           v-if="store.isGameEnded"
           name="list"
