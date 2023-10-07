@@ -11,9 +11,9 @@
           class="w-52 mt-4"
           width="208px"
         />
-        <p class="text-2xl text-tgText font-bold mt-2">
+        <h1 class="text-2xl text-tgText font-bold mt-2">
           Welcome to Insta Quiz!
-        </p>
+        </h1>
 
         <!-- Custom select box -->
         <HomeSelect />
