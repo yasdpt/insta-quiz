@@ -6,6 +6,7 @@ const api = axios.create({
     Authorization: `Bearer ${window.Telegram.WebApp.initData}`,
   },
   baseURL: import.meta.env.VITE_API_URL,
+  timeout: 20000, // in miliseconds
 });
 
 // defining a custom error handler for all APIs
