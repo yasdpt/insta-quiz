@@ -1,0 +1,430 @@
+{
+  "category_name": "Literature",
+  "questions": [
+    {
+      "questions": "What does the word cretin refer to?",
+      "answers": [
+        "Cyst on the brain stem",
+        "None of these",
+        "An idiot",
+        "Swelling of the cerebrum caused by spinal fluid"
+      ],
+      "ca": "An idiot"
+    },
+    {
+      "questions": "Leaves of Grass",
+      "answers": [
+        "Carl Sandberg",
+        "T.S. Eliot",
+        "Robert Frost",
+        "Walt Whitman"
+      ],
+      "ca": "Walt Whitman"
+    },
+    {
+      "questions": "At The Mountains of Madness",
+      "answers": [
+        "H.P. Lovecraft",
+        "Peter Straub",
+        "Edgar Allan Poe",
+        "C.S. Lewis"
+      ],
+      "ca": "H.P. Lovecraft"
+    },
+    {
+      "questions": "Ape and Essance; Eyeless in Gaza; Point Counter Point",
+      "answers": [
+        "J.D. Salinger",
+        "Aldous Huxley",
+        "Maya Angelou",
+        "William Butler Yeatts"
+      ],
+      "ca": "Aldous Huxley"
+    },
+    {
+      "questions": "1984; Animal Farm",
+      "answers": [
+        "Herman Hesse",
+        "Rudyard Kipling",
+        "George Orwell",
+        "Aldous Huxley"
+      ],
+      "ca": "George Orwell"
+    },
+    {
+      "questions": "Return of the Native; Jude the Obscure; Far From the Madding Crowd",
+      "answers": [
+        "Thomas Hardy",
+        "William Faulkner",
+        "Rudyard Kipling",
+        "James Dickey"
+      ],
+      "ca": "Thomas Hardy"
+    },
+    {
+      "questions": "The Antichrist; The Gay Science; Beyond Good and Evil; Thus Spoke Zarathustra",
+      "answers": [
+        "none of these",
+        "Frederick Nietzche",
+        "Amari Baraka",
+        "Stephen King"
+      ],
+      "ca": "Frederick Nietzche"
+    },
+    {
+      "questions": "What language can Harry Potter speak?",
+      "answers": ["Goblin", "English", "Mermish", "Parseltounge"],
+      "ca": "Parseltounge"
+    },
+    {
+      "questions": "Cornelia Fudge is the Minister of Magic.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "Hermione was supposed to turn into this person after drinking the Polyjuice Potion.",
+      "answers": [
+        "Millicent Bulstrode",
+        "Crabbe",
+        "Millie Vanilli",
+        "Pansy Parkins"
+      ],
+      "ca": "Millicent Bulstrode"
+    },
+    {
+      "questions": "What was Hagrid buying in Knockturn Alley?",
+      "answers": [
+        "Flesh-Eating Slug Attractor",
+        "Fresh-Skin Slug Repellent",
+        "Flesh-Eating Ant Repellent",
+        "Flesh-Eating Slug Repellent"
+      ],
+      "ca": "Flesh-Eating Slug Repellent"
+    },
+    {
+      "questions": "This book by James Joyce was forbidden by the US authorities for 15 years, because it was considered obsene. The ban was lifted in 1933.",
+      "answers": [
+        "Ulysses",
+        "Portrait of the Artist",
+        "Dubliners",
+        "Fanny Hill"
+      ],
+      "ca": "Ulysses"
+    },
+    {
+      "questions": "This book about the life of a prostitute was written by John Cleland. It has been banned in the past due to frank sexual descriptions.",
+      "answers": ["Candide", "Lysistrata", "Fanny Hill", "Decameron"],
+      "ca": "Fanny Hill"
+    },
+    {
+      "questions": "This book tells the story of two women who meet and fall in love with each other. They openly declare their homosexuality to family and friends. Thats why the Kansas school system ordered the removal of all copies of this book from high school libraries.",
+      "answers": [
+        "Daddys Roommate",
+        "Andersonville",
+        "Annie on My Mind",
+        "Catch 22"
+      ],
+      "ca": "Annie on My Mind"
+    },
+    {
+      "questions": "This book led Austin Miles to the courts in 1992.  Miles was sued because his book was ...a vitriolic attack upon organized Christianity.",
+      "answers": [
+        "Leaves of Grass",
+        "Dictionary of American Slang",
+        "Jerusalem Delivered",
+        "Dont Call Me Brother"
+      ],
+      "ca": "Dont Call Me Brother"
+    },
+    {
+      "questions": "This book by Judy Blume was censored as it discussed adolescent sexuality in too much detail.",
+      "answers": ["Grapes of Wrath", "Lolita", "Freedom and Order", "Forever"],
+      "ca": "Forever"
+    },
+    {
+      "questions": "This book by George Orwell was banned as it was pro-communist.",
+      "answers": [
+        "The Sun Also Rises",
+        "Coming Up for Air",
+        "1984",
+        "Deliverance"
+      ],
+      "ca": "1984"
+    },
+    {
+      "questions": "This Lewis Carrolls work was banned in China because in it humans and animals used the same language.",
+      "answers": [
+        "Sylvie and Bruno",
+        "Alices Adventures in Wonderland",
+        "Through The Looking Glass",
+        "The Hunting of the Snark"
+      ],
+      "ca": "Alices Adventures in Wonderland"
+    },
+    {
+      "questions": "Its translation into local languages was forbidden in Burma.",
+      "answers": ["The Quran", "The Cabala", "Arabian Nights", "The Bible"],
+      "ca": "The Bible"
+    },
+    {
+      "questions": "This book was censored in 1985 in Cairo, Egypt as it contained obscene passages which posed a threat to the countrys moral fabric.",
+      "answers": [
+        "Arabian Nights",
+        "Don Quixote",
+        "Analects",
+        "Brave New World"
+      ],
+      "ca": "Arabian Nights"
+    },
+    {
+      "questions": "An edition of Miltons works was bound in:",
+      "answers": [
+        "Human skin",
+        "Golden plates",
+        "Bears fur",
+        "Used newspapers"
+      ],
+      "ca": "Human skin"
+    },
+    {
+      "questions": "Binding books with human hide was a common practice once. Why?",
+      "answers": [
+        "Because of lack of any other proper material",
+        "Because this sold the books more quickly than anything",
+        "Because the narrative in the book was about the story of the hides owner",
+        "Because it was fashionable at the time"
+      ],
+      "ca": "Because the narrative in the book was about the story of the hides owner"
+    },
+    {
+      "questions": "The name of Cruella de Vil from 101 Dalmatians is meaningful because:",
+      "answers": [
+        "She actually likes cats and not dogs",
+        "She is the owner of the dalmatians",
+        "She doesnt give them any food",
+        "She wants the puppies for their fur"
+      ],
+      "ca": "She wants the puppies for their fur"
+    },
+    {
+      "questions": "Who is the Shakespearean villain who had his own brother executed and innocent children killed because they were hindrances to his kingly ambition?",
+      "answers": ["Edmund", "Richard III", "Aaron the Moor", "Othello"],
+      "ca": "Richard III"
+    },
+    {
+      "questions": "According to psychologists villains in fairy-tales actually have an important role for the childrens mind formation, namely:",
+      "answers": [
+        "They help children decide what is bad",
+        "They make the story really funny",
+        "They are interesting models of behaviour",
+        "They always lose the battle"
+      ],
+      "ca": "They help children decide what is bad"
+    },
+    {
+      "questions": "The famous evil female Baba Yaga comes from:",
+      "answers": [
+        "A Norse legend",
+        "An Uzbekistanian fairy-tale",
+        "A Moroccan song",
+        "Russian folklore"
+      ],
+      "ca": "Russian folklore"
+    },
+    {
+      "questions": "Harry Potter is concidered malicious literature by some, because:",
+      "answers": [
+        "Most of its characters are strange beings",
+        "Its characters are mainly clad in black clothes",
+        "It comprises too many volulmes",
+        "It is about witchcraft"
+      ],
+      "ca": "It is about witchcraft"
+    },
+    {
+      "questions": "It turns out that people like reading about crime. The top-selling English-language author of all time is:",
+      "answers": [
+        "Agatha Christie",
+        "Ben Johnson",
+        "Edgar-Allan Poe",
+        "Virginia Woolf"
+      ],
+      "ca": "Agatha Christie"
+    },
+    {
+      "questions": "Who wrote about the early whodunit archetype, inspector Auguste Dupin?",
+      "answers": [
+        "Georges Sands",
+        "Edgar Allan Poe",
+        "Washington Irving",
+        "Nathaniel Hawthorne"
+      ],
+      "ca": "Edgar Allan Poe"
+    },
+    {
+      "questions": "Dr. Alex Delaware is the creation of which of these authors?",
+      "answers": [
+        "Jonathan Kellerman",
+        "Kathy Reichs",
+        "Faye Kellerman",
+        "Ross McDonald"
+      ],
+      "ca": "Jonathan Kellerman"
+    },
+    {
+      "questions": "Robert B. Parker completed Raymond Chandlers unfinished final novel, Poodle Springs.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "Kathy Reichs has written some great mysteries, where the primary character is Forensic Archaeologist, Kay Scarpetta.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "What is the name of Colin Creevys brother, who appears in the book Harry Potter and the Order of the Phoenix?",
+      "answers": [
+        "Carson Creevy",
+        "Darian Creevy",
+        "Dennis Creevy",
+        "James Creevy"
+      ],
+      "ca": "Dennis Creevy"
+    },
+    {
+      "questions": "Why was Hagrid missing in the beginning of Harry Potter and the Order of the Phoenix?",
+      "answers": [
+        "He went hunting unicorns.",
+        "He went looking for Dumbleodre.",
+        "He went looking for Sirius Black.",
+        "He went hunting giants."
+      ],
+      "ca": "He went hunting giants."
+    },
+    {
+      "questions": "What did Hermione do to Ron before she stormed out of the charms classroom in Harry Potter and the Half-Blood Prince?",
+      "answers": [
+        "She charmed a desk to fly over to Ron.",
+        "She charmed pencils to fly and poke Ron.",
+        "She charmed little yellow birds to fly at Ron and peck him.",
+        "She charmed a chair to fly across the room at Ron."
+      ],
+      "ca": "She charmed little yellow birds to fly at Ron and peck him."
+    },
+    {
+      "questions": "Draco Malfoy cries in a book of the Harry Potter series.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "Did Crabbe and Goyle ever become friends with Harry, Ron and Hermione in the Harry Potter books?",
+      "answers": ["Yes", "No"],
+      "ca": "No"
+    },
+    {
+      "questions": "Harry liked Cho in the book Harry Potter and the Half-Blood Prince.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "In Harry Potter and the Philosophers Stone, before Harry went to fight Professor Quirrel and He-Who-Must-Not-Be-Named, Hermione helped him with a task that involved what?",
+      "answers": [
+        "A chess set by Professor Flitwick",
+        "An ancient textbook sent from Professor Binns",
+        "A set of potions sent from Professor Snape",
+        "A dragon sent from Hagrid"
+      ],
+      "ca": "A set of potions sent from Professor Snape"
+    },
+    {
+      "questions": "What was the name of the handsome, selfish teacher in Harry Potter and the Chamber of Secrets?",
+      "answers": [
+        "Professor Gilderoy Lockhart",
+        "Professor Godric Gryffindor",
+        "Professor Severus Snape",
+        "Professor Cedric Diggory"
+      ],
+      "ca": "Professor Gilderoy Lockhart"
+    },
+    {
+      "questions": "In Harry Potter and the Philosophers Stone, what was the password to the Gryffindor tower during Halloween?",
+      "answers": ["Pig snout", "Fairy lights", "None of these", "Zebras tail"],
+      "ca": "Pig snout"
+    },
+    {
+      "questions": "In Harry Potter and the Philosophers Stone, who gave Nearly-Headless Nick the rejection letter from the Headless Hunt?",
+      "answers": [
+        "Sir Delaney Patrick-Podmore",
+        "Sir Sturgis Podmore",
+        "Sir Patrick Delaney-Podmore",
+        "Sir Bloody Baron"
+      ],
+      "ca": "Sir Patrick Delaney-Podmore"
+    },
+    {
+      "questions": "In the Harry Potter series, who created the Ravenclaw House when Hogwarts was built?",
+      "answers": [
+        "Rowena Ravenclaw",
+        "Ronald Ravenclaw",
+        "Rowana Ravenclaw",
+        "Ricky Ravenclaw"
+      ],
+      "ca": "Rowena Ravenclaw"
+    },
+    {
+      "questions": "What was the name of the child who delivered Ron his parcels in Harry Potter and the Goblet of Fire?",
+      "answers": ["Creevy", "Dennis", "Collin", "Nigel"],
+      "ca": "Nigel"
+    },
+    {
+      "questions": "Filch is a wizard in the Harry Potter books.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "Who took over the Fat Ladys job after she was scared out of her portrait in Harry Potter and the Prisoner of Azkaban?",
+      "answers": [
+        "Sir Cadogan",
+        "Trolls",
+        "Sirius Black",
+        "Sir Delaney Patrick-Podmore"
+      ],
+      "ca": "Sir Cadogan"
+    },
+    {
+      "questions": "Who lost the list of passwords for the Gryffindor tower in Harry Potter and the Prisoner of Azkaban?",
+      "answers": [
+        "Dean Thomas",
+        "Neville Longbottom",
+        "Ron Weasley",
+        "Padma Patil"
+      ],
+      "ca": "Neville Longbottom"
+    },
+    {
+      "questions": "In Harry Potter and the Half-Blood Prince, who was bitten by the werewolf Fenfir Greyback?",
+      "answers": ["Ron", "Bill", "Charlie", "Percy"],
+      "ca": "Bill"
+    },
+    {
+      "questions": "Who killed Dumbledore in Harry Potter and the Half-Blood Prince?",
+      "answers": [
+        "Professor Binns",
+        "Lucius Malfoy",
+        "Professor Snape",
+        "Bellatrix Lestrange"
+      ],
+      "ca": "Professor Snape"
+    },
+    {
+      "questions": "What is James Potter called by Lily Evans in Harry Potter and the Order of the Phoenix?",
+      "answers": [
+        "A bullying, selfish git",
+        "A big-headed git",
+        "A selfish, bullying toerag",
+        "An ignorant git"
+      ],
+      "ca": "A selfish, bullying toerag"
+    }
+  ]
+}

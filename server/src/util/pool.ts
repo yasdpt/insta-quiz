@@ -1,4 +1,9 @@
-import { Pool } from "pg";
-const pool = new Pool();
+import { Pool, types } from "pg";
+types.setTypeParser(20, function (val) {
+  return parseInt(val, 10);
+});
+const pool = new Pool({
+  ssl: true,
+});
 
-module.exports = { pool };
+export default pool;

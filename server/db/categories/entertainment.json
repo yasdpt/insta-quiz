@@ -1,0 +1,325 @@
+{
+  "category_name": "Entertainment",
+  "questions": [
+    {
+      "questions": "Greta Garbo was successfully treated for this disease.",
+      "answers": ["Tuberculosis", "Breast cancer", "Hepatitis", "Cirrhosis"],
+      "ca": "Breast cancer"
+    },
+    {
+      "questions": "In 1952, A.S. Douglas developed the first graphical game to run on a computer.  It ran on the EDSAC.  What was the name of this game?",
+      "answers": ["Go", "Check It", "OXO", "Tennis For Two"],
+      "ca": "OXO"
+    },
+    {
+      "questions": "Nolan Bushnell is considered to be the father of the video arcade industry. In 1972 he founded his own game company and together with Ted Dabney and Al Alcorn released the first arcade video game with major success- Pong. What was the name of his company?",
+      "answers": ["Nutting Associates", "Nintendo", "Sega", "Atari"],
+      "ca": "Atari"
+    },
+    {
+      "questions": "Pong was first installed at a high school.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "In 1972 a company named Waco released the first handheld electronic game. What was its name?",
+      "answers": ["Cross", "Tic Tac Toe", "Tetris", "Microvision"],
+      "ca": "Tic Tac Toe"
+    },
+    {
+      "questions": "In 1978 Taito released one of the most influential arcade video games. It was called Space Invaders and marked the beginning of the Golden Age of arcade games. What was the thing that the player controlled in Space Invaders?",
+      "answers": [
+        "An alien",
+        "An anti-aircraft gun",
+        "A movable laser cannon",
+        "A cowboy"
+      ],
+      "ca": "A movable laser cannon"
+    },
+    {
+      "questions": "Mario, probably the best-known video game character, first appeared in Donkey Kong in 1981.  His brother Luigi first appeared in Mario Bros.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "Nintendo is undoubtedly one of the most successful and best known console manufacturers. Nintendo has created several TV consoles and many handheld portables, such as the Game Boy and the Game  Watch. When was the company originally founded?",
+      "answers": ["1953", "1985", "1983", "1889"],
+      "ca": "1889"
+    },
+    {
+      "questions": "With the introduction of cheap and relatively powerful processors such as Intel 386, Intel 486 and Motorola 68000 3D-graphics became fashionable. It was used in FPS games like the legendary Wolfenstein 3D and Doom. Do you know what FPS stands for in this context?",
+      "answers": [
+        "Frames Per Second",
+        "File Protocol System",
+        "Firing Per Second",
+        "First Person Shooter"
+      ],
+      "ca": "First Person Shooter"
+    },
+    {
+      "questions": "Sonic the Hedgehog is a mascot of Sony Playstation.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "When in 1996 3dfx released the Voodoo chipset, it made high-resolution and more-detailed 3D games possible. One of the first games to take advantage of this was Quake. Do you know which company released this marvelous game?",
+      "answers": ["Microsoft", "Valve", "id Software", "Blizzard"],
+      "ca": "id Software"
+    },
+    {
+      "questions": "These fictional superheroes were born, when a container of radioactive waste bounced off a truck and struck a young boy, turning him into Daredevil.",
+      "answers": [
+        "Teenage Mutant Ninja Turtles",
+        "Pre-teen Dirty Jean Kung-fu Kangaroos",
+        "Adolescent Radioactive Blackbelt Hamsters",
+        "Miami Mice"
+      ],
+      "ca": "Teenage Mutant Ninja Turtles"
+    },
+    {
+      "questions": "This superhero, who first appeared in the comic book Tales of Suspense, used his own invention to keep his heart pumping.",
+      "answers": ["Mr. Fantastic", "Ant Man", "Iron Man", "The Hulk"],
+      "ca": "Iron Man"
+    },
+    {
+      "questions": "This Marvel Comics superhero, whose birth name was Peter Benjamin Parker, first used his new found superpowers as a professional wrestler.",
+      "answers": ["Superman", "Spiderman", "The Thing", "Green Arrow"],
+      "ca": "Spiderman"
+    },
+    {
+      "questions": "This comedic superhero, created by Ben Edlund, met an accountant named Arthur, after taking a long bus ride into The City.",
+      "answers": ["The Tick", "Thor", "The Shadow", "Darkman"],
+      "ca": "The Tick"
+    },
+    {
+      "questions": "These comic book superheroes were trained in Professor Xaviers School for Gifted Youngsters.",
+      "answers": [
+        "The Fantastic Four",
+        "The X-Men",
+        "Power Pack",
+        "The Avengers"
+      ],
+      "ca": "The X-Men"
+    },
+    {
+      "questions": "Which Marvel Comics character became a ruthless vigilante, after witnessing his familys violent murder?",
+      "answers": ["The Crow", "The Punisher", "Judge Dredd", "The Scourge"],
+      "ca": "The Punisher"
+    },
+    {
+      "questions": "This DC Comics superhero, whose true identity is Bruce Wayne, decided to train himself to the peak of physical perfection after witnessing the murder of his parents.",
+      "answers": ["V (For Vendetta)", "Batman", "The Hulk", "Spawn"],
+      "ca": "Batman"
+    },
+    {
+      "questions": "Which fictional member ot the Teen Titans started out as Batmans sidekick?",
+      "answers": ["Beast Boy", "Cyborg", "Raven", "Nightwing"],
+      "ca": "Nightwing"
+    },
+    {
+      "questions": "Fellow Justice League members Superman and Martian Manhunter have something in common. What is it?",
+      "answers": [
+        "They are both reporters by day",
+        "They both grew up on a farm.",
+        "They both escaped from the phantom zone.",
+        "They are both aliens."
+      ],
+      "ca": "They are both aliens."
+    },
+    {
+      "questions": "Which of the following fictional heroes is a World War II veteran?",
+      "answers": ["Batman", "Captain America", "Captain Commando", "Thor"],
+      "ca": "Captain America"
+    },
+    {
+      "questions": "What is the real name of Gambit who first appeared in the comic book The Uncanny X-Men?",
+      "answers": [
+        "Remy LeBeau",
+        "Bobby LeBeau",
+        "Scott Summers",
+        "Alex Summers"
+      ],
+      "ca": "Remy LeBeau"
+    },
+    {
+      "questions": "Which of these X-Men characters is not a member of the Summers family line?",
+      "answers": ["Cyclops", "Mister Sinister", "Havoc", "Cable"],
+      "ca": "Mister Sinister"
+    },
+    {
+      "questions": "Archangel, a mutant and a member of the X-Men, was which horseman of Apocalypse?",
+      "answers": ["Death", "Famine", "Pestilence", "War"],
+      "ca": "Death"
+    },
+    {
+      "questions": "Which antagonist of the X-Men is responsible for the death of Wolverine in the comic books?",
+      "answers": ["Juggarnaut", "Sabretooth", "Magneto", "Lady Deathstrike"],
+      "ca": "Magneto"
+    },
+    {
+      "questions": "Which of these X-men characters is not a mutant?",
+      "answers": ["Charles Xavier", "Gambit", "Juggernaut", "Storm"],
+      "ca": "Juggernaut"
+    },
+    {
+      "questions": "In the Age of Apocalypse timeline, Wolverine, a member of the X-Men, is married to which female?",
+      "answers": ["Storm", "Polaris", "Jean Grey", "Jubilee"],
+      "ca": "Storm"
+    },
+    {
+      "questions": "Who is the head of the X-Men in the Age of Apocalypse timeline?",
+      "answers": ["Magneto", "Apocalypse", "Charles Xavier", "Cyclops"],
+      "ca": "Magneto"
+    },
+    {
+      "questions": "Omega Red, a foe of the X-Men, serves which country?",
+      "answers": ["Germany", "Russia", "The United States", "Japan"],
+      "ca": "Russia"
+    },
+    {
+      "questions": "What is the real name of X-Men member Wolverine?",
+      "answers": ["Victor Creed", "James Howlett", "Mikhail Rasputin", "Logan"],
+      "ca": "James Howlett"
+    },
+    {
+      "questions": "This member of the Hellfire Clubs inner circle, known as the White Queen, once fought against the X-Men.",
+      "answers": ["Emma Frost", "Jean Grey", "Calypso", "Phoenix"],
+      "ca": "Emma Frost"
+    },
+    {
+      "questions": "When was the Miss America pageant first held?",
+      "answers": [
+        "July 6, 1920",
+        "July 4, 1919",
+        "September 5, 1925",
+        "September 7, 1921"
+      ],
+      "ca": "September 7, 1921"
+    },
+    {
+      "questions": "The most common talents performed are singing and dancing, but there have been a variety of other odd talents as well.  Which talent was performed at a Miss America pageant?",
+      "answers": [
+        "Blowing bubbles through a straw",
+        "Self-defense",
+        "Gymnastic moves",
+        "Packing a suitcase"
+      ],
+      "ca": "Packing a suitcase"
+    },
+    {
+      "questions": "Who was the first Jewish Miss America?",
+      "answers": [
+        "Marion Bergeron",
+        "Norma Smallwood",
+        "Bess Myerson",
+        "Marilyn Buferd"
+      ],
+      "ca": "Bess Myerson"
+    },
+    {
+      "questions": "Miss America always goes on to compete in the Miss Universe pageant.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "As of the beginning of the new millenium, how many Miss America title holders were from New Jersey, the state that held the competitions?",
+      "answers": ["2", "6", "4", "0"],
+      "ca": "2"
+    },
+    {
+      "questions": "Who was the first deaf Miss America?",
+      "answers": [
+        "Rebecca Ann King",
+        "Phyllis Ann George",
+        "Cheryl Prewitt",
+        "Heather Whitestone"
+      ],
+      "ca": "Heather Whitestone"
+    },
+    {
+      "questions": "Until 2004 ABC aired the Miss America pageant , it then switched to what station?",
+      "answers": ["NBC", "CBS", "CMT", "USA"],
+      "ca": "CMT"
+    },
+    {
+      "questions": "In what year did Snoopy first make his first appearance in a comic strip?",
+      "answers": ["1948", "1952", "1954", "1950"],
+      "ca": "1950"
+    },
+    {
+      "questions": "What name was Charles Schulz originally going to give to Charlie Browns dog Snoopy?",
+      "answers": ["Sneaky", "Snookums", "Sniffy", "Sneakers"],
+      "ca": "Sniffy"
+    },
+    {
+      "questions": "What position did cartoon character Snoopy play in Charlie Browns Little League baseball team?",
+      "answers": ["Pitcher", "Catcher", "First base", "Short Stop"],
+      "ca": "Short Stop"
+    },
+    {
+      "questions": "In what year did comic strip character Snoopy first appear sleeping on top of his doghouse?",
+      "answers": ["1953", "1958", "1956", "1954"],
+      "ca": "1958"
+    },
+    {
+      "questions": "In what year did comic strip character Snoopy first walk upright?",
+      "answers": ["1960", "1962", "1958", "1956"],
+      "ca": "1956"
+    },
+    {
+      "questions": "Which one of these pairs roller coaster- theme park is wrong?",
+      "answers": [
+        "Megafobia- Oakwood Leisure Park",
+        "Superman - Ride of Steel- Six Flags Darien Lake",
+        "Avalanche- Holiday World",
+        "Dania Beach Hurricane- Boomers"
+      ],
+      "ca": "Avalanche- Holiday World"
+    },
+    {
+      "questions": "Top Thrill Dragster was opened in 2003 and it was the tallest and fastest roller coaster in the world until 2005 (this is true). It was the first roller coaster to break the 300 ft (91.4 m) barrier.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "Which one of these pairs roller coaster- year of opening is wrong?",
+      "answers": [
+        "Kraken- 2000",
+        "Megafobia- 1996",
+        "Nitro- 2000",
+        "Ozark Wildcat- 2003"
+      ],
+      "ca": "Nitro- 2000"
+    },
+    {
+      "questions": "October 2006 saw the release of which Mortal Kombat game?",
+      "answers": ["10th", "8th", "12th", "9th"],
+      "ca": "12th"
+    },
+    {
+      "questions": "In the Mortal Kombat storyline, Liu Kang was brutally murdered by which character?",
+      "answers": ["Shang Tsung", "Goro", "Shao Kahn", "Kung Lao"],
+      "ca": "Shang Tsung"
+    },
+    {
+      "questions": "What feature makes Kenshi different from all other Mortal Kombat characters?",
+      "answers": [
+        "He can fly.",
+        "He is a mute.",
+        "He is blind.",
+        "He is deaf."
+      ],
+      "ca": "He is blind."
+    },
+    {
+      "questions": "How does Calvins dad like to spend his vacation in the comic strip Calvin and Hobbes",
+      "answers": [
+        "Going Camping",
+        "Going Sightseeing",
+        "Going to the Beach",
+        "Going Hiking"
+      ],
+      "ca": "Going Camping"
+    }
+  ]
+}

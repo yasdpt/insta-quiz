@@ -1,0 +1,290 @@
+{
+  "category_name": "Science-Technology",
+  "questions": [
+    {
+      "questions": "Immanuel Kant criticized Emanuel Swedenborg and termed him a “spook hunter”.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "Clouds are made up of these.",
+      "answers": [
+        "Carbon atoms",
+        "Water droplets and ice crystals",
+        "Oxygen ions",
+        "Dust mites"
+      ],
+      "ca": "Water droplets and ice crystals"
+    },
+    {
+      "questions": "This formation is a conical hill or mountain. It is formed by mantle material being pressed through an opening in the Earths crust.",
+      "answers": ["A volcano", "A hill", "An earthquake", "A geyser"],
+      "ca": "A volcano"
+    },
+    {
+      "questions": "Japan suffers from this event very often. It is the sudden, light or violent movement of the earths surface caused by the release of energy in the earths crust.",
+      "answers": ["Volcano", "Earthquake", "Tide", "Tsunami"],
+      "ca": "Earthquake"
+    },
+    {
+      "questions": "It is the only continent that does not have land areas below sea level.",
+      "answers": ["Australia", "South America", "Antarctica", "Arctica"],
+      "ca": "Antarctica"
+    },
+    {
+      "questions": "It is the longest river in the world",
+      "answers": ["Themes", "The Amazon", "The Nile", "Danube"],
+      "ca": "The Nile"
+    },
+    {
+      "questions": "Why do travelers to La Paz, Bolivia, often become ill as soon as they arrive?",
+      "answers": [
+        "Because of the high temperature",
+        "Because of the humidity",
+        "Because of the soil quality",
+        "Because of the altitude"
+      ],
+      "ca": "Because of the altitude"
+    },
+    {
+      "questions": "In the US, why do we change our clocks on the daylight saving time dates in April and October?",
+      "answers": [
+        "To conserve energy",
+        "To increase the hours of the day",
+        "To extend the working day",
+        "Because the tourist period in most countries starts in May"
+      ],
+      "ca": "To conserve energy"
+    },
+    {
+      "questions": "These are places of arid land with really low rainfall and high tempertures variation. Their vegetation is insignificant and the population of people and animals is very limited.",
+      "answers": ["Oceans", "Raiforests", "The equator", "Deserts"],
+      "ca": "Deserts"
+    },
+    {
+      "questions": "This is a gemstone made by fossilized tree sap that is at least 30 million years old.",
+      "answers": ["Obsidian", "Amber", "Tourmaline", "Malachite"],
+      "ca": "Amber"
+    },
+    {
+      "questions": "This is the largest island on Earth and one third of it is a national park.",
+      "answers": ["Greenland", "Madagaskar", "Australia", "Alaska"],
+      "ca": "Greenland"
+    },
+    {
+      "questions": "Which of these organs has no known function in the human body?",
+      "answers": ["tonsils", "appendix", "uvula", "pineal gland"],
+      "ca": "appendix"
+    },
+    {
+      "questions": "The main function of this organ of respiration is to transport oxygen from the atmosphere into the bloodstream.",
+      "answers": ["stomach", "diaphragm", "trachea", "lung"],
+      "ca": "lung"
+    },
+    {
+      "questions": "This gland is shaped like a butterfly and helps regulate energy in the body.",
+      "answers": ["parathyroid", "thyroid", "adrenal", "thymus"],
+      "ca": "thyroid"
+    },
+    {
+      "questions": "The cerebellum section of the brain controls the fine movement and equilibrium, among other things.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "These organs are very sensitive and often fail in people with very high blood pressure or diabetes.",
+      "answers": ["pancreas", "kidneys", "ovaries", "lungs"],
+      "ca": "kidneys"
+    },
+    {
+      "questions": "Tooth enamel is the hardest substance in the body.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "This is one of the first signs of pregnancy.",
+      "answers": ["Swollen Feet", "Missed period", "Hair loss", "Waddling"],
+      "ca": "Missed period"
+    },
+    {
+      "questions": "This doctor takes care of you and your baby during pregnancy.",
+      "answers": [
+        "Psychologist",
+        "Periodontist",
+        "Obstetrician",
+        "Pediatrician"
+      ],
+      "ca": "Obstetrician"
+    },
+    {
+      "questions": "What is the most common method of child birth?",
+      "answers": [
+        "Cesarean",
+        "Vaginal",
+        "Water birth",
+        "In Vitro Fertilization"
+      ],
+      "ca": "Vaginal"
+    },
+    {
+      "questions": "The mother determines the sex of the baby.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "What are common side effects of pregnancy?",
+      "answers": [
+        "Stretch marks",
+        "Morning Sickness",
+        "All of the these",
+        "Weight gain"
+      ],
+      "ca": "All of the these"
+    },
+    {
+      "questions": "How far along are you approximately, when you feel the baby move for the first time?",
+      "answers": ["10 weeks", "35 weeks", "2 weeks", "20 weeks"],
+      "ca": "20 weeks"
+    },
+    {
+      "questions": "What is suggested that you not do several hours before you go into labor?  It could get you embarrassed.",
+      "answers": ["Eat fish", "Have sex", "Talk on the phone", "Eat food"],
+      "ca": "Eat food"
+    },
+    {
+      "questions": "What is also delivered along with the baby or immediately after its birth?",
+      "answers": ["Feet", "Shoulders", "Placenta", "Handbook"],
+      "ca": "Placenta"
+    },
+    {
+      "questions": "These small bodies are considered left overs from the formation of the Solar system some 4.6 billion years ago.",
+      "answers": ["Comets", "Stars", "Planets", "Asteroids"],
+      "ca": "Asteroids"
+    },
+    {
+      "questions": "These are lumps of ice and dust.  When they get close enough to the Sun they gradually evaporate.  Jets of gas and dust create long tails that people can see from Earth.",
+      "answers": ["Asteroids", "Comets", "UFOs", "Stars"],
+      "ca": "Comets"
+    },
+    {
+      "questions": "This planet is slightly smaller than Earth and its closest neighbor (excluding the Moon).",
+      "answers": ["Venus", "Uranus", "Mars", "Saturn"],
+      "ca": "Venus"
+    },
+    {
+      "questions": "This planet is has the largest  group of moons - 31, but it is best known for its ring system.",
+      "answers": ["Neptune", "Mars", "Saturn", "Venus"],
+      "ca": "Saturn"
+    },
+    {
+      "questions": "This planet of the Solar System was named after a Greek god of the sea and earthquakes. The name is actually the Roman translation of the gods name.",
+      "answers": ["Mercury", "Neptune", "Pluto", "Uranus"],
+      "ca": "Neptune"
+    },
+    {
+      "questions": "As this is the closest planet to the Sun, its temperatures at the surface range between -300 and 800 F (hot enough for lead to melt).",
+      "answers": ["Neptune", "Mercury", "Pluto", "Venus"],
+      "ca": "Mercury"
+    },
+    {
+      "questions": "The surface of this planet is unique, it is the only one which has water in large quantities.",
+      "answers": ["Saturn", "Pluto", "Earth", "Mars"],
+      "ca": "Earth"
+    },
+    {
+      "questions": "Which Solar System celestial bodys revolution around the Sun takes 248 years?",
+      "answers": ["Saturn", "Pluto", "Neptune", "Uranus"],
+      "ca": "Pluto"
+    },
+    {
+      "questions": "This is the largest planet in our solar system. It is most famous for its Great Red Spot.",
+      "answers": ["Mars", "Neptune", "Saturn", "Jupiter"],
+      "ca": "Jupiter"
+    },
+    {
+      "questions": "Miranda, Ariel, Umbriel, Titania, Oberon, Caliban, and Sycorax are names of the icy moons of this planet.",
+      "answers": ["Uranus", "Jupiter", "Saturn", "Venus"],
+      "ca": "Uranus"
+    },
+    {
+      "questions": "The popular chat room abbreviation asl or a/s/l stands for age, sex, and location.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "An icon or animation to represent a participant used in Internet chat and games is referred to as this.",
+      "answers": ["Bitmap", "Cookie", "Applet", "Avatar"],
+      "ca": "Avatar"
+    },
+    {
+      "questions": "If you and I are chatting over the Internet and I write LOL, that means that I am doing this.",
+      "answers": ["Crying", "Laughing", "Sleeping", "Eating"],
+      "ca": "Laughing"
+    },
+    {
+      "questions": "The terms smiley and emoticon refer to one and the same thing.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "http://www.123facts.com/ is referred to as this.",
+      "answers": ["TCP", "WAP", "URL", "USB"],
+      "ca": "URL"
+    },
+    {
+      "questions": "One of the following pairs (chat abbreviation - its  meaning) is wrong.",
+      "answers": [
+        "BRB - Be Right Back",
+        "ATM - At The Moment",
+        "TTYL - To Tell You a Lie",
+        "TIA - Thanks In Advance"
+      ],
+      "ca": "TTYL - To Tell You a Lie"
+    },
+    {
+      "questions": "One of these things will not help you to get in touch with your neighbours PC.",
+      "answers": ["Hub", "Router", "Cache server", "Network card"],
+      "ca": "Cache server"
+    },
+    {
+      "questions": "If they call me a newbie then I am new to the Internet; and/or new to the subject in general.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "In chat jargon, the emoticon  [8-] refers to this person.",
+      "answers": ["Elvis", "Ronald Regan", "Frankenstein", "The Pope"],
+      "ca": "Frankenstein"
+    },
+    {
+      "questions": "The medical term cardio, deriving from a Greek word, refers to which organ of the human body?",
+      "answers": ["Brain", "Liver", "Lungs", "Heart"],
+      "ca": "Heart"
+    },
+    {
+      "questions": "The term arthro is of Greek origin. It refers to which part of the body?",
+      "answers": ["Head", "Skin", "Bone", "Joint"],
+      "ca": "Joint"
+    },
+    {
+      "questions": "Gastro is a common medical prefix, derived from the Greek word gastros which means what?",
+      "answers": ["Gas", "Brain", "Cell", "Stomach"],
+      "ca": "Stomach"
+    },
+    {
+      "questions": "The word hepato, which derives from Greek, refers to the kidney.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "Erythrocytes are a type of blood cells, consisting mainly of hemoglobin. What does the word erythro mean?",
+      "answers": ["Red", "Knowledge", "Cell", "White"],
+      "ca": "Red"
+    },
+    {
+      "questions": "The term thrombo, which comes from Greek, refers to a blood clot.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "category_name": "World",
+  "questions": [
+    {
+      "questions": "LFD2 was banned in Australia.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "One of the remnants of this states former status as a possession of France is the fact that it was named after a French king.",
+      "answers": ["Oklahoma", "Florida", "Louisiana", "Georgia"],
+      "ca": "Louisiana"
+    },
+    {
+      "questions": "No state has as many different species of mammals as this one. The average square mile of land contains 1.4 elk, 1.4 pronghorn antelope, and 3.3 deer.",
+      "answers": ["Nebraska", "Nevada", "Colorado", "Montana"],
+      "ca": "Montana"
+    },
+    {
+      "questions": "Arizona became the 48th state on February 14, 1912.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "The largest lake in this state is Lake Okeechobee. The state is also home to one of the two naturally round lakes in the world.",
+      "answers": ["Hawaii", "Tennessee", "Florida", "Alabama"],
+      "ca": "Florida"
+    },
+    {
+      "questions": "One of the following pairs (state - its capital) is wrong.",
+      "answers": [
+        "Kentucky - Frankfort",
+        "Kansas - Topeka",
+        "Maine - Augusta",
+        "North Dakota - Fargo"
+      ],
+      "ca": "North Dakota - Fargo"
+    },
+    {
+      "questions": "The 3rd Monday in April is Patriots Day - a legal holiday in this state.",
+      "answers": ["California", "Washington", "Oregon", "Massachusetts"],
+      "ca": "Massachusetts"
+    },
+    {
+      "questions": "Francis Drake was 66 years old at his inauguration and the oldest governor of this state.",
+      "answers": ["Nevada", "Ohio", "Minnesota", "Iowa"],
+      "ca": "Iowa"
+    },
+    {
+      "questions": "What is the state capital of Washington?",
+      "answers": ["Olympia", "Seattle", "Walla Walla", "Spokane"],
+      "ca": "Olympia"
+    },
+    {
+      "questions": "What is the state capital of Oregon?",
+      "answers": ["Bend", "Portland", "Eugene", "Salem"],
+      "ca": "Salem"
+    },
+    {
+      "questions": "What is the state capital of California?",
+      "answers": ["Sacramento", "Los Angeles", "San Diego", "San Francisco"],
+      "ca": "Sacramento"
+    },
+    {
+      "questions": "What is the state capital of Idaho?",
+      "answers": ["Boise", "Idaho Falls", "Pocatello", "Coeur DAlene"],
+      "ca": "Boise"
+    },
+    {
+      "questions": "What is the state capital of Nevada?",
+      "answers": ["Reno", "Las vegas", "Carson City", "Austin"],
+      "ca": "Carson City"
+    },
+    {
+      "questions": "What is the state capital of Utah?",
+      "answers": ["Cedar City", "Provo", "Price", "Salt Lake city"],
+      "ca": "Salt Lake city"
+    },
+    {
+      "questions": "What is the state capital of Arizona?",
+      "answers": ["Phoenix", "Kingman", "Tucson", "Flagstaff"],
+      "ca": "Phoenix"
+    },
+    {
+      "questions": "What is the state capital of Alaska?",
+      "answers": ["Kodiak", "Juneau", "Anchorage", "Fairbanks"],
+      "ca": "Juneau"
+    },
+    {
+      "questions": "During World War II, this country was able to successfully defend its freedom and resist invasions by the Soviet Union - despite some loss of territory. It joined the European Union in 1995.",
+      "answers": ["Poland", "Czech Republic", "Finland", "Lituania"],
+      "ca": "Finland"
+    },
+    {
+      "questions": "This country shares common boundaries with every South American country except Chile and Ecuador.",
+      "answers": ["Colombia", "Argentina", "Bolivia", "Brazil"],
+      "ca": "Brazil"
+    },
+    {
+      "questions": "After gaining its independence in 1991, it has retained closer political and economic ties to Russia than any of the other former Soviet republics.",
+      "answers": ["Ukraine", "Latvia", "Bulgaria", "Belarus"],
+      "ca": "Belarus"
+    },
+    {
+      "questions": "It was once the center of power for an empire.  Occupied by the allies in 1945, a state treaty ended its occupation in 1955 and recognized its independence.",
+      "answers": ["Belgium", "Denmark", "Austria", "Hungary"],
+      "ca": "Austria"
+    },
+    {
+      "questions": "This country is home to the northernmost capital in mainland Europe?",
+      "answers": ["Sweden", "Denmark", "Finland", "United Kingdom"],
+      "ca": "Finland"
+    },
+    {
+      "questions": "It is the sixth largest country and home of The Doctor breeze.",
+      "answers": ["Ukraine", "Canada", "Australia", "United Kingdom"],
+      "ca": "Australia"
+    },
+    {
+      "questions": "Its three-year-old Socialist government was overthrown in 1973 by a dictatorial military regime led by Augusto Pinochet.",
+      "answers": ["Peru", "Paraguay", "Chile", "Uruguay"],
+      "ca": "Chile"
+    },
+    {
+      "questions": "This country dominates the Aegian Sea and possesses an archipelago of about 2,000 islands.",
+      "answers": ["Italy", "Cyprus", "Greece", "Turkey"],
+      "ca": "Greece"
+    },
+    {
+      "questions": "This country controls the Sinai Peninsula.  Following the completion of the Suez Canal in 1869, it became an important world transportation hub.",
+      "answers": ["Thailand", "Egypt", "Hong Kong", "Libya"],
+      "ca": "Egypt"
+    },
+    {
+      "questions": "This countrys national holidays include:",
+      "answers": ["Palestine", "Mexico", "Cuba", "Chile"],
+      "ca": "Cuba"
+    },
+    {
+      "questions": "The first American capital.  It has a nick name coined by musicians - it means  to play the big time.",
+      "answers": ["Washington D.C.", "New York", "Boston", "San Francisco"],
+      "ca": "New York"
+    },
+    {
+      "questions": "The cable cars of this city are the only mobile National Monument.",
+      "answers": ["Oklahoma", "San Francisco", "Nevada", "Los Angeles"],
+      "ca": "San Francisco"
+    },
+    {
+      "questions": "When broken down into kanji, the name of this capital city means east and capital.",
+      "answers": ["Nagoya", "Osaka", "Kyoto", "Tokyo"],
+      "ca": "Tokyo"
+    },
+    {
+      "questions": "The Seine river divides this city into the Rive Droite (French for Right Bank) north of the river and the Rive Gauche (French for Left Bank) south of the river.",
+      "answers": ["Lille", "Lyon", "Marseille", "Paris"],
+      "ca": "Paris"
+    },
+    {
+      "questions": "This city situated south of China is made up of 230 islands, Lantau Island being the largest.",
+      "answers": ["Taipei", "Peking", "Shanghai", "Hong Kong"],
+      "ca": "Hong Kong"
+    },
+    {
+      "questions": "This city is the only one located on two continents.",
+      "answers": ["Kadis", "Istanbul", "Tanjer", "Athens"],
+      "ca": "Istanbul"
+    },
+    {
+      "questions": "In the devilish year of  1666 a great fire occured in this European capital city. Half of it burned down.",
+      "answers": ["Rome", "Paris", "Vienna", "London"],
+      "ca": "London"
+    },
+    {
+      "questions": "One of this citys most prominent landmarks is the Brandenburger Tor (Brandenburg Gate).  It once marked the boundary between East and West Germany.",
+      "answers": ["Berlin", "Munchen", "Frankfurt", "Bonn"],
+      "ca": "Berlin"
+    },
+    {
+      "questions": "This city is famous for its water-channel traffic. It has been designated a World Heritage Site.",
+      "answers": ["Barri", "Naples", "Venice", "Rome"],
+      "ca": "Venice"
+    },
+    {
+      "questions": "This Peruvian city is stuck between the desert and the sea. It is also known as The City of the Kings.",
+      "answers": ["Trujillo", "Cuzco", "Chimbote", "Lima"],
+      "ca": "Lima"
+    },
+    {
+      "questions": "Which of these U.S. states is not a Four Corners state?",
+      "answers": ["New Mexico", "Utah", "Colorado", "Wyoming"],
+      "ca": "Wyoming"
+    },
+    {
+      "questions": "The Appalachian Trail divides two states as it makes its trek through Great Smoky Mountains National Park. Name the states it divides.",
+      "answers": [
+        "New Hampshire and Maine.",
+        "North Carolina and Tennessee.",
+        "West Virginia and Maryland.",
+        "Georgia and Alabama."
+      ],
+      "ca": "North Carolina and Tennessee."
+    },
+    {
+      "questions": "Is the state of North Carolina south of the Mason - Dixon line?",
+      "answers": ["Yes", "No"],
+      "ca": "Yes"
+    },
+    {
+      "questions": "Sullivan street (in Sullivan County) serves as the state line, running east and west, effectively bi-locating this town in two states.  Name the city and the two states.",
+      "answers": [
+        "Memphis, Tennessee, Arkansas",
+        "Bristol, Tennessee, Virginia",
+        "Latham,  Maryland,  Pennsylvania",
+        "Nogales, Arizona, New Mexico"
+      ],
+      "ca": "Bristol, Tennessee, Virginia"
+    },
+    {
+      "questions": "The town of San Ysidro is located in what state, near what border?",
+      "answers": [
+        "California, near the border with Mexico.",
+        "Washington, near the border with Oregon",
+        "California,  near the border with Arizona",
+        "Iowa, near the border with Missouri"
+      ],
+      "ca": "California, near the border with Mexico."
+    },
+    {
+      "questions": "The border between Georgia and Mississippi is also a time zone boundary.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "Although Angel Falls bear the notion of something angelic, the phenomenon is named after Jimmy Angel, a barnstorming pilot from Missouri, who has become a modern legend.",
+      "answers": ["Argentina", "Venezuela", "Panama", "Equador"],
+      "ca": "Venezuela"
+    },
+    {
+      "questions": "Mount Fuji is a nearly perfectly shaped volcano.  It has been worshipped as a sacred mountain.",
+      "answers": ["Thailand", "China", "Japan", "Malaysia"],
+      "ca": "Japan"
+    },
+    {
+      "questions": "Mount Everest was formed some 50 million years ago. It rises a few meters each year because of geological forces. On the border between which two countries is this mount situated?",
+      "answers": [
+        "Sumatra and China",
+        "Thailand and Nepal",
+        "China and Nepal",
+        "Nepal and India"
+      ],
+      "ca": "China and Nepal"
+    },
+    {
+      "questions": "From forest to desert, the Grand Canyon has the most extreme nature climate.",
+      "answers": ["Mexico", "Canada", "USA", "Brazil"],
+      "ca": "USA"
+    },
+    {
+      "questions": "Through thousands of years in existence, Niagara Falls has been eroding at a rate of 4 feet (1.5 meters) per year.",
+      "answers": ["Mexico", "Equador", "Canada", "Argentina"],
+      "ca": "Canada"
+    },
+    {
+      "questions": "The name of mount Kilimanjaro comes from Swahili and means the mountain that glitters.",
+      "answers": ["Tanzania", "Zimbabwe", "Uruguai", "Zambia"],
+      "ca": "Tanzania"
+    },
+    {
+      "questions": "The Great Barrier Reef consists of many colonies of corals. That is why it is sometimes referred to as the largest living animal in the world.",
+      "answers": ["Armenia", "Australia", "Austria", "Anrgentina"],
+      "ca": "Australia"
+    },
+    {
+      "questions": "Krakatoa volcano caused the most violent volcanic eruption recorded in worlds history.  In 1883, it destroyed 75 % of the territory of its island.",
+      "answers": ["Thailand", "Malaysia", "Indonesia", "Surinam"],
+      "ca": "Indonesia"
+    }
+  ]
+}

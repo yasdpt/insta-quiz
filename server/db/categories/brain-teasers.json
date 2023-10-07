@@ -1,0 +1,270 @@
+{
+  "category_name": "Brain teasers",
+  "questions": [
+    {
+      "questions": "Which of these is true about the sleep of zebras?",
+      "answers": [
+        "All of these",
+        "They sleep standing up.",
+        "They would fall asleep every 5 to 6 hours.",
+        "They need more than 12 hours of sleep a day."
+      ],
+      "ca": "They sleep standing up."
+    },
+    {
+      "questions": "A farmer had 12 sheep and 3 cows. All of the animals except 9 sheep died. How many animals did he have left in his farm?",
+      "answers": ["5 cows and 1 sheep", "9 sheep", "2 cows", "none"],
+      "ca": "9 sheep"
+    },
+    {
+      "questions": "I dont speak, I cannot hear, but I always tell the truth.",
+      "answers": ["The watch", "Fish", "The Mirror", "Old granny"],
+      "ca": "The Mirror"
+    },
+    {
+      "questions": "Can a Roman Catholic man from California marry his widows sister who is from Texas?",
+      "answers": ["Yes", "No"],
+      "ca": "No"
+    },
+    {
+      "questions": "How does this proverb continue: The squeaking wheel gets ...",
+      "answers": ["The rust", "Removed", "The broken", "The grease"],
+      "ca": "The grease"
+    },
+    {
+      "questions": "An old man was looking at a photograph of a young man. Somebody asked him who it was. The mans answer was the following: Brothers and sisters, I have none. But that mans father is my fathers son. Who was in the photograph?",
+      "answers": ["His cousin", "His grandfather", "His son", "His nephew"],
+      "ca": "His son"
+    },
+    {
+      "questions": "A shepherd from a village tended the sheep of those of his fellow villagers who did not tend their own. However, he did not tend the sheep of those villagers who tended their own sheep. In that village, there was only one shepherd and he also had several sheep. Can all this be true?",
+      "answers": ["Yes", "No"],
+      "ca": "No"
+    },
+    {
+      "questions": "A famous story begins like that, It was a clear summer day and my family was preparing dinner for the New Years Eve. Can this story be true?",
+      "answers": ["Yes", "No"],
+      "ca": "Yes"
+    },
+    {
+      "questions": "In a basket there are five apples. We give the five apples to five kids so that each kid receives an apple. However, in the basket there is still one apple. Is this possible?",
+      "answers": ["Yes", "No"],
+      "ca": "Yes"
+    },
+    {
+      "questions": "Two days ago my son was three years old and next year he will be 6.  This could be a correct statement.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "The single difference between the two cities A and B was that the citizens of A always said the truth, while the citizens of B never did. Once, a man who had never been to either city arrived at one of them. Which question should the man have asked in order to identify the city he was in? Have in mind, that people from A often visited their friends in B and vice versa.",
+      "answers": [
+        "How old are you?",
+        "Are you married?",
+        "Is this city A ?",
+        "Are you a citizen of this city?"
+      ],
+      "ca": "Are you a citizen of this city?"
+    },
+    {
+      "questions": "You have two right triangles. The sides of the first one are 3 m, 4 m and 5 m. The sides of the second are 3 m, 4 m and 7 m. The area of the second triangle is bigger.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "What number comes next in the row - 31, 28, 31, 30, ?",
+      "answers": ["32", "31", "30", "29"],
+      "ca": "31"
+    },
+    {
+      "questions": "If you were running a race and passed the person in second place, what place would you be in?",
+      "answers": ["1st", "2nd", "3rd", "Out of the race"],
+      "ca": "2nd"
+    },
+    {
+      "questions": "What number comes next: 1, 11, 21, 1211, 111221, 312211, 13112221?",
+      "answers": ["131122211211", "11221311", "31221113112221", "1113213211"],
+      "ca": "1113213211"
+    },
+    {
+      "questions": "What is the largest number you can write out with numbers 1, 2, and 3?",
+      "answers": ["10,460,353,203", "6", "123", "321"],
+      "ca": "10,460,353,203"
+    },
+    {
+      "questions": "John went to a party one night.  The next day he was asked if he met a lot people at the gathering.  Figure it out for yourself, John said.  Of the girls I spoke to, all but two were blondes, all but two were brunettes, and all but two were redheads.  How many girls did he talk to?",
+      "answers": ["3", "6", "4", "2"],
+      "ca": "3"
+    },
+    {
+      "questions": "A kid found two old coins. The first coin said it was minted in 43 BC, while the other said it was minted during the reign of Emperor Nicholas I. Which of the coins was fake?",
+      "answers": [
+        "Neither one",
+        "Both",
+        "The one minted during the reign of Emperor Nicholas I",
+        "The one minted in 43 BC"
+      ],
+      "ca": "Both"
+    },
+    {
+      "questions": "A contestant on a TV show had to answer 26 questions. For each correct answer he received 8 points, while a wrong answer penalized him 5 points. How many answers did the man answer correctly, bearing in mind that he eventually had 0 points?",
+      "answers": ["12", "8", "16", "10"],
+      "ca": "10"
+    },
+    {
+      "questions": "Lets suppose that I offer you a bet under the following conditions: I bet $1 and claim that if you give me $5 I will give you $99 in return. Will you gain something from this bet?",
+      "answers": ["Yes", "No"],
+      "ca": "No"
+    },
+    {
+      "questions": "You can put something between the digits 2 and 3 so that the resultant number is bigger than 2 and smaller than 3.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "A row consists of 10 letters. The first six are - Z, O, T, T, F, F.  Which is the tenth letter?",
+      "answers": ["T", "E", "S", "N"],
+      "ca": "N"
+    },
+    {
+      "questions": "You have a square and a circle and the perimeter of the square is equal to the circumference of the circle. Which of the two figures covers a bigger area?",
+      "answers": [
+        "The square",
+        "The circle",
+        "No conclusion can be drawn from the given information.",
+        "Both cover the same are."
+      ],
+      "ca": "The circle"
+    },
+    {
+      "questions": "Sometimes we see 10 but say 22, see 4 but say 16.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "Can you build a house so that all its walls face north?",
+      "answers": ["Yes", "No"],
+      "ca": "Yes"
+    },
+    {
+      "questions": "At the beginning of the day, I was behind a car at a stoplight, whose vanity plate read: 4SBWIU.  What is the driver of this car most likely a fan of?",
+      "answers": ["NASCAR", "Fly Fishing", "Movies", "Sports"],
+      "ca": "Movies"
+    },
+    {
+      "questions": "My first stop was the supermarket.  When I had completed my shopping and was in the parking lot, I spied this snazzy auto with the following vanity plate: 10S42.  What sport is the driver of this vehicle most likely a fan of?",
+      "answers": ["Golf", "Badminton", "Bowling", "Tennis"],
+      "ca": "Tennis"
+    },
+    {
+      "questions": "My next errand took me all the way across town.  I decided to take a shortcut which put me on a boulevard of small, eclectic businesses.  One of these businesses I passed on my way was a fortune tellers shop.  A Cadillac was parked out front, which, I assume, belonged to the owner of the shop. What would be the most appropriate vanity plate for this automobile?",
+      "answers": ["PASS  THE CASH", "N2IT", "N3IT", "N4IT"],
+      "ca": "N2IT"
+    },
+    {
+      "questions": "On the on-ramp to the freeway, I was behind an auto with the following plate:  4IS.  What is the likely profession of the driver of this car?",
+      "answers": ["Zoologist", "Optometrist", "Biologist", "Geologist"],
+      "ca": "Optometrist"
+    },
+    {
+      "questions": "Well, I got caught in noon rush hour.  As luck would have it, I saw yet another vanity plate.  This one told me that the driver at least checks in his / her rear view mirror.  What plate did I see?",
+      "answers": ["OIUC2", "OIC3", "RU2", "OICU2"],
+      "ca": "OICU2"
+    },
+    {
+      "questions": "I went to my favorite restaurant to pick up some carry out for an early dinner.  I saw the owners car parked out front. The vanity plate asked a question.  What do you suppose the plate read?",
+      "answers": ["N0TABL42", "E10YET", "RESORV8NS", "8ISENUF"],
+      "ca": "E10YET"
+    },
+    {
+      "questions": "I always go up and down the stairs without moving.",
+      "answers": ["A scarf", "A curtain", "A towel", "A rug"],
+      "ca": "A rug"
+    },
+    {
+      "questions": "If the mother of a boy spanks him and then his father comes and does the same, who hurts the most?",
+      "answers": ["The boys brother", "The mother", "The boy", "The father"],
+      "ca": "The boy"
+    },
+    {
+      "questions": "Which letter behaves as a selfish friend?",
+      "answers": ["S", "A", "P", "D"],
+      "ca": "P"
+    },
+    {
+      "questions": "You always wear these flowers.",
+      "answers": ["Roses", "Daises", "Tulips", "Poppies"],
+      "ca": "Tulips"
+    },
+    {
+      "questions": "12 candles were alight. The wind blew out 5 of them. How many candles were left?",
+      "answers": ["0", "7", "12", "5"],
+      "ca": "12"
+    },
+    {
+      "questions": "A team of two horses ran for 3 miles. How many miles did each of the horses run?",
+      "answers": ["1.5", "0", "3", "6"],
+      "ca": "3"
+    },
+    {
+      "questions": "Nine passengers carried with them enough food for five days. Several other passengers joined the first group and they all shared the same food, which was now enough for three days. How many passengers joined the first group?",
+      "answers": ["7", "8", "6", "5"],
+      "ca": "6"
+    },
+    {
+      "questions": "How many times does the digit 3 occur in the numbers from 1 to 50?",
+      "answers": ["15", "14", "10", "13"],
+      "ca": "15"
+    },
+    {
+      "questions": "A pole is 20 m high. An ant is climbing it as follows - every day she ascends 5 m and every night she descends 4 m. In how many days will the ant be on the top of the post?",
+      "answers": ["16", "19", "15", "20"],
+      "ca": "16"
+    },
+    {
+      "questions": "A butcher had to stick a total number of 50 sheep in a week. Every day he sticked an equal number of sheep and managed to fulfill the task. How many sheep did he kill per day?",
+      "answers": ["10", "4", "8", "7"],
+      "ca": "10"
+    },
+    {
+      "questions": "In a basket there are three sorts of apples. How many apples do you have to  take from the basket to make sure you have at least 2 apples of the same sort?",
+      "answers": ["5", "4", "3", "2"],
+      "ca": "4"
+    },
+    {
+      "questions": "An old potter was selling pots. Once, a woman came and bought a pot for its sticker price.  She had to pay $1 plus half its price.  What was the price?",
+      "answers": ["2", "4", "3", "1"],
+      "ca": "2"
+    },
+    {
+      "questions": "Four glasses and a jug weigh as mush  as 17 iron balls do. The jug weighs as much as a glass and 7 balls. How many balls does the jug weigh?",
+      "answers": ["9", "8", "10", "5"],
+      "ca": "9"
+    },
+    {
+      "questions": "Three cats can eat 3 mice in 1.5 hours. How long will it take 10 cats to eat 20 mice?",
+      "answers": ["10 hours", "6 hours", "3 hours", "1.5 hour"],
+      "ca": "3 hours"
+    },
+    {
+      "questions": "Is there a way you can divide 7 identical pieces of bread equally among 12 people?",
+      "answers": ["No", "Yes"],
+      "ca": "Yes"
+    },
+    {
+      "questions": "A lion can eat a sheep in 2 hours, a wolf - in 3 hours, and a dog - in 6 hours. How long will it take the three animals to eat a sheep if they eat together?",
+      "answers": ["2 hours", "8 hours", "1/2 hour", "1 hour"],
+      "ca": "1 hour"
+    },
+    {
+      "questions": "Two men were walking towards a river. There was a boat on one of the riverbanks. However, this boat could carry only one man at a time.  Nevertheless, both men managed to cross the river with the boat.  This is possible.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "Some of my relatives are 600 times younger than me. Can this be true?",
+      "answers": ["Yes", "No"],
+      "ca": "Yes"
+    }
+  ]
+}

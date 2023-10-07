@@ -1,0 +1,345 @@
+{
+  "category_name": "General",
+  "questions": [
+    {
+      "questions": "This drink contains caffeine.",
+      "answers": ["Mineral water", "Orange juice", "Coffee", "Beer"],
+      "ca": "Coffee"
+    },
+    {
+      "questions": "Finish the proverb:",
+      "answers": [
+        "...not made.",
+        "...but can also be made.",
+        "...but thats not for sure.",
+        "..., long live the poets!"
+      ],
+      "ca": "...not made."
+    },
+    {
+      "questions": "If a TV program is rated G then this is true.",
+      "answers": [
+        "It contains moderate violence.",
+        "It contains mild sexual situations.",
+        "It is suitable for all audiences.",
+        "It is suitable for young children."
+      ],
+      "ca": "It is suitable for all audiences."
+    },
+    {
+      "questions": "The theory of relativity was introduced in physics by this man.",
+      "answers": [
+        "Galileo Galilei",
+        "Albert Einstein",
+        "Archimedes",
+        "Isaac Newton"
+      ],
+      "ca": "Albert Einstein"
+    },
+    {
+      "questions": "The symbol for the chemical element iron is this.",
+      "answers": ["I", "Fe", "Zn", "Br"],
+      "ca": "Fe"
+    },
+    {
+      "questions": "The author of the novel A Portrait of the Artist as a Young Man is this writer.",
+      "answers": [
+        "T. S. Eliot",
+        "Samuel Beckett",
+        "William Faulkner",
+        "James Joyce"
+      ],
+      "ca": "James Joyce"
+    },
+    {
+      "questions": "The capital of Mongolia is this city.",
+      "answers": ["Davao", "Islamabad", "Quezon", "Ulaanbaatar"],
+      "ca": "Ulaanbaatar"
+    },
+    {
+      "questions": "Mitochondrias function in cells is to perform this.",
+      "answers": [
+        "To control chemical reactions within the cytoplasm",
+        "To store information needed for cellular division",
+        "To convert organic materials into energy",
+        "To process proteins targeted to the plasma membrane"
+      ],
+      "ca": "To convert organic materials into energy"
+    },
+    {
+      "questions": "The US bought Alaska in this year.",
+      "answers": ["1942", "1882", "1854", "1867"],
+      "ca": "1867"
+    },
+    {
+      "questions": "The 23rd US President was in office during this period.",
+      "answers": ["1909 - 1913", "1889 - 1893", "1837 - 1841", "1877 - 1881"],
+      "ca": "1889 - 1893"
+    },
+    {
+      "questions": "One of these actors did not star in the 1971 movie A Clockwork Orange.",
+      "answers": [
+        "Michael Bates",
+        "Patrick Magee",
+        "Warren Brown",
+        "Malcolm McDowell"
+      ],
+      "ca": "Warren Brown"
+    },
+    {
+      "questions": "The first Bulgarian state was formed in this year.",
+      "answers": ["429 AD", "681 AD", "712 AD", "651 AD"],
+      "ca": "681 AD"
+    },
+    {
+      "questions": "The 1962 Soccer World Cup tournament was held in this country.",
+      "answers": ["Switzerland", "Mexico", "Chile", "Italy"],
+      "ca": "Chile"
+    },
+    {
+      "questions": "The Meryas were a probably Finno-Ugric tribe who lived in the region of modern Russia. This is the first historian to mention them.",
+      "answers": ["Eusebius of Caesarea", "Jordanes", "Priscus", "Sima Guang"],
+      "ca": "Jordanes"
+    },
+    {
+      "questions": "The word abacus derives from a Hebrew word, meaning this.",
+      "answers": ["Movement", "Sky", "Dust", "Wood"],
+      "ca": "Dust"
+    },
+    {
+      "questions": "The Chevy Nova sold poorly in Mexico because no va means doesnt go in Spanish.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "A car that gets over 200 miles per gallon is reclaimed by the factory, after its owner calls to congratulate the manufacturers about its excellent performance.",
+      "answers": ["True", "False"],
+      "ca": "False"
+    },
+    {
+      "questions": "A very complicated Honda Accord commercial required 606 takes and was done without the use of any computer-generated images.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "Putting sugar in the gas tank of a carburetor-equipped vehicle will ruin the engine.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "Man bought an old motorcycle only to discover that it was once owned by Elvis Presley.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "Cars were stolen by thieves who wrote down VINs (car serial numbers)  and used them to obtain duplicate keys through auto dealerships.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "After an earthquake in  1989, a car thief was found crushed under a collapsed freeway overpass in the vehicle hed stolen.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "An artist painted a 60 ft. tall image of a naked woman above a tunnel in Malibu Canyon in 1966.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "Police officers who use slimjims to assist locked out motorists have been killed by airbags.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "A speeder caught by photo radar, sends the police a photograph of money to pay his fine.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "Sean Connery, George Lazenby, Roger Moore, Timothy Dalton and Pierce Brosnan have all played the role of a fictional British spy. Who was that character?",
+      "answers": ["James Bond", "Johnny English", "Jim Malone", "Eliot Ness"],
+      "ca": "James Bond"
+    },
+    {
+      "questions": "Man On The Moon, Amadeus and One Flew Over the Cuckoos Nest are all movies directed by him.",
+      "answers": [
+        "Stanley Kubrick",
+        "Miloš Forman",
+        "Pedro Almodóvar",
+        "Martin Scorsese"
+      ],
+      "ca": "Miloš Forman"
+    },
+    {
+      "questions": "Across the Hall, Friends Like Us, Insomnia Cafe and Six of One are all working titles of one of famous US TV-series.  Name the series.",
+      "answers": ["Friends", "Sex and the City", "ALF", "One Tree Hill"],
+      "ca": "Friends"
+    },
+    {
+      "questions": "The common link between these four movies -Chicken Run, Harry Potter, The Mummy Returns and Cast Away, is that...?",
+      "answers": [
+        "They all treat one and the same social problem.",
+        "They all are produced by one and the same company.",
+        "One and the same actor is starring in all of them.",
+        "They all refer to one and the same social class."
+      ],
+      "ca": "They all are produced by one and the same company."
+    },
+    {
+      "questions": "Three of the following movies are produced by 20th Century Fox. Which is the odd one?",
+      "answers": [
+        "Me, Myself  Irene",
+        "Dr. Dolittle 2",
+        "Cast Away",
+        "House of Wax"
+      ],
+      "ca": "House of Wax"
+    },
+    {
+      "questions": "David Suchet and Peter Ustinov are two actors who have played the role of the famous detective Sherlock Holmes.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "Tom Cruise had a lead role in all, but one of these movies.  Which one?",
+      "answers": ["Rain Man", "The Firm", "Magnolia", "Endless Love"],
+      "ca": "Endless Love"
+    },
+    {
+      "questions": "All but one of these statements represents a common bond between the movies, The Terminal and Catch Me if You Can.",
+      "answers": [
+        "They both can be classified as dramas.",
+        "They both are produced by Spielberg.",
+        "Tom Hanks stars in them both.",
+        "Leonardo DiCaprio stars in them both."
+      ],
+      "ca": "Leonardo DiCaprio stars in them both."
+    },
+    {
+      "questions": "Brad Pitt starred in all these movies, except one. Can you spot it?",
+      "answers": [
+        "Meet Joe Black",
+        "Mr.  Mrs. Smith",
+        "Oceans Eleven",
+        "The Beach"
+      ],
+      "ca": "The Beach"
+    },
+    {
+      "questions": "Robin Williams starred in Mrs. Doubtfire. Another great actor, Dustin Hoffman starred in Tootsie. Both characters pretended to be this.",
+      "answers": ["Women", "Dead", "Insane", "Bed-ridden and sick"],
+      "ca": "Women"
+    },
+    {
+      "questions": "A ghost is a supernatural entity thought to be the spirit of a person remaining on Earth after their death to seek revenge.",
+      "answers": ["False", "True"],
+      "ca": "False"
+    },
+    {
+      "questions": "There is something specific about Anne Boleyns ghost. What is it?",
+      "answers": [
+        "She does not have a ghost.",
+        "Her ghost is male.",
+        "Her ghost is without hands.",
+        "Her ghost is without a head."
+      ],
+      "ca": "Her ghost is without a head."
+    },
+    {
+      "questions": "Which of the following statements about ghosts is incorrect?",
+      "answers": [
+        "They are always depicted of a human size and shape.",
+        "Ghosts do not have a gross physical body.",
+        "Sometimes they might manifest their presence by moving other objects or producing noises.",
+        "They are usually portrayed as silvery, shadowy and fog-like."
+      ],
+      "ca": "They are always depicted of a human size and shape."
+    },
+    {
+      "questions": "The ghost of the Roman Emperor Caligula was said to haunt this place.",
+      "answers": [
+        "Basilica di San Giovanni in Laterano",
+        "Amphitheatrum Castrense",
+        "The Lamian Gardens of Rome",
+        "Great Synagogue of Rome"
+      ],
+      "ca": "The Lamian Gardens of Rome"
+    },
+    {
+      "questions": "Ghosts have taken a significant place in literature and art since this period.",
+      "answers": ["Renaissance", "Middle Ages", "Romanticism", "Baroque"],
+      "ca": "Renaissance"
+    },
+    {
+      "questions": "What does Suetonius, Geoffrey of Monmouth and Herodotus have in common?",
+      "answers": [
+        "They are three writers that produce modern urban legends.",
+        "They are three writers that produced the first urban legends.",
+        "They are three ghost from the modern urban legends.",
+        "They are three ghosts from the first urban legends."
+      ],
+      "ca": "They are three writers that produced the first urban legends."
+    },
+    {
+      "questions": "Is there a difference between a poltergeist and a ghost?",
+      "answers": ["Yes", "No"],
+      "ca": "Yes"
+    },
+    {
+      "questions": "The Epic of Gilgamesh is the oldest written story, containing a lot of references to the spirits of the dead.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "In 1993 an interesting study about Friday the 13th was published in the British Medical Journal. Its authors investigated if this mystical date is really dangerous. They compared the ratio of traffic volume to the number of vehicular accidents on two different days throughout several years. What was the conclusion of the study?",
+      "answers": [
+        "The number of vehicular accidents is lower on Friday the 13th",
+        "The results were inconclusive",
+        "Friday the 13th doesnt have any affect on the number of vehicular accidents",
+        "Friday the 13th actually affects the number of vehicular accidents"
+      ],
+      "ca": "Friday the 13th actually affects the number of vehicular accidents"
+    },
+    {
+      "questions": "The fear of the fatal date is called this.",
+      "answers": [
+        "Paraskevidekatriaphobia",
+        "Aphenphosmphobia",
+        "Chronomentrophobia",
+        "Coitophobia"
+      ],
+      "ca": "Paraskevidekatriaphobia"
+    },
+    {
+      "questions": "Chinese people believe that 13 is a lucky number.",
+      "answers": ["True", "False"],
+      "ca": "True"
+    },
+    {
+      "questions": "There are countless theories about the origins of fear of number 13. One says that the phobia comes from Norse mythology. According to a legend, the 13th god, the god of mischief, turned up at a gathering of the 12 Viking gods and caused the death of Balder the Good.  What was the god of mischief called?",
+      "answers": ["Loki", "Tor", "Odin", "Hod"],
+      "ca": "Loki"
+    },
+    {
+      "questions": "People fear Friday for many reasons. For example, Jesus Christ was crucified on Friday, the Great Flood began on Friday and Adam and Eve were banned from the Garden of Eden on Friday. Do you know what type of day Friday was in the pagan Roman empire?",
+      "answers": ["Parade day", "Tax day", "Execution day", "Day for prayers"],
+      "ca": "Execution day"
+    },
+    {
+      "questions": "Most estate agents find it difficult to sell a house, numbered thirteen.",
+      "answers": ["False", "True"],
+      "ca": "True"
+    },
+    {
+      "questions": "The bad name of both Friday and number 13 can be explained by many historical and religious facts. However, the reason why they are linked together to form this powerful superstition, cant be explained so easily. According to one theory, the ill-fame of Friday 13th dates back to 13 October 1307, when King Philip IV of France arrested most of the knights of one famous Order. What was the name of the Order?",
+      "answers": [
+        "The Ancient and Illustrious Order Knights of Malta",
+        "Ancient Order Knights of the Mystic Chain",
+        "The Knights Templar",
+        "Teutonic Order"
+      ],
+      "ca": "The Knights Templar"
+    }
+  ]
+}
