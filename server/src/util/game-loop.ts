@@ -14,7 +14,7 @@ const gameLoop = async (
 ) => {
   let currentQuestionIndex = 0;
 
-  while (currentQuestionIndex <= totalQuestions) {
+  while (currentQuestionIndex < totalQuestions) {
     try {
       // Question timeout
       await new Promise((resolve) => setTimeout(resolve, roundDuration));
