@@ -2,7 +2,7 @@ import { Socket } from "socket.io";
 import { getLeaderboardInfo, getWailList } from "../util/game-util";
 
 // Join wailist room and return list of users in game to asking user
-const handleGetWaitListGame = (socket: Socket) => {
+const handleGetWaitList = (socket: Socket) => {
   socket.on(
     "getWaitList",
     async (gameId: number, gameStatus: number, callback) => {
@@ -37,4 +37,4 @@ const handleGetWaitListGame = (socket: Socket) => {
   );
 };
 
-export default handleGetWaitListGame;
+export default handleGetWaitList;

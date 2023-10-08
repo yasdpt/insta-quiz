@@ -1,6 +1,6 @@
 import handleJoinGame from "./join";
 import handleAnswer from "./answer";
 import handleStartGame from "./start";
-import handleGetWaitListGame from "./waitlist";
+import handleGetWaitList from "./waitlist";
 
-export { handleJoinGame, handleAnswer, handleStartGame, handleGetWaitListGame };
+export { handleJoinGame, handleAnswer, handleStartGame, handleGetWaitList };

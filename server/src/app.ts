@@ -12,7 +12,7 @@ import {
 import { setupMiddlewares, handleErrors, corsWhiteList } from "./util/setup";
 import {
   handleAnswer,
-  handleGetWaitListGame,
+  handleGetWaitList,
   handleJoinGame,
   handleStartGame,
 } from "./events";
@@ -57,7 +57,7 @@ io.use(verifyTokenSocket);
 
 // Handle socket connection and events
 io.on("connection", (socket: Socket) => {
-  handleGetWaitListGame(socket);
+  handleGetWaitList(socket);
   handleJoinGame(socket, updateLeaderboard, updateWaitList);
   handleAnswer(socket, updateLeaderboard);
   handleStartGame(socket, updateGame, updateLeaderboard);
