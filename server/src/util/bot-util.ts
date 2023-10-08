@@ -1,6 +1,7 @@
 import { Markup, Telegraf } from "telegraf";
 import pool from "./pool";
 
+// Send game link with category name to user using webAppQuery received from frontend
 const sendGameDataToUser = async (
   webAppQuery: string,
   gameId: number,
