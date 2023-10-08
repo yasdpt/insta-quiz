@@ -82,15 +82,18 @@ const handleAnswer = (
  * @param {number} answerTime
  * @returns {number}
  */
-function calculateScore(answerTime: number): number {
-  let score = 0;
+export const calculateScore = (answerTime: number): number => {
+  let score: number = 0;
   const finishBaseNumber = 16;
   if (answerTime >= 0 && answerTime <= 6) {
     score = 10;
-  } else if (answerTime > 6) {
+  }
+
+  if (answerTime > 6 && answerTime <= 15) {
     score = finishBaseNumber - answerTime;
   }
+
   return score;
-}
+};
 
 export default handleAnswer;
