@@ -16,5 +16,5 @@
 ## Server
 
 * [Folder structure](server/folder-structure.md)
-* [Development](server/development.md)
+* [Code structure](server/code-structure.md)
 * [API Reference](server/api-reference.md)
