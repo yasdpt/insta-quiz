@@ -65,7 +65,9 @@ router.post("/create", verifyToken, async function (req, res) {
         checkGame.rows[0].category_id
       );
       client.release();
-      res.status(200).json(checkGame.rows[0]);
+      res.status(409).json({
+        message: "Game already created!",
+      });
     } else {
       // Get 10 random question filtering by category id
       const questionsRes = await client.query(
@@ -103,7 +105,9 @@ router.post("/create", verifyToken, async function (req, res) {
       await sendGameDataToUser(webAppQuery, gameId, categoryId);
       client.release();
 
-      res.status(201).json(createGameResult.rows[0]);
+      res.status(201).json({
+        message: "Game created successfuly!",
+      });
     }
   } catch (error) {
     console.log("[POST] /game/create: " + error);

@@ -104,7 +104,7 @@ export const useHomeStore = defineStore("home", () => {
       return;
     }
 
-    if (response.status === 200) {
+    if (response.status === 409) {
       webApp.showPopup(
         {
           title: "Failed to create game!",
