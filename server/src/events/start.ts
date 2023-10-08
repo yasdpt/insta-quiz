@@ -15,6 +15,7 @@ const handleStartGame = (
   socket.on("startGame", async (userId, gameId, callback) => {
     try {
       const client = await pool.connect();
+      // Checks if user has a game and it's unstarted
       const gameResult = await client.query(
         "SELECT * FROM games WHERE id = $1 AND status = 0",
         [gameId]
@@ -29,6 +30,7 @@ const handleStartGame = (
         return;
       }
 
+      // Error if user did not create the game
       if (userId !== gameResult.rows[0].owner_id) {
         callback({
           status: 403,
@@ -41,6 +43,7 @@ const handleStartGame = (
       const gameInfo = await getCurrentGameInfo(gameId);
       const leaderboardInfo = await getLeaderboardInfo(gameId);
 
+      // Get time for creating the game (time of first question)
       const gameStartTime = moment().utc().format();
       // Update game in games table
       client.query(
@@ -48,21 +51,21 @@ const handleStartGame = (
         [gameStartTime, gameId]
       );
 
-      // Get game info and leaderboard
-
+      // Cache game info and leaderboard with 30 second timeout
+      const cacheTTL = 30; // in seconds
       if (gameInfo && leaderboardInfo) {
         gameInfo.last_question_time = gameStartTime;
         gameInfo.status = 1;
 
-        myCache.set(gameId.toString(), JSON.stringify(gameInfo), 30);
+        myCache.set(gameId.toString(), JSON.stringify(gameInfo), cacheTTL);
         myCache.set(
           `${gameId}-leaderboard`,
           JSON.stringify(leaderboardInfo),
-          30
+          cacheTTL
         );
       }
 
-      // Send game info and leaderboard info to all users
+      // Send game info and leaderboard info to all users using cache
       updateGame(gameId, false);
       updateLeaderboard(gameId, false);
 
