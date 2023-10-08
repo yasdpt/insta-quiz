@@ -86,7 +86,7 @@ import { useRoute } from "vue-router";
 import JoinGameLoading from "../components/JoinGameLoading.vue";
 import { useJoinGameStore } from "../stores/joinGameStore";
 import Loading from "../components/Loading.vue";
-import { socketState } from "../socket";
+import { socketState } from "../configs/socketConfigs";
 import { useHomeStore } from "../stores/homeStore";
 import JoinUserList from "../components/JoinUserList.vue";
 import AppHeader from "../components/AppHeader.vue";

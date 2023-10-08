@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 import { Ref, computed, ref } from "vue";
-import { socket } from "../socket";
+import { socket } from "../configs/socketConfigs";
 
 export const useGameStore = defineStore("game", () => {
   const webApp = window.Telegram.WebApp;

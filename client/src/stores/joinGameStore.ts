@@ -1,4 +1,4 @@
-import { socket } from "../socket";
+import { socket } from "../configs/socketConfigs";
 import { defineStore } from "pinia";
 import { Ref, computed, ref } from "vue";
 import api from "../configs/axiosConfigs";
