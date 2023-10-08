@@ -6,6 +6,9 @@ import myCache from "../util/cache";
 
 const cacheTTL = 30; // in seconds
 
+/**
+ * Get user answer, calculate score and update database
+ */
 const handleAnswer = (
   socket: Socket,
   updateLeaderboard: (gameId: number, fromCache: boolean) => any
@@ -14,10 +17,13 @@ const handleAnswer = (
     "gameAnswer",
     async (gameId, userId, questionId, answerId, isCorrect) => {
       try {
+        // log time of receiving answer in UTC
         const timeAnswered = moment().utc().format();
 
+        // get game info from database
         const gameInfo = await getCurrentGameInfo(gameId, true);
 
+        // Get time difference of the time question was asked and answered in seconds
         const timeDifference = moment(timeAnswered).diff(
           moment(gameInfo?.last_question_time),
           "seconds"
@@ -69,7 +75,14 @@ const handleAnswer = (
   );
 };
 
-function calculateScore(answerTime: number) {
+/**
+ * Calculate score based on answer time
+ * Under 6 seconds = 10
+ * Each second more than 6 subtracts 1 score from the user
+ * @param {number} answerTime
+ * @returns {number}
+ */
+function calculateScore(answerTime: number): number {
   let score = 0;
   const finishBaseNumber = 16;
   if (answerTime >= 0 && answerTime <= 6) {
