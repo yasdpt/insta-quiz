@@ -8,6 +8,11 @@
 * [Environment setup](setup/environment-setup.md)
 * [Testing](setup/testing.md)
 
-***
+## Database
 
-* [Database](database.md)
+* [Schema](database/schema.md)
+* [Download](database/download.md)
+
+## Server
+
+* [Folder structure](server/folder-structure.md)
