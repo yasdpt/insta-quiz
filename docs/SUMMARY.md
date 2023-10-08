@@ -18,3 +18,8 @@
 * [Folder structure](server/folder-structure.md)
 * [Code structure](server/code-structure.md)
 * [API Reference](server/api-reference.md)
+
+## Client
+
+* [Folder structure](client/folder-structure.md)
+* [Code structure](client/code-structure.md)

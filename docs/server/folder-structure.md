@@ -27,6 +27,8 @@
 │   │   ├── game-info.ts
 │   │   ├── leaderboard.ts
 │   │   └── user.ts
+│   ├── tests # tests folder
+│   │   ├── calculate-score.test.ts
 │   └── util # app util and setup
 │       ├── bot-util.ts # handle sending inline query result with bot
 │       ├── cache.ts # init node-cache
