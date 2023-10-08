@@ -17,3 +17,4 @@
 
 * [Folder structure](server/folder-structure.md)
 * [Development](server/development.md)
+* [API Reference](server/api-reference.md)
