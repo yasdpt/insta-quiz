@@ -11,8 +11,9 @@
 ## Database
 
 * [Schema](database/schema.md)
-* [Download](database/download.md)
+* [Setup](database/setup.md)
 
 ## Server
 
 * [Folder structure](server/folder-structure.md)
+* [Development](server/development.md)
