@@ -9,7 +9,7 @@ import {
   categoriesRouter,
   usersRouter,
 } from "./routes";
-import { setupExtensions, handleErrors, corsWhiteList } from "./util/setup";
+import { setupMiddlewares, handleErrors, corsWhiteList } from "./util/setup";
 import {
   handleAnswer,
   handleGetWaitListGame,
@@ -43,8 +43,8 @@ const io = new Server(server, {
   },
 });
 
-// Mount express plugins
-setupExtensions(app);
+// Mount express middlewares
+setupMiddlewares(app);
 
 // Mount express routes
 app.use("/", homeRouter);

@@ -5,7 +5,7 @@ import cors from "cors";
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
 
-const setupExtensions = (app: Express) => {
+const setupMiddlewares = (app: Express) => {
   // Set only if server is behind a reverse proxy like nginx
   // see https://expressjs.com/en/guide/behind-proxies.html
   app.set("trust proxy", 1);
@@ -76,4 +76,4 @@ const corsWhiteList = (): string[] => {
   return whiteList;
 };
 
-export { setupExtensions, handleErrors, corsWhiteList };
+export { setupMiddlewares, handleErrors, corsWhiteList };
