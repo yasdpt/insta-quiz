@@ -15,7 +15,7 @@
           class="ripple bg-tgButton rounded-md mx-9 mt-3 md:mx-auto md:w-96"
           @click.prevent="store.createGame()"
         >
-          <Loading v-if="store.creatingGame" />
+          <Loading class="my-3" v-if="store.creatingGame" />
           <p v-if="!store.creatingGame" class="text-tgButtonText text-sm m-3.5">
             Create new game
           </p>

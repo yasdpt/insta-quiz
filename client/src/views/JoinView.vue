@@ -16,7 +16,7 @@
         </p>
 
         <button
-          class="ripple relative bg-tgButton rounded-md mx-9 mt-4 md:mx-auto md:w-96"
+          class="ripple shrink-0 bg-tgButton rounded-md mx-9 mt-4 md:mx-auto md:w-96"
           @click.prevent="store.joinGame()"
         >
           <Loading class="my-2.5" v-if="store.isJoining" />
@@ -34,7 +34,7 @@
           tag="JoinUserList"
         >
           <JoinUserList
-            class="mx-5 md:mx-auto md:w-96"
+            class="mx-2 md:mx-auto md:w-96"
             v-for="(user, index) in store.leaderboard"
             :name="user.first_name ?? ''"
             :user="user"
@@ -48,7 +48,7 @@
           tag="JoinUserList"
         >
           <JoinUserList
-            class="mx-5 md:mx-auto md:w-96"
+            class="mx-2 md:mx-auto md:w-96"
             v-for="(user, index) in store.users"
             :name="user.first_name ?? ''"
             :key="index"
