@@ -67,18 +67,26 @@ cp .env.example .env.production
 
 ## More
 
-For complete documentation follow links:
+For complete documentation follow below links
 
 ### Quick links
 
 - Intro
   - [Introduction](https://yasdpt.gitbook.io/instaquiz)
-  - [Overview](https://yasdpt.gitbook.io/instaquiz/#overview)
-  - [Links](https://yasdpt.gitbook.io/instaquiz/#links)
 - Setup
   - [Requirements](https://yasdpt.gitbook.io/instaquiz/setup/requirements)
   - [Environment setup](https://yasdpt.gitbook.io/instaquiz/setup/environment-setup)
   - [Testing](https://yasdpt.gitbook.io/instaquiz/setup/testing)
+- Database
+  - [Schema](https://yasdpt.gitbook.io/instaquiz/database/schema)
+  - [Setup](https://yasdpt.gitbook.io/instaquiz/database/setup)
+- Server
+  - [Folder structure](https://yasdpt.gitbook.io/instaquiz/server/folder-structure)
+  - [Code structure](https://yasdpt.gitbook.io/instaquiz/server/code-structure)
+  - [API reference](https://yasdpt.gitbook.io/instaquiz/server/api-reference)
+- Client
+  - [Folder structure](https://yasdpt.gitbook.io/instaquiz/client/folder-structure)
+  - [Code structure](https://yasdpt.gitbook.io/instaquiz/client/code-structure)
 
 ## License
 
