@@ -45,34 +45,38 @@ export const useJoinGameStore = defineStore("joinGameStore", () => {
   }
 
   async function getGameInfo() {
-    const response = await api.request({
-      url: `/games/${gameId}`,
-      method: "GET",
-    });
+    try {
+      const response = await api.request({
+        url: `/games/${gameId}`,
+        method: "GET",
+      });
 
-    if (response.status === 200) {
-      gameInfo.value = response.data;
+      isLoading.value = false;
 
-      socket.emit(
-        "getWaitList",
-        gameInfo.value?.id,
-        gameInfo.value?.status,
-        (response: any) => {
-          isLoading.value = false;
-          if (response.status === 200) {
-            users.value = response.waitList;
+      if (response.status === 200) {
+        gameInfo.value = response.data;
+
+        socket.emit(
+          "getWaitList",
+          gameInfo.value?.id,
+          gameInfo.value?.status,
+          (response: any) => {
+            if (response.status === 200) {
+              users.value = response.waitList;
+            }
+
+            if (response.status === 226) {
+              leaderboard.value = response.leaderboard.sort(
+                (a: Leaderboard, b: Leaderboard) => b.score - a.score
+              );
+            }
           }
-
-          if (response.status === 226) {
-            leaderboard.value = response.leaderboard.sort(
-              (a: Leaderboard, b: Leaderboard) => b.score - a.score
-            );
-          }
-        }
-      );
-      // Set ui texts
-      setUiMessages();
-    } else {
+        );
+        // Set ui texts
+        setUiMessages();
+      }
+    } catch (error) {
+      isLoading.value = false;
       failedMsg.value = "Failed to get game info!";
     }
   }
