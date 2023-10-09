@@ -52,12 +52,13 @@ router.post("/create", verifyToken, async function (req, res) {
 
   try {
     const client = await pool.connect();
-    // Check if user already has a game created and it is not started yet and return tha
+    // Check if user already has games created
     const checkGame = await client.query(
       "SELECT * FROM games WHERE owner_id = $1 AND status = 0",
       [userId]
     );
 
+    // if user already created 3 games return error
     if (checkGame.rowCount >= 3) {
       client.release();
       res.status(409).json({
