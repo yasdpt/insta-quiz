@@ -58,15 +58,10 @@ router.post("/create", verifyToken, async function (req, res) {
       [userId]
     );
 
-    if (checkGame.rowCount > 0) {
-      await sendGameDataToUser(
-        webAppQuery,
-        checkGame.rows[0].id,
-        checkGame.rows[0].category_id
-      );
+    if (checkGame.rowCount >= 3) {
       client.release();
       res.status(409).json({
-        message: "Game already created!",
+        message: "You have already created 3 games!",
       });
     } else {
       // Get 10 random question filtering by category id

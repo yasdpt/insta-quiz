@@ -109,7 +109,7 @@ export const useHomeStore = defineStore("home", () => {
         {
           title: "Failed to create game!",
           message:
-            "You have already created a game, forward it to your friends and start playing!",
+            "You have already created 3 games, finish one before creating a new one!",
           buttons: [{ type: "default", text: "Go to chat" }],
         },
         () => {
