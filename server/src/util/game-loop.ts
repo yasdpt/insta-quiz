@@ -4,7 +4,7 @@ import myCache from "./cache";
 import { getCurrentGameInfo } from "./game-util";
 import pool from "./pool";
 
-const roundDuration = 15000; // in miliseconds
+const roundDuration = 20000; // in miliseconds
 const totalQuestions = 10; // number of questions
 const cacheTTL = 30;
 

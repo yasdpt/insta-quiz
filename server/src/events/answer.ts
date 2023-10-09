@@ -84,12 +84,16 @@ const handleAnswer = (
  */
 export const calculateScore = (answerTime: number): number => {
   let score: number = 0;
-  const finishBaseNumber = 16;
+  const finishBaseNumber = 21;
   if (answerTime >= 0 && answerTime <= 6) {
     score = 10;
   }
 
-  if (answerTime > 6 && answerTime <= 15) {
+  if (answerTime > 6 && answerTime <= 16) {
+    score = 10 - Math.ceil((answerTime - 6) / 2);
+  }
+
+  if (answerTime > 16 && answerTime <= 20) {
     score = finishBaseNumber - answerTime;
   }
 
