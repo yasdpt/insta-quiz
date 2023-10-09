@@ -7,14 +7,8 @@
         v-if="!store.failedMsg && !store.isLoading && !socketState.failed"
         class="bg-tgBackground flex flex-col justify-start h-screen p-3 mx-auto"
       >
-        <img
-          src="/quiz.png"
-          alt="InstaQuiz Header Image"
-          class="w-52 mt-4 mx-auto"
-        />
-        <h1 class="text-2xl text-tgText font-bold mt-2 mx-auto">
-          Welcome to Insta Quiz!
-        </h1>
+        <!-- Header image and welcome -->
+        <AppHeader />
 
         <!-- Message based on game state and user id -->
         <p class="text-base text-tgText mt-8 mx-4 max-w-[px] text-center">
@@ -22,7 +16,7 @@
         </p>
 
         <button
-          class="ripple bg-tgButton rounded-md mx-9 mt-4 md:mx-auto md:w-96"
+          class="ripple shrink-0 bg-tgButton rounded-md mx-9 mt-4 md:mx-auto md:w-96"
           @click.prevent="store.joinGame()"
         >
           <Loading class="my-2.5" v-if="store.isJoining" />
@@ -40,7 +34,7 @@
           tag="JoinUserList"
         >
           <JoinUserList
-            class="mx-5 md:mx-auto md:w-96"
+            class="mx-2 md:mx-auto md:w-96"
             v-for="(user, index) in store.leaderboard"
             :name="user.first_name ?? ''"
             :user="user"
@@ -54,7 +48,7 @@
           tag="JoinUserList"
         >
           <JoinUserList
-            class="mx-5 md:mx-auto md:w-96"
+            class="mx-2 md:mx-auto md:w-96"
             v-for="(user, index) in store.users"
             :name="user.first_name ?? ''"
             :key="index"
@@ -92,9 +86,10 @@ import { useRoute } from "vue-router";
 import JoinGameLoading from "../components/JoinGameLoading.vue";
 import { useJoinGameStore } from "../stores/joinGameStore";
 import Loading from "../components/Loading.vue";
-import { socketState } from "../socket";
+import { socketState } from "../configs/socketConfigs";
 import { useHomeStore } from "../stores/homeStore";
 import JoinUserList from "../components/JoinUserList.vue";
+import AppHeader from "../components/AppHeader.vue";
 
 const webApp = window.Telegram.WebApp;
 

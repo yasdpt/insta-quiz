@@ -1,6 +1,6 @@
 <template>
   <Listbox v-model="store.selectedCategory">
-    <div class="relative w-3/4 mt-8">
+    <div class="relative mt-8 mx-9 md:mx-auto md:w-96">
       <ListboxLabel class="text-tgText text-base font-bold ms-2"
         >Select a category</ListboxLabel
       >
@@ -23,7 +23,7 @@
         leave-to-class="opacity-0"
       >
         <ListboxOptions
-          class="absolute mt-1 max-h-48 w-full overflow-auto rounded-md bg-tgSecondaryBackground py-1 text-base sm:text-sm"
+          class="absolute mt-1 z-10 max-h-48 w-full overflow-auto rounded-md bg-tgSecondaryBackground py-1 text-base sm:text-sm"
         >
           <ListboxOption
             v-slot="{ active, selected }"

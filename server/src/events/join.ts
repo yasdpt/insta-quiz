@@ -13,6 +13,7 @@ const handleJoinGame = (
   socket.on("joinGame", async (userId: number, gameId: number, callback) => {
     try {
       const client = await pool.connect();
+      // Qurey db for games with status = 0 or 1 (Created or still running)
       const gameResult = await client.query(
         "SELECT * FROM games WHERE id = $1 AND (status = 0 OR status = 1)",
         [gameId]
@@ -27,6 +28,8 @@ const handleJoinGame = (
         return;
       }
 
+      const isGameRunning = gameResult.rows[0].status === 1;
+
       // If user is not owner of the game try adding them to game
       if (gameResult.rows[0].owner_id !== userId) {
         // Check if user is already in game
@@ -36,7 +39,7 @@ const handleJoinGame = (
         );
 
         // If the game is ongoing and user did not join before send them an error
-        if (gameResult.rows[0].status === 1 && joinCheckRes.rowCount < 1) {
+        if (isGameRunning && joinCheckRes.rowCount < 1) {
           callback({
             status: 403,
             message: "Game has already started, you can not join in progress!",
@@ -59,15 +62,12 @@ const handleJoinGame = (
 
       // Get game info
       // Get game info from cache if is ongoing
-      const gameInfo = await getCurrentGameInfo(
-        gameId,
-        gameResult.rows[0].status === 1
-      );
+      const gameInfo = await getCurrentGameInfo(gameId, isGameRunning);
 
       // Get leaderboard info
       const leaderboardInfo = await getLeaderboardInfo(gameId);
 
-      const cacheTTL = 30;
+      const cacheTTL = 30; // in seconds
 
       myCache.set(
         `${gameId}-leaderboard`,
