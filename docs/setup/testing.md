@@ -52,7 +52,7 @@ Users can start your bot in two ways to open the game so the bot can get [query\
 
 ### Menu button
 
-After creating the mini app you will receive the link to your mini app and you can send `/setmenubutton` command to Bot Father and give the link to the app as the URL and a title for the button. More info: [Inline Button Mini Apps](https://core.telegram.org/bots/webapps#inline-button-mini-apps)
+After creating the mini app you will receive the link to your mini app and you can send `/setmenubutton` command to Bot Father and give the link to the client as the URL and a title for the button. More info: [Inline Button Mini Apps](https://core.telegram.org/bots/webapps#inline-button-mini-apps)
 
 ### Inline button
 

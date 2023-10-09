@@ -32,7 +32,7 @@ Anyone with the link to the game can join and if users lose connection or crash 
 
 Users can see who is in the game before joining if the game is ended the results will be displayed instead.
 
-Each question has **15 seconds** timeout and if the user answers in the first 6 seconds they will receive the complete score that is **10** and after that each delayed second lowers the score by **1**, the code for this logic is located at `./server/src/events/answer.ts`
+Each question has **20 seconds** timeout and if the user answers in the first 6 seconds they will receive the complete score that is **10** and after that each if they answered from 7 to 16 seconds their score is lowered by 1 each 2 seconds and from 17 to 20 by each second delayed, the code for this logic is located at `./server/src/events/answer.ts`
 
 ## Code
 
