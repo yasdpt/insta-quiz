@@ -3,6 +3,7 @@ import { Ref, computed, ref } from "vue";
 import { socket } from "../configs/socketConfigs";
 
 export const useGameStore = defineStore("game", () => {
+  // Get Telegram object from window
   const webApp = window.Telegram.WebApp;
   const user = webApp.initDataUnsafe.user;
 
@@ -10,6 +11,7 @@ export const useGameStore = defineStore("game", () => {
   const leaderboard: Ref<Leaderboard[] | undefined> = ref();
 
   const gameStatus = ref("");
+  // For preventing user from sending multiple answers
   let answered = false;
   const currentAnswer: Ref<Answer | undefined> = ref();
   const isStartingGame = ref(false);
@@ -26,6 +28,8 @@ export const useGameStore = defineStore("game", () => {
     () => (gameInfo.value?.question_index ?? 0) + 1
   );
 
+  // Return the answer of the user for current question to change
+  // answer button color.
   const answer = computed(() => {
     if (
       currentAnswer.value &&
@@ -37,6 +41,7 @@ export const useGameStore = defineStore("game", () => {
     return undefined;
   });
 
+  // Listen to updateGame socket event to update gameStatus and current question
   socket.on("updateGame", (gInfo) => {
     if (gInfo) {
       answered = false;
@@ -47,12 +52,15 @@ export const useGameStore = defineStore("game", () => {
     }
   });
 
+  // Listen to updateLeaderboard socket event
   socket.on("updateLeaderboard", (lb: Leaderboard[]) => {
     if (lb) {
+      // Sort leaderboard based on user scores before assigning
       leaderboard.value = lb.sort((a, b) => b.score - a.score);
     }
   });
 
+  // emit startGame event to server
   function startGame() {
     isStartingGame.value = true;
     socket.emit("startGame", user?.id, gameInfo.value?.id, (response: any) => {
@@ -63,13 +71,14 @@ export const useGameStore = defineStore("game", () => {
       } else {
         webApp.showPopup({
           title: "Failed",
-          message: response.message ?? "Failed to create game",
+          message: response.message ?? "Failed to start game",
           buttons: [{ type: "default", text: "Back" }],
         });
       }
     });
   }
 
+  // Update gameStatus text based on gameInfo
   function setGameStatusText() {
     if (gameInfo.value?.status === 0) {
       gameStatus.value = `Game has not started yet, ${
@@ -84,6 +93,7 @@ export const useGameStore = defineStore("game", () => {
     }
   }
 
+  // emit gameAnswer event to server
   function answerQuestion(answer: Answer) {
     if (!answered) {
       answered = true;

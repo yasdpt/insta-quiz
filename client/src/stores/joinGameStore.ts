@@ -5,6 +5,7 @@ import api from "../configs/axiosConfigs";
 import { useGameStore } from "./gameStore";
 import { useRouter } from "vue-router";
 
+
 export const useJoinGameStore = defineStore("joinGameStore", () => {
   const webApp = window.Telegram.WebApp;
   const user = webApp.initDataUnsafe.user;
@@ -24,10 +25,12 @@ export const useJoinGameStore = defineStore("joinGameStore", () => {
   const gameInfo: Ref<Game | undefined> = ref();
 
   const isGameEnded = computed(() => gameInfo.value?.status === 2);
+  // Change title of list of users based on game status
   const listMode = computed(() =>
     gameInfo.value?.status === 2 ? "Results" : "Users in game"
   );
 
+  // Listen to updateWaitList events from server
   socket.on("updateWaitList", (waiList) => {
     if (waiList) {
       users.value = waiList;
@@ -56,6 +59,7 @@ export const useJoinGameStore = defineStore("joinGameStore", () => {
       if (response.status === 200) {
         gameInfo.value = response.data;
 
+        // Emit getWaitList event to socket if game was available
         socket.emit(
           "getWaitList",
           gameInfo.value?.id,
@@ -65,7 +69,9 @@ export const useJoinGameStore = defineStore("joinGameStore", () => {
               users.value = response.waitList;
             }
 
+            // If status is 226 means game was ended and leaderboard was returned
             if (response.status === 226) {
+              // Sort leaderboard based on score
               leaderboard.value = response.leaderboard.sort(
                 (a: Leaderboard, b: Leaderboard) => b.score - a.score
               );

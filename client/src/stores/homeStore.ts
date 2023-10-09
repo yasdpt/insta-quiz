@@ -18,7 +18,7 @@ export const useHomeStore = defineStore("home", () => {
     upsertUser();
   }
 
-  // Update user information
+  // Update user information using data received from Telegram
   async function upsertUser() {
     try {
       await api.request({
@@ -44,6 +44,7 @@ export const useHomeStore = defineStore("home", () => {
       console.log("Failed to update user!");
     }
   }
+
   async function getCategories() {
     try {
       const response = await api.request({
@@ -64,11 +65,13 @@ export const useHomeStore = defineStore("home", () => {
     }
   }
 
+  // Create a new game with the category user requested
   async function createGame() {
     if (creatingGame.value) {
       return;
     }
 
+    // Check if user has started the bot so the bot can send data back
     if (!user?.allows_write_to_pm) {
       webApp.showAlert("To create a new game first start the bot!", () => {
         webApp.close();
@@ -93,6 +96,7 @@ export const useHomeStore = defineStore("home", () => {
       });
       creatingGame.value = false;
       if (response.status === 201) {
+        // Utilize Telegram's popup API to show user messages
         webApp.showPopup(
           {
             title: "Game created",
