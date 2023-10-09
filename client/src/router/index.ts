@@ -28,6 +28,8 @@ const router = createRouter({
 
 router.beforeEach((from, to) => {
   const webApp = window.Telegram.WebApp;
+  // Check if app is opened and start_param is present and pass it
+  // as game query parameter to JoinView
   if (!to.name && from.name === "home" && webApp.initDataUnsafe.start_param) {
     return {
       name: "join",
