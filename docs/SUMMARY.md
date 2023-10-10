@@ -23,3 +23,8 @@
 
 * [Folder structure](client/folder-structure.md)
 * [Code structure](client/code-structure.md)
+
+## deployment
+
+* [Your own server](deployment/your-own-server.md)
+* [Fly.io](deployment/fly.io.md)
