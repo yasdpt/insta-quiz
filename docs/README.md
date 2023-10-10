@@ -15,6 +15,6 @@ The code is openly available on GitHub so developers can easily build on top of 
 
 ## Links
 
-<picture><source srcset=".gitbook/assets/github-mark-white.png" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/github-mark.png" alt="" data-size="line"></picture> [Project's Github](https://github.com/yasdpt/insta-quiz)
+[Project's Github](https://github.com/yasdpt/insta-quiz)
 
-<img src=".gitbook/assets/insta_quiz_round.png" alt="" data-size="line"> [Web app's Telegram bot](https://t.me/IQuizzBot)
+[Web app's Telegram bot](https://t.me/IQuizzBot)

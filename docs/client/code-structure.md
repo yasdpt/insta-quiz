@@ -12,11 +12,10 @@ Vue's [Pinia](https://pinia.vuejs.org/introduction.html) state management librar
 
 Communication with Telegram is done through their library for web apps that is injected in the index.html file located in `./client/index.html`. you can add below line to your index file's header and use it in your own app.
 
-{% code title="index.html" %}
 ```html
+<!-- index.html -->
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 ```
-{% endcode %}
 
 It attaches a Telegram object to window property, in this project `./client/src/types/telegram.d.ts` was created to handle types for all variables and functions in the Telegram object. and has detailed explanation about all of them and is up to date with **Bot API 6.9** alternatively you can install [@types/telegram-web-app](https://www.npmjs.com/package/@types/telegram-web-app) package for automatically receiving updates to the API with updating it, run below command to install:
 
@@ -28,8 +27,9 @@ pnpm install --save @types/telegram-web-app
 
 Telegram passes user's main theme colors thorugh css variables and you can use them in your project. in this project it was configured with Tailwindcss's extended themes.
 
-{% code title="./client/tailwind.config.js" %}
 ```javascript
+// ./client/tailwind.config.js
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
@@ -50,7 +50,6 @@ export default {
 };
 
 ```
-{% endcode %}
 
 you can use them throughout the web app with tailwind syntax for example a background color will be:
 
@@ -70,8 +69,9 @@ There 3 main pages in the application:
 
 Game id for joining is passed through bot's link and start\_param query, in router's beforeEach route guard when home page is opened we check if start\_param is present and forward the user to JoinView
 
-{% code title="src/router/index.ts" %}
 ```typescript
+// ./client/src/router/index.ts
+
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import GameView from "../views/GameView.vue";
@@ -103,7 +103,6 @@ router.beforeEach((from, to) => {
 export default router;
 
 ```
-{% endcode %}
 
 ### Components
 
@@ -129,8 +128,9 @@ Almost all elements in the application are simple HTML one's except the category
 
 When each view is mounted we can call [windows.Telegram.webApp.ready()](https://core.telegram.org/bots/webapps#initializing-mini-apps) which will tell Telegram that the app is ready to be shown to the user and also .expand() function to expand the page and be able to show more data.
 
-{% code title="src/views/HomeView.vue" %}
 ```typescript
+// ./client/src/views/HomeView.vue
+
 const webApp = window.Telegram.WebApp;
 
 onMounted(() => {
@@ -139,7 +139,6 @@ onMounted(() => {
   // More actions
 });
 ```
-{% endcode %}
 
 ## Working with sockets
 
@@ -153,8 +152,9 @@ Each emit request can also have a callback that when the code on the server is d
 
 An example for a callback in the code:
 
-{% code title="joinGameStore.ts" %}
 ```typescript
+// ./client/src/stores/joinGameStore.ts
+
 socket.emit(
   "getWaitList",
   gameInfo.value?.id,
@@ -169,22 +169,20 @@ socket.emit(
   }
 );
 ```
-{% endcode %}
 
 ### Listening to events
 
 Each view can listen to events coming from the socket and update the ui, for example the wait list:
 
-{% code title="joinGameStore.ts" %}
-```typescript
-socket.on("updateWaitList", (waitList) => {
-  // if data exists, update the list of users in wait list
+<pre class="language-typescript"><code class="lang-typescript"><strong>// ./client/src/stores/joinGameStore.ts
+</strong><strong>
+</strong><strong>socket.on("updateWaitList", (waitList) => {
+</strong>  // if data exists, update the list of users in wait list
   if (waitList) {
     users.value = waiList;
   }
 });
-```
-{% endcode %}
+</code></pre>
 
 
 
@@ -194,7 +192,9 @@ All reactive elements in the web app are handled by VueJs's [Reactivity API](htt
 
 [ref()](https://vuejs.org/api/reactivity-core.html#ref) was used for holding reactive data, and [computed()](https://vuejs.org/api/reactivity-core.html#computed) for processing new data based on the reactive objects. an example of computed:
 
-<pre class="language-typescript" data-title="gameStore.ts"><code class="lang-typescript"><strong>// Return boolean to check if the game is running
+<pre class="language-typescript"><code class="lang-typescript"><strong>// ./client/src/stores/gameStore.ts
+</strong><strong>
+</strong><strong>// Return boolean to check if the game is running
 </strong><strong>// Changes when gameInfo is updated.
 </strong><strong>const gameIsRunning = computed(() => gameInfo.value?.status === 1);
 </strong></code></pre>
