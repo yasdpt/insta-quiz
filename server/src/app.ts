@@ -9,10 +9,10 @@ import {
   categoriesRouter,
   usersRouter,
 } from "./routes";
-import { setupExtensions, handleErrors, corsWhiteList } from "./util/setup";
+import { setupMiddlewares, handleErrors, corsWhiteList } from "./util/setup";
 import {
   handleAnswer,
-  handleGetWaitListGame,
+  handleGetWaitList,
   handleJoinGame,
   handleStartGame,
 } from "./events";
@@ -43,8 +43,8 @@ const io = new Server(server, {
   },
 });
 
-// Mount express plugins
-setupExtensions(app);
+// Mount express middlewares
+setupMiddlewares(app);
 
 // Mount express routes
 app.use("/", homeRouter);
@@ -57,7 +57,7 @@ io.use(verifyTokenSocket);
 
 // Handle socket connection and events
 io.on("connection", (socket: Socket) => {
-  handleGetWaitListGame(socket);
+  handleGetWaitList(socket);
   handleJoinGame(socket, updateLeaderboard, updateWaitList);
   handleAnswer(socket, updateLeaderboard);
   handleStartGame(socket, updateGame, updateLeaderboard);

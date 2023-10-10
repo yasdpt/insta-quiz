@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "test": "jest",
     "build": "npx tsc",
     "start": "node dist/app.js",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/app.js\""
@@ -29,10 +30,13 @@
     "@types/cors": "^2.8.14",
     "@types/express": "^4.17.18",
     "@types/http-errors": "^2.0.2",
+    "@types/jest": "^29.5.5",
     "@types/morgan": "^1.9.5",
     "@types/pg": "^8.10.3",
     "concurrently": "^8.2.1",
+    "jest": "^29.7.0",
     "nodemon": "^3.0.1",
+    "ts-jest": "^29.1.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
   }

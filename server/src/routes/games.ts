@@ -52,20 +52,18 @@ router.post("/create", verifyToken, async function (req, res) {
 
   try {
     const client = await pool.connect();
-    // Check if user already has a game created and it is not started yet and return tha
+    // Check if user already has games created
     const checkGame = await client.query(
       "SELECT * FROM games WHERE owner_id = $1 AND status = 0",
       [userId]
     );
 
-    if (checkGame.rowCount > 0) {
-      await sendGameDataToUser(
-        webAppQuery,
-        checkGame.rows[0].id,
-        checkGame.rows[0].category_id
-      );
+    // if user already created 3 games return error
+    if (checkGame.rowCount >= 3) {
       client.release();
-      res.status(200).json(checkGame.rows[0]);
+      res.status(409).json({
+        message: "You have already created 3 games!",
+      });
     } else {
       // Get 10 random question filtering by category id
       const questionsRes = await client.query(
@@ -103,7 +101,9 @@ router.post("/create", verifyToken, async function (req, res) {
       await sendGameDataToUser(webAppQuery, gameId, categoryId);
       client.release();
 
-      res.status(201).json(createGameResult.rows[0]);
+      res.status(201).json({
+        message: "Game created successfuly!",
+      });
     }
   } catch (error) {
     console.log("[POST] /game/create: " + error);

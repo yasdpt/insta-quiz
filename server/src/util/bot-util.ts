@@ -1,6 +1,7 @@
 import { Markup, Telegraf } from "telegraf";
 import pool from "./pool";
 
+// Send game link with category name to user using webAppQuery received from frontend
 const sendGameDataToUser = async (
   webAppQuery: string,
   gameId: number,
@@ -18,14 +19,14 @@ const sendGameDataToUser = async (
       type: "article",
       title: "Your game was created!",
       input_message_content: {
-        message_text: `A game in the category "${categoryName}" was created, click button below to share it to your friends or click this link and play it yourself: <a href="${gameLink}">Join game</a>`,
+        message_text: `A game in the category "${categoryName}" was created🎉\n\n▶️ Click button below to share it to your friends or click link below and play it yourself\n\n<a href="${gameLink}">🔗 Join game</a>`,
         parse_mode: "HTML",
       },
       ...Markup.inlineKeyboard([
         // TG_APP_URL is direct link of your website, not web app's bot link.
         Markup.button.url(
-          "Share game",
-          `https://t.me/share/url?url=${gameLink}&text=Hi! Join me in a quiz game of ${categoryName} category!`
+          "Share game 🎮",
+          `https://t.me/share/url?url=${gameLink}&text=Hi!👋 Join me in a quiz game 🎮 of ${categoryName} category!`
         ),
       ]),
     });

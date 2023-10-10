@@ -34,7 +34,9 @@ router.post("/create", verifyToken, async function (req, res) {
       ]
     );
 
-    res.status(201).json(result.rows[0]);
+    res.status(201).json({
+      "message": "User upserted",
+    });
   } catch (error) {
     console.log("[POST] /users/create: " + error);
     res.status(500).json({ message: "Failed to upsert user" });
