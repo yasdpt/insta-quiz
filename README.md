@@ -8,17 +8,21 @@
 <img src="https://img.shields.io/badge/Typescript-007acc" alt="Typescript"> <img src="https://img.shields.io/badge/ExpressJs-FFFFFF" alt="ExoressJs"> <img src="https://img.shields.io/badge/Socket.IO-000000" alt="VueJs"> <img src="https://img.shields.io/badge/Postgresql-0064a5" alt="Postgresql"> <img src="https://img.shields.io/badge/VueJS-42b883" alt="VueJs">
 
 <div align="center">
+<a href="https://t.me/IQuizzBot">Sample bot</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://yasdpt.gitbook.io/instaquiz">Documentation</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://github.com/yasdpt/insta-quiz/issues/new">Issues</a>
   <br />
 </div>
 
-### [Read detailed docs →](https://yasdpt.gitbook.io/instaquiz)
-
 ## What is InstaQuiz?
 
 InstaQuiz (Instant Quiz) is a real-time multiplayer quiz game made for Telegram Mini App platform. Players can create quiz rooms and invite friends to join for fast-paced trivia fun. The app is built using Typescript, Express.js, Postgresql and Vue.js.
+
+You can see an example bot: [InstaQuiz bot](https://t.me/IQuizzBot)
+
+You can read the documentation at [here](https://yasdpt.gitbook.io/instaquiz) or go to [Quick links](#quick-links) section and read right here on Github.
 
 ## Requirements
 
@@ -67,26 +71,29 @@ cp .env.example .env.production
 
 ## More
 
-For complete documentation follow below links
+For complete documentation follow links below
 
 ### Quick links
 
 - Intro
-  - [Introduction](https://yasdpt.gitbook.io/instaquiz)
+  - [Introduction](docs/README.md)
 - Setup
-  - [Requirements](https://yasdpt.gitbook.io/instaquiz/setup/requirements)
-  - [Environment setup](https://yasdpt.gitbook.io/instaquiz/setup/environment-setup)
-  - [Testing](https://yasdpt.gitbook.io/instaquiz/setup/testing)
+  - [Requirements](docs/setup/requirements.md)
+  - [Environment setup](docs/setup/environment-setup.md)
+  - [Testing](docs/setup/testing.md)
 - Database
-  - [Schema](https://yasdpt.gitbook.io/instaquiz/database/schema)
-  - [Setup](https://yasdpt.gitbook.io/instaquiz/database/setup)
+  - [Schema](docs/database/schema.md)
+  - [Setup](docs/database/setup.md)
 - Server
-  - [Folder structure](https://yasdpt.gitbook.io/instaquiz/server/folder-structure)
-  - [Code structure](https://yasdpt.gitbook.io/instaquiz/server/code-structure)
-  - [API reference](https://yasdpt.gitbook.io/instaquiz/server/api-reference)
+  - [Folder structure](docs/server/folder-structure.md)
+  - [Code structure](docs/server/code-structure.md)
+  - [API reference](docs/server/api-reference.md)
 - Client
-  - [Folder structure](https://yasdpt.gitbook.io/instaquiz/client/folder-structure)
-  - [Code structure](https://yasdpt.gitbook.io/instaquiz/client/code-structure)
+  - [Folder structure](docs/client/folder-structure.md)
+  - [Code structure](docs/client/code-structure.md)
+- Deployment
+  - [Your own server](docs/deployment/your-own-server.md)
+  - [Fly.io](docs/deployment/fly.io.md)
 
 ## License
 
