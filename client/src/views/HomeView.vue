@@ -71,6 +71,7 @@ const store = useHomeStore();
 onMounted(() => {
   webApp.ready();
   webApp.expand();
+  store.upsertUser();
   store.getCategories();
 });
 </script>
