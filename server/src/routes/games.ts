@@ -96,6 +96,8 @@ router.post("/create", verifyToken, async function (req, res) {
         [gameId, userId]
       );
 
+      client.release();
+
       // Send answerWebAppQuery inline result to user with your bot
       // so their friends could join the game.
       await sendGameDataToUser(webAppQuery, gameId, categoryId);
