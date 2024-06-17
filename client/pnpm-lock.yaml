@@ -12,8 +12,8 @@ dependencies:
     specifier: ^2.0.18
     version: 2.0.18(vue@3.3.4)
   axios:
-    specifier: ^1.5.1
-    version: 1.5.1(debug@4.3.4)
+    specifier: ^1.7.2
+    version: 1.7.2(debug@4.3.4)
   pinia:
     specifier: ^2.1.6
     version: 2.1.6(typescript@5.0.2)(vue@3.3.4)
@@ -30,7 +30,7 @@ dependencies:
 devDependencies:
   '@vitejs/plugin-vue':
     specifier: ^4.2.3
-    version: 4.2.3(vite@4.4.5)(vue@3.3.4)
+    version: 4.2.3(vite@4.5.3)(vue@3.3.4)
   autoprefixer:
     specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.31)
@@ -44,11 +44,11 @@ devDependencies:
     specifier: ^5.0.2
     version: 5.0.2
   vite:
-    specifier: ^4.4.5
-    version: 4.4.5
+    specifier: ^4.5.3
+    version: 4.5.3
   vite-plugin-mkcert:
     specifier: 1.16.0
-    version: 1.16.0(vite@4.4.5)
+    version: 1.16.0(vite@4.5.3)
   vue-tsc:
     specifier: ^1.8.5
     version: 1.8.5(typescript@5.0.2)
@@ -476,14 +476,14 @@ packages:
     resolution: {integrity: sha512-+9jVqKhRSpsc591z5vX+X5Yyw+he/HCB4iQ/RYxw35CEPaY1gnsNE43nf9n9AaYjAQrTiI/mOwKUKdUs9vf7Xg==}
     dev: false
 
-  /@vitejs/plugin-vue@4.2.3(vite@4.4.5)(vue@3.3.4):
+  /@vitejs/plugin-vue@4.2.3(vite@4.5.3)(vue@3.3.4):
     resolution: {integrity: sha512-R6JDUfiZbJA9cMiguQ7jxALsgiprjBeHL5ikpXfJCH62pPHtI+JdJ5xWj6Ev73yXSlYl86+blXn1kZHQ7uElxw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.4.5
+      vite: 4.5.3
       vue: 3.3.4
     dev: true
 
@@ -645,10 +645,10 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /axios@1.5.1(debug@4.3.4):
-    resolution: {integrity: sha512-Q28iYCWzNHjAm+yEAot5QaAMxhMghWLFVf7rRdwhUI+c2jix2DUXjAHXVi+s1ibs3mjPO/cCgbA++3BjD0vP/A==}
+  /axios@1.7.2(debug@4.3.4):
+    resolution: {integrity: sha512-2A8QhOMrbomlDuiLeK9XibIBzuHeRcqqNOHp0Cyp5EoJ1IFDh+XZH3A6BkXtv0K4gFGCI0Y4BM7B1wOEi0Rmgw==}
     dependencies:
-      follow-redirects: 1.15.3(debug@4.3.4)
+      follow-redirects: 1.15.6(debug@4.3.4)
       form-data: 4.0.0
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -862,8 +862,8 @@ packages:
       to-regex-range: 5.0.1
     dev: true
 
-  /follow-redirects@1.15.3(debug@4.3.4):
-    resolution: {integrity: sha512-1VzOtuEM8pC9SFU1E+8KfTjZyMztRsgEfwQl44z8A25uy13jSzTj6dyK2Df52iV0vgHCfBwLhDWevLn95w5v6Q==}
+  /follow-redirects@1.15.6(debug@4.3.4):
+    resolution: {integrity: sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -1413,24 +1413,24 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-mkcert@1.16.0(vite@4.4.5):
+  /vite-plugin-mkcert@1.16.0(vite@4.5.3):
     resolution: {integrity: sha512-5r+g8SB9wZzLNUFekGwZo3e0P6QlS6rbxK5p9z/itxNAimsYohgjK/YfVPVxM9EuglP9hjridq0lUejo9v1nVg==}
     engines: {node: '>=v16.7.0'}
     peerDependencies:
       vite: '>=3'
     dependencies:
       '@octokit/rest': 19.0.13
-      axios: 1.5.1(debug@4.3.4)
+      axios: 1.7.2(debug@4.3.4)
       debug: 4.3.4
       picocolors: 1.0.0
-      vite: 4.4.5
+      vite: 4.5.3
     transitivePeerDependencies:
       - encoding
       - supports-color
     dev: true
 
-  /vite@4.4.5:
-    resolution: {integrity: sha512-4m5kEtAWHYr0O1Fu7rZp64CfO1PsRGZlD3TAB32UmQlpd7qg15VF7ROqGN5CyqN7HFuwr7ICNM2+fDWRqFEKaA==}
+  /vite@4.5.3:
+    resolution: {integrity: sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
